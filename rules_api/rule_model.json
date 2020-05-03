@@ -1,0 +1,22 @@
+{
+    "Product_Name": "Suricata",
+    "Version": "5.0.0",
+    "Rule": {
+        "action": "alert",
+        "header": {
+            "protocol": "http",
+            "src_ip": "any",
+            "src_port": "any",
+            "direction": "->",
+            "dst_ip": "any",
+            "dst_port": "any"
+        },
+        "options": {
+            "msg": "Hello World",
+            "content": "/hello"
+        },
+        "modifiers": [
+            "http_uri"
+        ]
+    }
+}

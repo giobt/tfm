@@ -1,0 +1,77 @@
+# Previous instructions for ElasticSearch
+# sysctl -w vm.max_map_count=262144
+# echo 'vm.max_map_count=262144' >> /etc/sysctl.conf
+
+version: "3.7"
+services:
+  # victim:
+  #   container_name: victim
+  #   image: httpd:alpine
+  #   ports: 
+  #     - 8080:80
+  #   networks:
+  #     - tfm
+    
+  # kali:
+  #   container_name: kali
+  #   build: ./kali
+  #   networks:
+  #     - tfm
+
+  # snort:
+  #   build: 
+  #     context: ./snort
+  #     dockerfile: Dockerfile
+  #     args: 
+  #       - OINKCODE=2afcbc2407852ce0c2dbbfbcf6aca313919c7c6b
+  #   container_name: snort
+  #   network_mode: "host"
+  #   cap_add:
+  #     - NET_ADMIN
+  #     - SYS_NICE
+  #     - NET_RAW
+  #   environment:
+  #     - OINKCODE
+  #     - INTERFACE=wlan0
+  #   volumes:
+  #     - ./data/snort/log:/var/log/snort
+
+  suricata:
+    build:
+      context: ./suricata
+      dockerfile: Dockerfile
+    container_name: suricata
+    restart: always
+    environment:
+     - OINKCODE=2afcbc2407852ce0c2dbbfbcf6aca313919c7c6b
+     - KAFKA_BROKER=192.168.1.53:9092
+     - KAFKA_TOPIC=ids_rules
+     - KAFKA_GROUP_ID=ids_group
+     - INTERFACE=wlan0
+    network_mode: "host"
+    cap_add:
+     - NET_ADMIN
+     - SYS_NICE
+     - NET_RAW
+    volumes:
+     - ./data/suricata/log:/var/log/suricata
+
+  filebeat:
+    build:
+      context: docker-elk/filebeat/
+      args:
+        ELK_VERSION: $ELK_VERSION
+    container_name: filebeat
+    environment:
+      - ELASTICSEARCH_USERNAME=elastic
+      - ELASTICSEARCH_PASSWORD=secure
+      - KAFKA_BROKER=broker:9092
+      - strict.perms=false
+    volumes:
+      - ./data/suricata/log:/var/log/suricata
+    networks:
+      - tfm
+      
+networks:
+  tfm:
+    driver: bridge

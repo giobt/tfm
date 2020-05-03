@@ -1,0 +1,1 @@
+alert http any any -> any any (message:"Hello World"; content:"/hello"; http_uri;)

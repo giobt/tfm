@@ -1,0 +1,5 @@
+{u'new_rule': u'alert http any any -> any any (message:"Hello World"; content:"/hello"; http_uri;)'}
+{u'new_rule': u'alert http any any -> any any (message:"Hello World"; content:"/hello"; http_uri;)'}
+{u'new_rule': u'alert http any any -> any any (message:"Hello World"; content:"/hello"; http_uri;)'}
+{u'new_rule': u'alert http any any -> any any (message:"Hello World"; content:"/hello"; http_uri;)'}
+{u'new_rule': u'alert http any any -> any any (message:"Hello World"; content:"/hello"; http_uri;)'}

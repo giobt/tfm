@@ -1,0 +1,1080 @@
+31/3/2020 -- 00:00:06 - <Notice> - This is Suricata version 5.0.0 RELEASE running in SYSTEM mode
+31/3/2020 -- 00:00:06 - <Info> - CPUs/cores online: 4
+31/3/2020 -- 00:00:06 - <Info> - eve-log output device (regular) initialized: eve.json
+31/3/2020 -- 00:00:06 - <Info> - Going to log the md5 sum of email body
+31/3/2020 -- 00:00:06 - <Info> - Going to log the md5 sum of email subject
+31/3/2020 -- 00:00:06 - <Info> - DNP3 log sub-module initialized.
+31/3/2020 -- 00:00:06 - <Info> - DNP3 log sub-module initialized.
+31/3/2020 -- 00:00:06 - <Error> - [ERRCODE: SC_ERR_STATS_LOG_GENERIC(278)] - eve.stats: stats are disabled globally: set stats.enabled to true. See https://suricata.readthedocs.io/en/suricata-5.0.0/configuration/suricata-yaml.html#stats
+31/3/2020 -- 00:00:06 - <Info> - Rule with ID 2026440 is bidirectional, but source and destination are the same, treating the rule as unidirectional
+31/3/2020 -- 00:00:08 - <Info> - 61 rule files processed. 26716 rules successfully loaded, 0 rules failed
+31/3/2020 -- 00:00:08 - <Info> - Threshold config parsed: 0 rule(s) found
+31/3/2020 -- 00:00:08 - <Info> - 26731 signatures processed. 1214 are IP-only rules, 7075 are inspecting packet payload, 18027 inspect application layer, 107 are decoder event only
+31/3/2020 -- 00:00:08 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.ButterflyJoin' is checked but not set. Checked in 2011296 and 0 other sigs
+31/3/2020 -- 00:00:08 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.Netwire.HB.1' is checked but not set. Checked in 2018282 and 0 other sigs
+31/3/2020 -- 00:00:08 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.GenericPhish_Adobe' is checked but not set. Checked in 2023048 and 0 other sigs
+31/3/2020 -- 00:00:08 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'BE.Radmin.Challenge' is checked but not set. Checked in 2003480 and 0 other sigs
+31/3/2020 -- 00:00:23 - <Info> - Going to use 4 thread(s)
+31/3/2020 -- 00:00:23 - <Notice> - all 4 packet processing threads, 2 management threads initialized, engine started.
+31/3/2020 -- 00:00:23 - <Info> - All AFP capture threads are running.
+31/3/2020 -- 01:26:49 - <Error> - [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'eth0': (100) Network is down
+31/3/2020 -- 01:26:49 - <Error> - [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'eth0': (100) Network is down
+31/3/2020 -- 01:26:49 - <Error> - [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'eth0': (100) Network is down
+31/3/2020 -- 01:26:49 - <Error> - [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'eth0': (100) Network is down
+31/3/2020 -- 08:55:18 - <Info> - Interface 'eth0' is back
+31/3/2020 -- 08:55:18 - <Info> - Interface 'eth0' is back
+31/3/2020 -- 08:55:18 - <Info> - Interface 'eth0' is back
+31/3/2020 -- 08:55:18 - <Info> - Interface 'eth0' is back
+31/3/2020 -- 11:05:28 - <Error> - [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'eth0': (100) Network is down
+31/3/2020 -- 11:05:28 - <Error> - [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'eth0': (100) Network is down
+31/3/2020 -- 11:05:28 - <Error> - [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'eth0': (100) Network is down
+31/3/2020 -- 11:05:28 - <Error> - [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'eth0': (100) Network is down
+31/3/2020 -- 11:35:19 - <Info> - Interface 'eth0' is back
+31/3/2020 -- 11:35:19 - <Info> - Interface 'eth0' is back
+31/3/2020 -- 11:35:19 - <Info> - Interface 'eth0' is back
+31/3/2020 -- 11:35:19 - <Info> - Interface 'eth0' is back
+31/3/2020 -- 12:26:47 - <Error> - [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'eth0': (100) Network is down
+31/3/2020 -- 12:26:47 - <Error> - [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'eth0': (100) Network is down
+31/3/2020 -- 12:26:47 - <Error> - [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'eth0': (100) Network is down
+31/3/2020 -- 12:26:47 - <Error> - [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'eth0': (100) Network is down
+31/3/2020 -- 13:31:36 - <Info> - Interface 'eth0' is back
+31/3/2020 -- 13:31:36 - <Info> - Interface 'eth0' is back
+31/3/2020 -- 13:31:36 - <Info> - Interface 'eth0' is back
+31/3/2020 -- 13:31:36 - <Info> - Interface 'eth0' is back
+31/3/2020 -- 15:29:19 - <Notice> - This is Suricata version 5.0.0 RELEASE running in SYSTEM mode
+31/3/2020 -- 15:29:19 - <Info> - CPUs/cores online: 4
+31/3/2020 -- 15:29:19 - <Info> - eve-log output device (regular) initialized: eve.json
+31/3/2020 -- 15:29:19 - <Info> - Going to log the md5 sum of email body
+31/3/2020 -- 15:29:19 - <Info> - Going to log the md5 sum of email subject
+31/3/2020 -- 15:29:19 - <Info> - DNP3 log sub-module initialized.
+31/3/2020 -- 15:29:19 - <Info> - DNP3 log sub-module initialized.
+31/3/2020 -- 15:29:19 - <Error> - [ERRCODE: SC_ERR_STATS_LOG_GENERIC(278)] - eve.stats: stats are disabled globally: set stats.enabled to true. See https://suricata.readthedocs.io/en/suricata-5.0.0/configuration/suricata-yaml.html#stats
+31/3/2020 -- 15:29:19 - <Info> - Rule with ID 2026440 is bidirectional, but source and destination are the same, treating the rule as unidirectional
+31/3/2020 -- 15:29:21 - <Info> - 61 rule files processed. 26716 rules successfully loaded, 0 rules failed
+31/3/2020 -- 15:29:21 - <Info> - Threshold config parsed: 0 rule(s) found
+31/3/2020 -- 15:29:21 - <Info> - 26731 signatures processed. 1214 are IP-only rules, 7075 are inspecting packet payload, 18027 inspect application layer, 107 are decoder event only
+31/3/2020 -- 15:29:21 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.ButterflyJoin' is checked but not set. Checked in 2011296 and 0 other sigs
+31/3/2020 -- 15:29:21 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.Netwire.HB.1' is checked but not set. Checked in 2018282 and 0 other sigs
+31/3/2020 -- 15:29:21 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.GenericPhish_Adobe' is checked but not set. Checked in 2023048 and 0 other sigs
+31/3/2020 -- 15:29:21 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'BE.Radmin.Challenge' is checked but not set. Checked in 2003480 and 0 other sigs
+31/3/2020 -- 15:29:33 - <Info> - Going to use 4 thread(s)
+31/3/2020 -- 15:29:33 - <Notice> - all 4 packet processing threads, 2 management threads initialized, engine started.
+31/3/2020 -- 15:29:33 - <Info> - All AFP capture threads are running.
+31/3/2020 -- 16:24:35 - <Error> - [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'eth0': (100) Network is down
+31/3/2020 -- 16:24:35 - <Error> - [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'eth0': (100) Network is down
+31/3/2020 -- 16:24:35 - <Error> - [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'eth0': (100) Network is down
+31/3/2020 -- 16:24:35 - <Error> - [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'eth0': (100) Network is down
+31/3/2020 -- 16:36:37 - <Info> - Interface 'eth0' is back
+31/3/2020 -- 16:36:37 - <Info> - Interface 'eth0' is back
+31/3/2020 -- 16:36:37 - <Info> - Interface 'eth0' is back
+31/3/2020 -- 16:36:37 - <Info> - Interface 'eth0' is back
+31/3/2020 -- 16:55:28 - <Notice> - Signal Received.  Stopping engine.
+31/3/2020 -- 16:55:28 - <Info> - time elapsed 5155.237s
+31/3/2020 -- 16:55:28 - <Info> - Alerts: 0
+31/3/2020 -- 16:55:28 - <Info> - cleaning up signature grouping structure... complete
+31/3/2020 -- 16:55:28 - <Notice> - Stats for 'eth0':  pkts: 0, drop: 0 (-nan%), invalid chksum: 0
+31/3/2020 -- 22:07:10 - <Notice> - This is Suricata version 5.0.0 RELEASE running in SYSTEM mode
+31/3/2020 -- 22:07:10 - <Info> - CPUs/cores online: 4
+31/3/2020 -- 22:07:10 - <Info> - eve-log output device (regular) initialized: eve.json
+31/3/2020 -- 22:07:10 - <Info> - Going to log the md5 sum of email body
+31/3/2020 -- 22:07:10 - <Info> - Going to log the md5 sum of email subject
+31/3/2020 -- 22:07:10 - <Info> - DNP3 log sub-module initialized.
+31/3/2020 -- 22:07:10 - <Info> - DNP3 log sub-module initialized.
+31/3/2020 -- 22:07:10 - <Error> - [ERRCODE: SC_ERR_STATS_LOG_GENERIC(278)] - eve.stats: stats are disabled globally: set stats.enabled to true. See https://suricata.readthedocs.io/en/suricata-5.0.0/configuration/suricata-yaml.html#stats
+31/3/2020 -- 22:07:10 - <Info> - Rule with ID 2026440 is bidirectional, but source and destination are the same, treating the rule as unidirectional
+31/3/2020 -- 22:07:11 - <Info> - 61 rule files processed. 26716 rules successfully loaded, 0 rules failed
+31/3/2020 -- 22:07:11 - <Info> - Threshold config parsed: 0 rule(s) found
+31/3/2020 -- 22:07:12 - <Info> - 26731 signatures processed. 1214 are IP-only rules, 7075 are inspecting packet payload, 18027 inspect application layer, 107 are decoder event only
+31/3/2020 -- 22:07:12 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.ButterflyJoin' is checked but not set. Checked in 2011296 and 0 other sigs
+31/3/2020 -- 22:07:12 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.Netwire.HB.1' is checked but not set. Checked in 2018282 and 0 other sigs
+31/3/2020 -- 22:07:12 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.GenericPhish_Adobe' is checked but not set. Checked in 2023048 and 0 other sigs
+31/3/2020 -- 22:07:12 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'BE.Radmin.Challenge' is checked but not set. Checked in 2003480 and 0 other sigs
+31/3/2020 -- 22:07:24 - <Info> - Going to use 4 thread(s)
+31/3/2020 -- 22:07:24 - <Notice> - all 4 packet processing threads, 2 management threads initialized, engine started.
+31/3/2020 -- 22:07:25 - <Info> - All AFP capture threads are running.
+31/3/2020 -- 22:43:48 - <Notice> - Signal Received.  Stopping engine.
+31/3/2020 -- 22:43:48 - <Info> - time elapsed 2183.715s
+31/3/2020 -- 22:43:48 - <Info> - Alerts: 0
+31/3/2020 -- 22:43:48 - <Info> - cleaning up signature grouping structure... complete
+31/3/2020 -- 22:43:48 - <Notice> - Stats for 'eth0':  pkts: 0, drop: 0 (-nan%), invalid chksum: 0
+31/3/2020 -- 23:00:35 - <Notice> - This is Suricata version 5.0.0 RELEASE running in SYSTEM mode
+31/3/2020 -- 23:00:35 - <Info> - CPUs/cores online: 4
+31/3/2020 -- 23:00:35 - <Info> - eve-log output device (regular) initialized: eve.json
+31/3/2020 -- 23:00:35 - <Info> - Going to log the md5 sum of email body
+31/3/2020 -- 23:00:35 - <Info> - Going to log the md5 sum of email subject
+31/3/2020 -- 23:00:35 - <Info> - DNP3 log sub-module initialized.
+31/3/2020 -- 23:00:35 - <Info> - DNP3 log sub-module initialized.
+31/3/2020 -- 23:00:35 - <Error> - [ERRCODE: SC_ERR_STATS_LOG_GENERIC(278)] - eve.stats: stats are disabled globally: set stats.enabled to true. See https://suricata.readthedocs.io/en/suricata-5.0.0/configuration/suricata-yaml.html#stats
+31/3/2020 -- 23:00:35 - <Info> - Rule with ID 2026440 is bidirectional, but source and destination are the same, treating the rule as unidirectional
+31/3/2020 -- 23:00:36 - <Info> - 61 rule files processed. 26716 rules successfully loaded, 0 rules failed
+31/3/2020 -- 23:00:37 - <Info> - Threshold config parsed: 0 rule(s) found
+31/3/2020 -- 23:00:37 - <Info> - 26731 signatures processed. 1214 are IP-only rules, 7075 are inspecting packet payload, 18027 inspect application layer, 107 are decoder event only
+31/3/2020 -- 23:00:37 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.ButterflyJoin' is checked but not set. Checked in 2011296 and 0 other sigs
+31/3/2020 -- 23:00:37 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.Netwire.HB.1' is checked but not set. Checked in 2018282 and 0 other sigs
+31/3/2020 -- 23:00:37 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.GenericPhish_Adobe' is checked but not set. Checked in 2023048 and 0 other sigs
+31/3/2020 -- 23:00:37 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'BE.Radmin.Challenge' is checked but not set. Checked in 2003480 and 0 other sigs
+31/3/2020 -- 23:00:50 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'wlan0': Not supported (95)
+31/3/2020 -- 23:00:50 - <Info> - Going to use 4 thread(s)
+31/3/2020 -- 23:00:50 - <Notice> - all 4 packet processing threads, 2 management threads initialized, engine started.
+31/3/2020 -- 23:00:51 - <Info> - All AFP capture threads are running.
+31/3/2020 -- 23:08:34 - <Notice> - Signal Received.  Stopping engine.
+31/3/2020 -- 23:08:34 - <Info> - time elapsed 463.723s
+31/3/2020 -- 23:08:35 - <Info> - Alerts: 0
+31/3/2020 -- 23:08:35 - <Info> - cleaning up signature grouping structure... complete
+31/3/2020 -- 23:08:35 - <Notice> - Stats for 'wlan0':  pkts: 5547, drop: 0 (0.00%), invalid chksum: 0
+31/3/2020 -- 23:08:35 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'wlan0': Not supported (95)
+1/4/2020 -- 00:09:26 - <Notice> - This is Suricata version 5.0.0 RELEASE running in SYSTEM mode
+1/4/2020 -- 00:09:26 - <Info> - CPUs/cores online: 4
+1/4/2020 -- 00:09:26 - <Info> - eve-log output device (regular) initialized: eve.json
+1/4/2020 -- 00:09:26 - <Info> - Going to log the md5 sum of email body
+1/4/2020 -- 00:09:26 - <Info> - Going to log the md5 sum of email subject
+1/4/2020 -- 00:09:26 - <Info> - DNP3 log sub-module initialized.
+1/4/2020 -- 00:09:26 - <Info> - DNP3 log sub-module initialized.
+1/4/2020 -- 00:09:26 - <Error> - [ERRCODE: SC_ERR_STATS_LOG_GENERIC(278)] - eve.stats: stats are disabled globally: set stats.enabled to true. See https://suricata.readthedocs.io/en/suricata-5.0.0/configuration/suricata-yaml.html#stats
+1/4/2020 -- 00:09:26 - <Info> - Rule with ID 2026440 is bidirectional, but source and destination are the same, treating the rule as unidirectional
+1/4/2020 -- 00:09:27 - <Info> - 61 rule files processed. 26716 rules successfully loaded, 0 rules failed
+1/4/2020 -- 00:09:28 - <Info> - Threshold config parsed: 0 rule(s) found
+1/4/2020 -- 00:09:28 - <Info> - 26731 signatures processed. 1214 are IP-only rules, 7075 are inspecting packet payload, 18027 inspect application layer, 107 are decoder event only
+1/4/2020 -- 00:09:28 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.ButterflyJoin' is checked but not set. Checked in 2011296 and 0 other sigs
+1/4/2020 -- 00:09:28 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.Netwire.HB.1' is checked but not set. Checked in 2018282 and 0 other sigs
+1/4/2020 -- 00:09:28 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.GenericPhish_Adobe' is checked but not set. Checked in 2023048 and 0 other sigs
+1/4/2020 -- 00:09:28 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'BE.Radmin.Challenge' is checked but not set. Checked in 2003480 and 0 other sigs
+1/4/2020 -- 00:09:40 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'wlan0': Not supported (95)
+1/4/2020 -- 00:09:40 - <Info> - Going to use 4 thread(s)
+1/4/2020 -- 00:09:40 - <Notice> - all 4 packet processing threads, 2 management threads initialized, engine started.
+1/4/2020 -- 00:09:41 - <Info> - All AFP capture threads are running.
+1/4/2020 -- 00:12:45 - <Notice> - Signal Received.  Stopping engine.
+1/4/2020 -- 00:12:45 - <Info> - time elapsed 184.392s
+1/4/2020 -- 00:12:45 - <Info> - Alerts: 0
+1/4/2020 -- 00:12:45 - <Info> - cleaning up signature grouping structure... complete
+1/4/2020 -- 00:12:45 - <Notice> - Stats for 'wlan0':  pkts: 10813, drop: 0 (0.00%), invalid chksum: 0
+1/4/2020 -- 00:12:45 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'wlan0': Not supported (95)
+2/4/2020 -- 10:26:19 - <Notice> - This is Suricata version 5.0.0 RELEASE running in SYSTEM mode
+2/4/2020 -- 10:26:19 - <Info> - CPUs/cores online: 4
+2/4/2020 -- 10:26:19 - <Info> - eve-log output device (regular) initialized: eve.json
+2/4/2020 -- 10:26:19 - <Info> - Going to log the md5 sum of email body
+2/4/2020 -- 10:26:19 - <Info> - Going to log the md5 sum of email subject
+2/4/2020 -- 10:26:19 - <Info> - DNP3 log sub-module initialized.
+2/4/2020 -- 10:26:19 - <Info> - DNP3 log sub-module initialized.
+2/4/2020 -- 10:26:20 - <Info> - Rule with ID 2026440 is bidirectional, but source and destination are the same, treating the rule as unidirectional
+2/4/2020 -- 10:26:21 - <Info> - 61 rule files processed. 26723 rules successfully loaded, 0 rules failed
+2/4/2020 -- 10:26:21 - <Info> - Threshold config parsed: 0 rule(s) found
+2/4/2020 -- 10:26:21 - <Info> - 26738 signatures processed. 1191 are IP-only rules, 7084 are inspecting packet payload, 18048 inspect application layer, 107 are decoder event only
+2/4/2020 -- 10:26:21 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.ButterflyJoin' is checked but not set. Checked in 2011296 and 0 other sigs
+2/4/2020 -- 10:26:21 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.Netwire.HB.1' is checked but not set. Checked in 2018282 and 0 other sigs
+2/4/2020 -- 10:26:21 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.GenericPhish_Adobe' is checked but not set. Checked in 2023048 and 0 other sigs
+2/4/2020 -- 10:26:21 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'BE.Radmin.Challenge' is checked but not set. Checked in 2003480 and 0 other sigs
+2/4/2020 -- 10:26:34 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'wlan0': Not supported (95)
+2/4/2020 -- 10:26:34 - <Info> - Going to use 4 thread(s)
+2/4/2020 -- 10:26:34 - <Notice> - all 4 packet processing threads, 4 management threads initialized, engine started.
+2/4/2020 -- 10:26:34 - <Info> - All AFP capture threads are running.
+2/4/2020 -- 10:56:19 - <Notice> - Signal Received.  Stopping engine.
+2/4/2020 -- 10:56:19 - <Info> - time elapsed 1785.128s
+2/4/2020 -- 10:56:20 - <Info> - Alerts: 71
+2/4/2020 -- 10:56:20 - <Info> - cleaning up signature grouping structure... complete
+2/4/2020 -- 10:56:20 - <Notice> - Stats for 'wlan0':  pkts: 60922, drop: 0 (0.00%), invalid chksum: 0
+2/4/2020 -- 10:56:20 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'wlan0': Not supported (95)
+2/4/2020 -- 11:17:17 - <Notice> - This is Suricata version 5.0.0 RELEASE running in SYSTEM mode
+2/4/2020 -- 11:17:17 - <Info> - CPUs/cores online: 4
+2/4/2020 -- 11:17:17 - <Info> - eve-log output device (regular) initialized: eve.json
+2/4/2020 -- 11:17:17 - <Info> - Going to log the md5 sum of email body
+2/4/2020 -- 11:17:17 - <Info> - Going to log the md5 sum of email subject
+2/4/2020 -- 11:17:17 - <Info> - DNP3 log sub-module initialized.
+2/4/2020 -- 11:17:17 - <Info> - DNP3 log sub-module initialized.
+2/4/2020 -- 11:17:17 - <Info> - Rule with ID 2026440 is bidirectional, but source and destination are the same, treating the rule as unidirectional
+2/4/2020 -- 11:17:19 - <Info> - 61 rule files processed. 26723 rules successfully loaded, 0 rules failed
+2/4/2020 -- 11:17:19 - <Info> - Threshold config parsed: 0 rule(s) found
+2/4/2020 -- 11:17:19 - <Info> - 26738 signatures processed. 1191 are IP-only rules, 7084 are inspecting packet payload, 18048 inspect application layer, 107 are decoder event only
+2/4/2020 -- 11:17:19 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.ButterflyJoin' is checked but not set. Checked in 2011296 and 0 other sigs
+2/4/2020 -- 11:17:19 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.Netwire.HB.1' is checked but not set. Checked in 2018282 and 0 other sigs
+2/4/2020 -- 11:17:19 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.GenericPhish_Adobe' is checked but not set. Checked in 2023048 and 0 other sigs
+2/4/2020 -- 11:17:19 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'BE.Radmin.Challenge' is checked but not set. Checked in 2003480 and 0 other sigs
+2/4/2020 -- 11:17:32 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'wlan0': Not supported (95)
+2/4/2020 -- 11:17:32 - <Info> - Going to use 4 thread(s)
+2/4/2020 -- 11:17:32 - <Notice> - all 4 packet processing threads, 4 management threads initialized, engine started.
+2/4/2020 -- 11:17:33 - <Info> - All AFP capture threads are running.
+2/4/2020 -- 11:18:08 - <Notice> - Signal Received.  Stopping engine.
+2/4/2020 -- 11:18:08 - <Info> - time elapsed 36.191s
+2/4/2020 -- 11:18:09 - <Info> - Alerts: 26
+2/4/2020 -- 11:18:09 - <Info> - cleaning up signature grouping structure... complete
+2/4/2020 -- 11:18:09 - <Notice> - Stats for 'wlan0':  pkts: 208, drop: 0 (0.00%), invalid chksum: 0
+2/4/2020 -- 11:18:09 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'wlan0': Not supported (95)
+2/4/2020 -- 11:23:52 - <Notice> - This is Suricata version 5.0.0 RELEASE running in SYSTEM mode
+2/4/2020 -- 11:23:52 - <Info> - CPUs/cores online: 4
+2/4/2020 -- 11:23:52 - <Info> - eve-log output device (regular) initialized: eve.json
+2/4/2020 -- 11:23:52 - <Info> - Going to log the md5 sum of email body
+2/4/2020 -- 11:23:52 - <Info> - Going to log the md5 sum of email subject
+2/4/2020 -- 11:23:52 - <Info> - DNP3 log sub-module initialized.
+2/4/2020 -- 11:23:52 - <Info> - DNP3 log sub-module initialized.
+2/4/2020 -- 11:23:53 - <Info> - Rule with ID 2026440 is bidirectional, but source and destination are the same, treating the rule as unidirectional
+2/4/2020 -- 11:23:54 - <Info> - 61 rule files processed. 26723 rules successfully loaded, 0 rules failed
+2/4/2020 -- 11:23:54 - <Info> - Threshold config parsed: 0 rule(s) found
+2/4/2020 -- 11:23:54 - <Info> - 26738 signatures processed. 1191 are IP-only rules, 7084 are inspecting packet payload, 18048 inspect application layer, 107 are decoder event only
+2/4/2020 -- 11:23:54 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.ButterflyJoin' is checked but not set. Checked in 2011296 and 0 other sigs
+2/4/2020 -- 11:23:54 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.Netwire.HB.1' is checked but not set. Checked in 2018282 and 0 other sigs
+2/4/2020 -- 11:23:54 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.GenericPhish_Adobe' is checked but not set. Checked in 2023048 and 0 other sigs
+2/4/2020 -- 11:23:54 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'BE.Radmin.Challenge' is checked but not set. Checked in 2003480 and 0 other sigs
+2/4/2020 -- 11:24:07 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'wlan0': Not supported (95)
+2/4/2020 -- 11:24:07 - <Info> - Going to use 4 thread(s)
+2/4/2020 -- 11:24:08 - <Notice> - all 4 packet processing threads, 4 management threads initialized, engine started.
+2/4/2020 -- 11:24:08 - <Info> - All AFP capture threads are running.
+2/4/2020 -- 11:25:42 - <Notice> - Signal Received.  Stopping engine.
+2/4/2020 -- 11:25:42 - <Info> - time elapsed 94.512s
+2/4/2020 -- 11:25:42 - <Info> - Alerts: 8
+2/4/2020 -- 11:25:42 - <Info> - cleaning up signature grouping structure... complete
+2/4/2020 -- 11:25:42 - <Notice> - Stats for 'wlan0':  pkts: 1783, drop: 0 (0.00%), invalid chksum: 0
+2/4/2020 -- 11:25:42 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'wlan0': Not supported (95)
+2/4/2020 -- 11:26:01 - <Notice> - This is Suricata version 5.0.0 RELEASE running in SYSTEM mode
+2/4/2020 -- 11:26:01 - <Info> - CPUs/cores online: 4
+2/4/2020 -- 11:26:01 - <Info> - eve-log output device (regular) initialized: eve.json
+2/4/2020 -- 11:26:01 - <Info> - Going to log the md5 sum of email body
+2/4/2020 -- 11:26:01 - <Info> - Going to log the md5 sum of email subject
+2/4/2020 -- 11:26:01 - <Info> - DNP3 log sub-module initialized.
+2/4/2020 -- 11:26:01 - <Info> - DNP3 log sub-module initialized.
+2/4/2020 -- 11:26:02 - <Info> - Rule with ID 2026440 is bidirectional, but source and destination are the same, treating the rule as unidirectional
+2/4/2020 -- 11:26:03 - <Info> - 61 rule files processed. 26723 rules successfully loaded, 0 rules failed
+2/4/2020 -- 11:26:03 - <Info> - Threshold config parsed: 0 rule(s) found
+2/4/2020 -- 11:26:03 - <Info> - 26738 signatures processed. 1191 are IP-only rules, 7084 are inspecting packet payload, 18048 inspect application layer, 107 are decoder event only
+2/4/2020 -- 11:26:03 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.ButterflyJoin' is checked but not set. Checked in 2011296 and 0 other sigs
+2/4/2020 -- 11:26:03 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.Netwire.HB.1' is checked but not set. Checked in 2018282 and 0 other sigs
+2/4/2020 -- 11:26:03 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.GenericPhish_Adobe' is checked but not set. Checked in 2023048 and 0 other sigs
+2/4/2020 -- 11:26:03 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'BE.Radmin.Challenge' is checked but not set. Checked in 2003480 and 0 other sigs
+2/4/2020 -- 11:26:17 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'wlan0': Not supported (95)
+2/4/2020 -- 11:26:17 - <Info> - Going to use 4 thread(s)
+2/4/2020 -- 11:26:17 - <Notice> - all 4 packet processing threads, 4 management threads initialized, engine started.
+2/4/2020 -- 11:26:17 - <Info> - All AFP capture threads are running.
+2/4/2020 -- 11:29:03 - <Notice> - Signal Received.  Stopping engine.
+2/4/2020 -- 11:29:03 - <Info> - time elapsed 166.031s
+2/4/2020 -- 11:29:03 - <Info> - Alerts: 74
+2/4/2020 -- 11:29:03 - <Info> - cleaning up signature grouping structure... complete
+2/4/2020 -- 11:29:03 - <Notice> - Stats for 'wlan0':  pkts: 1071, drop: 0 (0.00%), invalid chksum: 0
+2/4/2020 -- 11:29:03 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'wlan0': Not supported (95)
+2/4/2020 -- 11:39:26 - <Notice> - This is Suricata version 5.0.0 RELEASE running in SYSTEM mode
+2/4/2020 -- 11:39:26 - <Info> - CPUs/cores online: 4
+2/4/2020 -- 11:39:26 - <Info> - eve-log output device (regular) initialized: eve.json
+2/4/2020 -- 11:39:26 - <Info> - Going to log the md5 sum of email body
+2/4/2020 -- 11:39:26 - <Info> - Going to log the md5 sum of email subject
+2/4/2020 -- 11:39:26 - <Info> - DNP3 log sub-module initialized.
+2/4/2020 -- 11:39:26 - <Info> - DNP3 log sub-module initialized.
+2/4/2020 -- 11:39:27 - <Info> - Rule with ID 2026440 is bidirectional, but source and destination are the same, treating the rule as unidirectional
+2/4/2020 -- 11:39:28 - <Info> - 61 rule files processed. 26723 rules successfully loaded, 0 rules failed
+2/4/2020 -- 11:39:28 - <Info> - Threshold config parsed: 0 rule(s) found
+2/4/2020 -- 11:39:28 - <Info> - 26738 signatures processed. 1191 are IP-only rules, 7084 are inspecting packet payload, 18048 inspect application layer, 107 are decoder event only
+2/4/2020 -- 11:39:28 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.ButterflyJoin' is checked but not set. Checked in 2011296 and 0 other sigs
+2/4/2020 -- 11:39:28 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.Netwire.HB.1' is checked but not set. Checked in 2018282 and 0 other sigs
+2/4/2020 -- 11:39:28 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.GenericPhish_Adobe' is checked but not set. Checked in 2023048 and 0 other sigs
+2/4/2020 -- 11:39:28 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'BE.Radmin.Challenge' is checked but not set. Checked in 2003480 and 0 other sigs
+2/4/2020 -- 11:39:41 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'wlan0': Not supported (95)
+2/4/2020 -- 11:39:41 - <Info> - Going to use 4 thread(s)
+2/4/2020 -- 11:39:41 - <Notice> - all 4 packet processing threads, 4 management threads initialized, engine started.
+2/4/2020 -- 11:39:41 - <Info> - All AFP capture threads are running.
+2/4/2020 -- 11:47:59 - <Notice> - Signal Received.  Stopping engine.
+2/4/2020 -- 11:47:59 - <Info> - time elapsed 498.129s
+2/4/2020 -- 11:47:59 - <Info> - Alerts: 77
+2/4/2020 -- 11:47:59 - <Info> - cleaning up signature grouping structure... complete
+2/4/2020 -- 11:47:59 - <Notice> - Stats for 'wlan0':  pkts: 4936, drop: 0 (0.00%), invalid chksum: 0
+2/4/2020 -- 11:47:59 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'wlan0': Not supported (95)
+2/4/2020 -- 13:01:30 - <Notice> - This is Suricata version 5.0.0 RELEASE running in SYSTEM mode
+2/4/2020 -- 13:01:30 - <Info> - CPUs/cores online: 4
+2/4/2020 -- 13:01:30 - <Info> - eve-log output device (regular) initialized: eve.json
+2/4/2020 -- 13:01:30 - <Info> - Going to log the md5 sum of email body
+2/4/2020 -- 13:01:30 - <Info> - Going to log the md5 sum of email subject
+2/4/2020 -- 13:01:30 - <Info> - DNP3 log sub-module initialized.
+2/4/2020 -- 13:01:30 - <Info> - DNP3 log sub-module initialized.
+2/4/2020 -- 13:01:31 - <Info> - Rule with ID 2026440 is bidirectional, but source and destination are the same, treating the rule as unidirectional
+2/4/2020 -- 13:01:32 - <Info> - 61 rule files processed. 26723 rules successfully loaded, 0 rules failed
+2/4/2020 -- 13:01:32 - <Info> - Threshold config parsed: 0 rule(s) found
+2/4/2020 -- 13:01:32 - <Info> - 26738 signatures processed. 1191 are IP-only rules, 7084 are inspecting packet payload, 18048 inspect application layer, 107 are decoder event only
+2/4/2020 -- 13:01:32 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.ButterflyJoin' is checked but not set. Checked in 2011296 and 0 other sigs
+2/4/2020 -- 13:01:32 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.Netwire.HB.1' is checked but not set. Checked in 2018282 and 0 other sigs
+2/4/2020 -- 13:01:32 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.GenericPhish_Adobe' is checked but not set. Checked in 2023048 and 0 other sigs
+2/4/2020 -- 13:01:32 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'BE.Radmin.Challenge' is checked but not set. Checked in 2003480 and 0 other sigs
+2/4/2020 -- 13:01:45 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'wlan0': Not supported (95)
+2/4/2020 -- 13:01:45 - <Info> - Going to use 4 thread(s)
+2/4/2020 -- 13:01:45 - <Notice> - all 4 packet processing threads, 4 management threads initialized, engine started.
+2/4/2020 -- 13:01:45 - <Info> - All AFP capture threads are running.
+2/4/2020 -- 13:23:33 - <Notice> - Signal Received.  Stopping engine.
+2/4/2020 -- 13:23:33 - <Info> - time elapsed 1307.841s
+2/4/2020 -- 13:23:33 - <Info> - Alerts: 122
+2/4/2020 -- 13:23:33 - <Info> - cleaning up signature grouping structure... complete
+2/4/2020 -- 13:23:33 - <Notice> - Stats for 'wlan0':  pkts: 8096, drop: 0 (0.00%), invalid chksum: 0
+2/4/2020 -- 13:23:33 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'wlan0': Not supported (95)
+15/4/2020 -- 09:15:38 - <Notice> - This is Suricata version 5.0.0 RELEASE running in SYSTEM mode
+15/4/2020 -- 09:15:38 - <Info> - CPUs/cores online: 4
+15/4/2020 -- 09:15:38 - <Info> - eve-log output device (regular) initialized: eve.json
+15/4/2020 -- 09:15:38 - <Info> - Going to log the md5 sum of email body
+15/4/2020 -- 09:15:38 - <Info> - Going to log the md5 sum of email subject
+15/4/2020 -- 09:15:38 - <Info> - DNP3 log sub-module initialized.
+15/4/2020 -- 09:15:38 - <Info> - DNP3 log sub-module initialized.
+15/4/2020 -- 09:15:39 - <Info> - Rule with ID 2026440 is bidirectional, but source and destination are the same, treating the rule as unidirectional
+15/4/2020 -- 09:15:40 - <Info> - 61 rule files processed. 26723 rules successfully loaded, 0 rules failed
+15/4/2020 -- 09:15:40 - <Info> - Threshold config parsed: 0 rule(s) found
+15/4/2020 -- 09:15:41 - <Info> - 26738 signatures processed. 1191 are IP-only rules, 7084 are inspecting packet payload, 18048 inspect application layer, 107 are decoder event only
+15/4/2020 -- 09:15:41 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.ButterflyJoin' is checked but not set. Checked in 2011296 and 0 other sigs
+15/4/2020 -- 09:15:41 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.Netwire.HB.1' is checked but not set. Checked in 2018282 and 0 other sigs
+15/4/2020 -- 09:15:41 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.GenericPhish_Adobe' is checked but not set. Checked in 2023048 and 0 other sigs
+15/4/2020 -- 09:15:41 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'BE.Radmin.Challenge' is checked but not set. Checked in 2003480 and 0 other sigs
+15/4/2020 -- 09:15:52 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'wlan0': Not supported (95)
+15/4/2020 -- 09:15:52 - <Info> - Going to use 4 thread(s)
+15/4/2020 -- 09:15:52 - <Notice> - all 4 packet processing threads, 4 management threads initialized, engine started.
+15/4/2020 -- 09:15:52 - <Info> - All AFP capture threads are running.
+15/4/2020 -- 13:58:42 - <Notice> - Signal Received.  Stopping engine.
+15/4/2020 -- 13:58:42 - <Info> - time elapsed 16969.789s
+15/4/2020 -- 13:58:42 - <Info> - Alerts: 702
+15/4/2020 -- 13:58:42 - <Info> - cleaning up signature grouping structure... complete
+15/4/2020 -- 13:58:42 - <Notice> - Stats for 'wlan0':  pkts: 228653, drop: 25 (0.01%), invalid chksum: 0
+15/4/2020 -- 13:58:42 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'wlan0': Not supported (95)
+25/4/2020 -- 23:28:31 - <Notice> - This is Suricata version 5.0.0 RELEASE running in USER mode
+25/4/2020 -- 23:28:31 - <Info> - CPUs/cores online: 4
+25/4/2020 -- 23:28:31 - <Info> - eve-log output device (regular) initialized: eve.json
+25/4/2020 -- 23:28:31 - <Info> - Going to log the md5 sum of email body
+25/4/2020 -- 23:28:31 - <Info> - Going to log the md5 sum of email subject
+25/4/2020 -- 23:28:31 - <Info> - DNP3 log sub-module initialized.
+25/4/2020 -- 23:28:31 - <Info> - DNP3 log sub-module initialized.
+25/4/2020 -- 23:28:31 - <Info> - Rule with ID 2026440 is bidirectional, but source and destination are the same, treating the rule as unidirectional
+25/4/2020 -- 23:28:33 - <Info> - 61 rule files processed. 26723 rules successfully loaded, 0 rules failed
+25/4/2020 -- 23:28:33 - <Info> - Threshold config parsed: 0 rule(s) found
+25/4/2020 -- 23:28:33 - <Info> - 26738 signatures processed. 1191 are IP-only rules, 7084 are inspecting packet payload, 18048 inspect application layer, 107 are decoder event only
+25/4/2020 -- 23:28:33 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.ButterflyJoin' is checked but not set. Checked in 2011296 and 0 other sigs
+25/4/2020 -- 23:28:33 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.Netwire.HB.1' is checked but not set. Checked in 2018282 and 0 other sigs
+25/4/2020 -- 23:28:33 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.GenericPhish_Adobe' is checked but not set. Checked in 2023048 and 0 other sigs
+25/4/2020 -- 23:28:33 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'BE.Radmin.Challenge' is checked but not set. Checked in 2003480 and 0 other sigs
+25/4/2020 -- 23:28:46 - <Notice> - all 5 packet processing threads, 4 management threads initialized, engine started.
+25/4/2020 -- 23:28:46 - <Info> - Starting file run for get.pcap
+25/4/2020 -- 23:28:46 - <Info> - pcap file get.pcap end of file reached (pcap err code 0)
+25/4/2020 -- 23:28:46 - <Notice> - Signal Received.  Stopping engine.
+25/4/2020 -- 23:28:46 - <Info> - time elapsed 0.044s
+25/4/2020 -- 23:28:46 - <Notice> - Pcap-file module read 1 files, 8 packets, 498 bytes
+25/4/2020 -- 23:28:46 - <Info> - Alerts: 4
+25/4/2020 -- 23:28:47 - <Info> - cleaning up signature grouping structure... complete
+25/4/2020 -- 23:34:30 - <Notice> - This is Suricata version 5.0.0 RELEASE running in USER mode
+25/4/2020 -- 23:34:30 - <Info> - CPUs/cores online: 4
+25/4/2020 -- 23:34:30 - <Info> - eve-log output device (regular) initialized: eve.json
+25/4/2020 -- 23:34:30 - <Info> - Going to log the md5 sum of email body
+25/4/2020 -- 23:34:30 - <Info> - Going to log the md5 sum of email subject
+25/4/2020 -- 23:34:30 - <Info> - DNP3 log sub-module initialized.
+25/4/2020 -- 23:34:30 - <Info> - DNP3 log sub-module initialized.
+25/4/2020 -- 23:34:30 - <Error> - [ERRCODE: SC_ERR_INVALID_RULE_ARGUMENT(270)] - no rule options.
+25/4/2020 -- 23:34:30 - <Error> - [ERRCODE: SC_ERR_INVALID_SIGNATURE(39)] - error parsing signature "alert http (" from file local.rules at line 1
+25/4/2020 -- 23:34:30 - <Error> - [ERRCODE: SC_ERR_INVALID_RULE_ARGUMENT(270)] - no rule options.
+25/4/2020 -- 23:34:30 - <Error> - [ERRCODE: SC_ERR_INVALID_SIGNATURE(39)] - error parsing signature ")" from file local.rules at line 7
+25/4/2020 -- 23:34:30 - <Warning> - [ERRCODE: SC_ERR_NO_RULES_LOADED(43)] - 1 rule files specified, but no rule was loaded at all!
+25/4/2020 -- 23:34:30 - <Info> - Threshold config parsed: 0 rule(s) found
+25/4/2020 -- 23:34:30 - <Info> - 0 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+25/4/2020 -- 23:34:30 - <Notice> - all 5 packet processing threads, 4 management threads initialized, engine started.
+25/4/2020 -- 23:34:30 - <Info> - Starting file run for get.pcap
+25/4/2020 -- 23:34:30 - <Info> - pcap file get.pcap end of file reached (pcap err code 0)
+25/4/2020 -- 23:34:30 - <Notice> - Signal Received.  Stopping engine.
+25/4/2020 -- 23:34:30 - <Info> - time elapsed 0.050s
+25/4/2020 -- 23:34:30 - <Notice> - Pcap-file module read 1 files, 8 packets, 498 bytes
+25/4/2020 -- 23:34:30 - <Info> - Alerts: 0
+25/4/2020 -- 23:34:30 - <Info> - cleaning up signature grouping structure... complete
+25/4/2020 -- 23:36:59 - <Notice> - This is Suricata version 5.0.0 RELEASE running in USER mode
+25/4/2020 -- 23:36:59 - <Info> - CPUs/cores online: 4
+25/4/2020 -- 23:36:59 - <Info> - eve-log output device (regular) initialized: eve.json
+25/4/2020 -- 23:36:59 - <Info> - Going to log the md5 sum of email body
+25/4/2020 -- 23:36:59 - <Info> - Going to log the md5 sum of email subject
+25/4/2020 -- 23:36:59 - <Info> - DNP3 log sub-module initialized.
+25/4/2020 -- 23:36:59 - <Info> - DNP3 log sub-module initialized.
+25/4/2020 -- 23:36:59 - <Error> - [ERRCODE: SC_ERR_RULE_KEYWORD_UNKNOWN(102)] - unknown rule keyword 'message'.
+25/4/2020 -- 23:36:59 - <Error> - [ERRCODE: SC_ERR_INVALID_SIGNATURE(39)] - error parsing signature "alert http any any -> any any (message:"Hello World"; content:"/hello"; http_uri;)" from file local.rules at line 1
+25/4/2020 -- 23:36:59 - <Warning> - [ERRCODE: SC_ERR_NO_RULES_LOADED(43)] - 1 rule files specified, but no rule was loaded at all!
+25/4/2020 -- 23:36:59 - <Info> - Threshold config parsed: 0 rule(s) found
+25/4/2020 -- 23:36:59 - <Info> - 0 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+25/4/2020 -- 23:36:59 - <Notice> - all 5 packet processing threads, 4 management threads initialized, engine started.
+25/4/2020 -- 23:36:59 - <Info> - Starting file run for get.pcap
+25/4/2020 -- 23:36:59 - <Info> - pcap file get.pcap end of file reached (pcap err code 0)
+25/4/2020 -- 23:36:59 - <Notice> - Signal Received.  Stopping engine.
+25/4/2020 -- 23:36:59 - <Info> - time elapsed 0.051s
+25/4/2020 -- 23:36:59 - <Notice> - Pcap-file module read 1 files, 8 packets, 498 bytes
+25/4/2020 -- 23:36:59 - <Info> - Alerts: 0
+25/4/2020 -- 23:36:59 - <Info> - cleaning up signature grouping structure... complete
+25/4/2020 -- 23:38:14 - <Notice> - This is Suricata version 5.0.0 RELEASE running in USER mode
+25/4/2020 -- 23:38:14 - <Info> - CPUs/cores online: 4
+25/4/2020 -- 23:38:14 - <Info> - eve-log output device (regular) initialized: eve.json
+25/4/2020 -- 23:38:14 - <Info> - Going to log the md5 sum of email body
+25/4/2020 -- 23:38:14 - <Info> - Going to log the md5 sum of email subject
+25/4/2020 -- 23:38:14 - <Info> - DNP3 log sub-module initialized.
+25/4/2020 -- 23:38:14 - <Info> - DNP3 log sub-module initialized.
+25/4/2020 -- 23:38:14 - <Info> - 1 rule files processed. 1 rules successfully loaded, 0 rules failed
+25/4/2020 -- 23:38:14 - <Info> - Threshold config parsed: 0 rule(s) found
+25/4/2020 -- 23:38:14 - <Info> - 1 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 1 inspect application layer, 0 are decoder event only
+25/4/2020 -- 23:38:14 - <Notice> - all 5 packet processing threads, 4 management threads initialized, engine started.
+25/4/2020 -- 23:38:14 - <Info> - Starting file run for get.pcap
+25/4/2020 -- 23:38:14 - <Info> - pcap file get.pcap end of file reached (pcap err code 0)
+25/4/2020 -- 23:38:14 - <Notice> - Signal Received.  Stopping engine.
+25/4/2020 -- 23:38:14 - <Info> - time elapsed 0.039s
+25/4/2020 -- 23:38:14 - <Notice> - Pcap-file module read 1 files, 8 packets, 498 bytes
+25/4/2020 -- 23:38:14 - <Info> - Alerts: 1
+25/4/2020 -- 23:38:14 - <Info> - cleaning up signature grouping structure... complete
+25/4/2020 -- 23:44:44 - <Notice> - This is Suricata version 5.0.0 RELEASE running in USER mode
+25/4/2020 -- 23:44:44 - <Info> - CPUs/cores online: 4
+25/4/2020 -- 23:44:44 - <Info> - fast output device (regular) initialized: fast.log
+25/4/2020 -- 23:44:44 - <Info> - eve-log output device (regular) initialized: eve.json
+25/4/2020 -- 23:44:44 - <Info> - Going to log the md5 sum of email body
+25/4/2020 -- 23:44:44 - <Info> - Going to log the md5 sum of email subject
+25/4/2020 -- 23:44:44 - <Info> - DNP3 log sub-module initialized.
+25/4/2020 -- 23:44:44 - <Info> - DNP3 log sub-module initialized.
+25/4/2020 -- 23:44:44 - <Notice> - JsonDHCPLog logger not enabled: protocol dhcp is disabled
+25/4/2020 -- 23:44:44 - <Info> - Using log dir .
+25/4/2020 -- 23:44:44 - <Info> - Selected pcap-log compression method: none
+25/4/2020 -- 23:44:44 - <Info> - using normal logging
+25/4/2020 -- 23:44:44 - <Info> - 1 rule files processed. 1 rules successfully loaded, 0 rules failed
+25/4/2020 -- 23:44:44 - <Info> - Threshold config parsed: 0 rule(s) found
+25/4/2020 -- 23:44:44 - <Info> - 1 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 1 inspect application layer, 0 are decoder event only
+25/4/2020 -- 23:44:44 - <Info> - Initializing PCAP ring buffer for ./log.pcap.
+25/4/2020 -- 23:44:44 - <Notice> - Ring buffer initialized with 0 files.
+25/4/2020 -- 23:44:44 - <Notice> - all 5 packet processing threads, 4 management threads initialized, engine started.
+25/4/2020 -- 23:44:44 - <Info> - Starting file run for get.pcap
+25/4/2020 -- 23:44:44 - <Info> - pcap file get.pcap end of file reached (pcap err code 0)
+25/4/2020 -- 23:44:44 - <Notice> - Signal Received.  Stopping engine.
+25/4/2020 -- 23:44:44 - <Info> - time elapsed 0.050s
+25/4/2020 -- 23:44:44 - <Notice> - Pcap-file module read 1 files, 8 packets, 498 bytes
+25/4/2020 -- 23:44:44 - <Info> - Alerts: 1
+25/4/2020 -- 23:44:44 - <Info> - cleaning up signature grouping structure... complete
+25/4/2020 -- 23:46:52 - <Notice> - This is Suricata version 5.0.0 RELEASE running in USER mode
+25/4/2020 -- 23:46:52 - <Info> - CPUs/cores online: 4
+25/4/2020 -- 23:46:52 - <Info> - fast output device (regular) initialized: fast.log
+25/4/2020 -- 23:46:52 - <Info> - eve-log output device (regular) initialized: eve.json
+25/4/2020 -- 23:46:52 - <Info> - Going to log the md5 sum of email body
+25/4/2020 -- 23:46:52 - <Info> - Going to log the md5 sum of email subject
+25/4/2020 -- 23:46:52 - <Info> - DNP3 log sub-module initialized.
+25/4/2020 -- 23:46:52 - <Info> - DNP3 log sub-module initialized.
+25/4/2020 -- 23:46:52 - <Notice> - JsonDHCPLog logger not enabled: protocol dhcp is disabled
+25/4/2020 -- 23:46:52 - <Info> - Using log dir .
+25/4/2020 -- 23:46:52 - <Info> - Selected pcap-log compression method: none
+25/4/2020 -- 23:46:52 - <Info> - using normal logging
+25/4/2020 -- 23:46:52 - <Info> - 1 rule files processed. 1 rules successfully loaded, 0 rules failed
+25/4/2020 -- 23:46:52 - <Info> - Threshold config parsed: 0 rule(s) found
+25/4/2020 -- 23:46:52 - <Info> - 1 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 1 inspect application layer, 0 are decoder event only
+25/4/2020 -- 23:46:52 - <Info> - Initializing PCAP ring buffer for ./log.pcap.
+25/4/2020 -- 23:46:52 - <Notice> - Ring buffer initialized with 1 files.
+25/4/2020 -- 23:46:52 - <Notice> - all 5 packet processing threads, 4 management threads initialized, engine started.
+25/4/2020 -- 23:46:52 - <Info> - Starting file run for get.pcap
+25/4/2020 -- 23:46:52 - <Info> - pcap file get.pcap end of file reached (pcap err code 0)
+25/4/2020 -- 23:46:52 - <Notice> - Signal Received.  Stopping engine.
+25/4/2020 -- 23:46:52 - <Info> - time elapsed 0.053s
+25/4/2020 -- 23:46:52 - <Notice> - Pcap-file module read 1 files, 8 packets, 498 bytes
+25/4/2020 -- 23:46:52 - <Info> - Alerts: 1
+25/4/2020 -- 23:46:52 - <Info> - cleaning up signature grouping structure... complete
+25/4/2020 -- 23:47:38 - <Notice> - This is Suricata version 5.0.0 RELEASE running in USER mode
+25/4/2020 -- 23:47:38 - <Info> - CPUs/cores online: 4
+25/4/2020 -- 23:47:38 - <Info> - fast output device (regular) initialized: fast.log
+25/4/2020 -- 23:47:38 - <Info> - eve-log output device (regular) initialized: eve.json
+25/4/2020 -- 23:47:38 - <Info> - Going to log the md5 sum of email body
+25/4/2020 -- 23:47:38 - <Info> - Going to log the md5 sum of email subject
+25/4/2020 -- 23:47:38 - <Info> - DNP3 log sub-module initialized.
+25/4/2020 -- 23:47:38 - <Info> - DNP3 log sub-module initialized.
+25/4/2020 -- 23:47:38 - <Notice> - JsonDHCPLog logger not enabled: protocol dhcp is disabled
+25/4/2020 -- 23:47:38 - <Info> - Using log dir .
+25/4/2020 -- 23:47:38 - <Info> - Selected pcap-log compression method: none
+25/4/2020 -- 23:47:38 - <Info> - using normal logging
+25/4/2020 -- 23:47:38 - <Info> - 1 rule files processed. 1 rules successfully loaded, 0 rules failed
+25/4/2020 -- 23:47:38 - <Info> - Threshold config parsed: 0 rule(s) found
+25/4/2020 -- 23:47:38 - <Info> - 1 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 1 inspect application layer, 0 are decoder event only
+25/4/2020 -- 23:47:38 - <Info> - Initializing PCAP ring buffer for ./log.pcap.
+25/4/2020 -- 23:47:38 - <Notice> - Ring buffer initialized with 1 files.
+25/4/2020 -- 23:47:38 - <Notice> - all 5 packet processing threads, 4 management threads initialized, engine started.
+25/4/2020 -- 23:47:38 - <Info> - Starting file run for get.pcap
+25/4/2020 -- 23:47:38 - <Info> - pcap file get.pcap end of file reached (pcap err code 0)
+25/4/2020 -- 23:47:38 - <Notice> - Signal Received.  Stopping engine.
+25/4/2020 -- 23:47:38 - <Info> - time elapsed 0.057s
+25/4/2020 -- 23:47:39 - <Notice> - Pcap-file module read 1 files, 8 packets, 498 bytes
+25/4/2020 -- 23:47:39 - <Info> - Alerts: 1
+25/4/2020 -- 23:47:39 - <Info> - cleaning up signature grouping structure... complete
+26/4/2020 -- 08:06:38 - <Notice> - This is Suricata version 5.0.0 RELEASE running in SYSTEM mode
+26/4/2020 -- 08:06:38 - <Info> - CPUs/cores online: 4
+26/4/2020 -- 08:06:38 - <Info> - eve-log output device (regular) initialized: eve.json
+26/4/2020 -- 08:06:38 - <Info> - Going to log the md5 sum of email body
+26/4/2020 -- 08:06:38 - <Info> - Going to log the md5 sum of email subject
+26/4/2020 -- 08:06:38 - <Info> - DNP3 log sub-module initialized.
+26/4/2020 -- 08:06:38 - <Info> - DNP3 log sub-module initialized.
+26/4/2020 -- 08:06:39 - <Info> - Rule with ID 2026440 is bidirectional, but source and destination are the same, treating the rule as unidirectional
+26/4/2020 -- 08:06:40 - <Info> - 61 rule files processed. 26943 rules successfully loaded, 0 rules failed
+26/4/2020 -- 08:06:40 - <Info> - Threshold config parsed: 0 rule(s) found
+26/4/2020 -- 08:06:40 - <Info> - 26958 signatures processed. 1168 are IP-only rules, 7128 are inspecting packet payload, 18247 inspect application layer, 107 are decoder event only
+26/4/2020 -- 08:06:40 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.ButterflyJoin' is checked but not set. Checked in 2011296 and 0 other sigs
+26/4/2020 -- 08:06:40 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.Netwire.HB.1' is checked but not set. Checked in 2018282 and 0 other sigs
+26/4/2020 -- 08:06:40 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.GenericPhish_Adobe' is checked but not set. Checked in 2023048 and 0 other sigs
+26/4/2020 -- 08:06:40 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'BE.Radmin.Challenge' is checked but not set. Checked in 2003480 and 0 other sigs
+26/4/2020 -- 08:06:54 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'wlan0': Not supported (95)
+26/4/2020 -- 08:06:54 - <Info> - Going to use 4 thread(s)
+26/4/2020 -- 08:06:54 - <Notice> - all 4 packet processing threads, 4 management threads initialized, engine started.
+26/4/2020 -- 08:06:54 - <Info> - All AFP capture threads are running.
+26/4/2020 -- 08:09:06 - <Notice> - Signal Received.  Stopping engine.
+26/4/2020 -- 08:09:07 - <Info> - time elapsed 132.948s
+26/4/2020 -- 08:09:07 - <Info> - Alerts: 30
+26/4/2020 -- 08:09:07 - <Info> - cleaning up signature grouping structure... complete
+26/4/2020 -- 08:09:07 - <Notice> - Stats for 'wlan0':  pkts: 1246, drop: 0 (0.00%), invalid chksum: 0
+26/4/2020 -- 08:09:07 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'wlan0': Not supported (95)
+26/4/2020 -- 08:11:24 - <Notice> - This is Suricata version 5.0.0 RELEASE running in SYSTEM mode
+26/4/2020 -- 08:11:24 - <Info> - CPUs/cores online: 4
+26/4/2020 -- 08:11:24 - <Info> - fast output device (regular) initialized: fast.log
+26/4/2020 -- 08:11:24 - <Info> - eve-log output device (regular) initialized: eve.json
+26/4/2020 -- 08:11:24 - <Info> - Going to log the md5 sum of email body
+26/4/2020 -- 08:11:24 - <Info> - Going to log the md5 sum of email subject
+26/4/2020 -- 08:11:24 - <Info> - DNP3 log sub-module initialized.
+26/4/2020 -- 08:11:24 - <Info> - DNP3 log sub-module initialized.
+26/4/2020 -- 08:11:24 - <Notice> - JsonDHCPLog logger not enabled: protocol dhcp is disabled
+26/4/2020 -- 08:11:24 - <Info> - Using log dir /var/log/suricata/
+26/4/2020 -- 08:11:24 - <Info> - Selected pcap-log compression method: none
+26/4/2020 -- 08:11:24 - <Info> - using normal logging
+26/4/2020 -- 08:11:25 - <Info> - Rule with ID 2026440 is bidirectional, but source and destination are the same, treating the rule as unidirectional
+26/4/2020 -- 08:11:26 - <Info> - 61 rule files processed. 26943 rules successfully loaded, 0 rules failed
+26/4/2020 -- 08:11:26 - <Info> - Threshold config parsed: 0 rule(s) found
+26/4/2020 -- 08:11:26 - <Info> - 26958 signatures processed. 1168 are IP-only rules, 7128 are inspecting packet payload, 18247 inspect application layer, 107 are decoder event only
+26/4/2020 -- 08:11:26 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.ButterflyJoin' is checked but not set. Checked in 2011296 and 0 other sigs
+26/4/2020 -- 08:11:26 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.Netwire.HB.1' is checked but not set. Checked in 2018282 and 0 other sigs
+26/4/2020 -- 08:11:26 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.GenericPhish_Adobe' is checked but not set. Checked in 2023048 and 0 other sigs
+26/4/2020 -- 08:11:26 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'BE.Radmin.Challenge' is checked but not set. Checked in 2003480 and 0 other sigs
+26/4/2020 -- 08:11:40 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'wlan0': Not supported (95)
+26/4/2020 -- 08:11:40 - <Info> - Going to use 4 thread(s)
+26/4/2020 -- 08:11:40 - <Info> - Initializing PCAP ring buffer for /var/log/suricata//log.pcap.
+26/4/2020 -- 08:11:40 - <Notice> - Ring buffer initialized with 0 files.
+26/4/2020 -- 08:11:40 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+26/4/2020 -- 08:11:40 - <Notice> - all 4 packet processing threads, 4 management threads initialized, engine started.
+26/4/2020 -- 08:11:40 - <Info> - All AFP capture threads are running.
+26/4/2020 -- 08:12:50 - <Notice> - rule reload starting
+26/4/2020 -- 08:12:51 - <Info> - Rule with ID 2026440 is bidirectional, but source and destination are the same, treating the rule as unidirectional
+26/4/2020 -- 08:12:52 - <Info> - 61 rule files processed. 26943 rules successfully loaded, 0 rules failed
+26/4/2020 -- 08:12:52 - <Info> - Threshold config parsed: 0 rule(s) found
+26/4/2020 -- 08:12:52 - <Info> - 26958 signatures processed. 1168 are IP-only rules, 7128 are inspecting packet payload, 18247 inspect application layer, 107 are decoder event only
+26/4/2020 -- 08:12:52 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.ButterflyJoin' is checked but not set. Checked in 2011296 and 0 other sigs
+26/4/2020 -- 08:12:52 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.Netwire.HB.1' is checked but not set. Checked in 2018282 and 0 other sigs
+26/4/2020 -- 08:12:52 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.GenericPhish_Adobe' is checked but not set. Checked in 2023048 and 0 other sigs
+26/4/2020 -- 08:12:52 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'BE.Radmin.Challenge' is checked but not set. Checked in 2003480 and 0 other sigs
+26/4/2020 -- 08:13:07 - <Info> - cleaning up signature grouping structure... complete
+26/4/2020 -- 08:13:07 - <Notice> - rule reload complete
+26/4/2020 -- 08:36:02 - <Info> - Unix socket: lost connection with client
+26/4/2020 -- 08:45:56 - <Info> - Unix socket: lost connection with client
+26/4/2020 -- 08:47:43 - <Notice> - Signal Received.  Stopping engine.
+26/4/2020 -- 08:47:43 - <Info> - time elapsed 2162.949s
+26/4/2020 -- 08:47:43 - <Info> - Alerts: 272
+26/4/2020 -- 08:47:43 - <Info> - cleaning up signature grouping structure... complete
+26/4/2020 -- 08:47:43 - <Notice> - Stats for 'wlan0':  pkts: 23166, drop: 0 (0.00%), invalid chksum: 0
+26/4/2020 -- 08:47:43 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'wlan0': Not supported (95)
+26/4/2020 -- 08:47:54 - <Notice> - This is Suricata version 5.0.0 RELEASE running in SYSTEM mode
+26/4/2020 -- 08:47:54 - <Info> - CPUs/cores online: 4
+26/4/2020 -- 08:47:55 - <Info> - fast output device (regular) initialized: fast.log
+26/4/2020 -- 08:47:55 - <Info> - eve-log output device (regular) initialized: eve.json
+26/4/2020 -- 08:47:55 - <Info> - Going to log the md5 sum of email body
+26/4/2020 -- 08:47:55 - <Info> - Going to log the md5 sum of email subject
+26/4/2020 -- 08:47:55 - <Info> - DNP3 log sub-module initialized.
+26/4/2020 -- 08:47:55 - <Info> - DNP3 log sub-module initialized.
+26/4/2020 -- 08:47:55 - <Notice> - JsonDHCPLog logger not enabled: protocol dhcp is disabled
+26/4/2020 -- 08:47:55 - <Info> - Using log dir /var/log/suricata/
+26/4/2020 -- 08:47:55 - <Info> - Selected pcap-log compression method: none
+26/4/2020 -- 08:47:55 - <Info> - using normal logging
+26/4/2020 -- 08:47:55 - <Info> - Rule with ID 2026440 is bidirectional, but source and destination are the same, treating the rule as unidirectional
+26/4/2020 -- 08:47:56 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/local.rules
+26/4/2020 -- 08:47:56 - <Info> - 62 rule files processed. 26943 rules successfully loaded, 0 rules failed
+26/4/2020 -- 08:47:56 - <Info> - Threshold config parsed: 0 rule(s) found
+26/4/2020 -- 08:47:57 - <Info> - 26958 signatures processed. 1168 are IP-only rules, 7128 are inspecting packet payload, 18247 inspect application layer, 107 are decoder event only
+26/4/2020 -- 08:47:57 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.ButterflyJoin' is checked but not set. Checked in 2011296 and 0 other sigs
+26/4/2020 -- 08:47:57 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.Netwire.HB.1' is checked but not set. Checked in 2018282 and 0 other sigs
+26/4/2020 -- 08:47:57 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.GenericPhish_Adobe' is checked but not set. Checked in 2023048 and 0 other sigs
+26/4/2020 -- 08:47:57 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'BE.Radmin.Challenge' is checked but not set. Checked in 2003480 and 0 other sigs
+26/4/2020 -- 08:48:10 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'wlan0': Not supported (95)
+26/4/2020 -- 08:48:10 - <Info> - Going to use 4 thread(s)
+26/4/2020 -- 08:48:10 - <Info> - Initializing PCAP ring buffer for /var/log/suricata//log.pcap.
+26/4/2020 -- 08:48:10 - <Notice> - Ring buffer initialized with 1 files.
+26/4/2020 -- 08:48:10 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+26/4/2020 -- 08:48:10 - <Notice> - all 4 packet processing threads, 4 management threads initialized, engine started.
+26/4/2020 -- 08:48:10 - <Info> - All AFP capture threads are running.
+26/4/2020 -- 08:53:26 - <Notice> - Signal Received.  Stopping engine.
+26/4/2020 -- 08:53:26 - <Info> - time elapsed 316.276s
+26/4/2020 -- 08:53:26 - <Info> - Alerts: 69
+26/4/2020 -- 08:53:27 - <Info> - cleaning up signature grouping structure... complete
+26/4/2020 -- 08:53:27 - <Notice> - Stats for 'wlan0':  pkts: 2620, drop: 0 (0.00%), invalid chksum: 0
+26/4/2020 -- 08:53:27 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'wlan0': Not supported (95)
+26/4/2020 -- 08:56:54 - <Notice> - This is Suricata version 5.0.0 RELEASE running in SYSTEM mode
+26/4/2020 -- 08:56:54 - <Info> - CPUs/cores online: 4
+26/4/2020 -- 08:56:54 - <Info> - eve-log output device (regular) initialized: eve.json
+26/4/2020 -- 08:56:54 - <Info> - Going to log the md5 sum of email body
+26/4/2020 -- 08:56:54 - <Info> - Going to log the md5 sum of email subject
+26/4/2020 -- 08:56:54 - <Info> - DNP3 log sub-module initialized.
+26/4/2020 -- 08:56:54 - <Info> - DNP3 log sub-module initialized.
+26/4/2020 -- 08:56:54 - <Info> - Rule with ID 2026440 is bidirectional, but source and destination are the same, treating the rule as unidirectional
+26/4/2020 -- 08:56:55 - <Info> - 62 rule files processed. 26943 rules successfully loaded, 0 rules failed
+26/4/2020 -- 08:56:55 - <Info> - Threshold config parsed: 0 rule(s) found
+26/4/2020 -- 08:56:56 - <Info> - 26958 signatures processed. 1168 are IP-only rules, 7128 are inspecting packet payload, 18247 inspect application layer, 107 are decoder event only
+26/4/2020 -- 08:56:56 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.ButterflyJoin' is checked but not set. Checked in 2011296 and 0 other sigs
+26/4/2020 -- 08:56:56 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.Netwire.HB.1' is checked but not set. Checked in 2018282 and 0 other sigs
+26/4/2020 -- 08:56:56 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.GenericPhish_Adobe' is checked but not set. Checked in 2023048 and 0 other sigs
+26/4/2020 -- 08:56:56 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'BE.Radmin.Challenge' is checked but not set. Checked in 2003480 and 0 other sigs
+26/4/2020 -- 08:57:09 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'wlan0': Not supported (95)
+26/4/2020 -- 08:57:09 - <Info> - Going to use 4 thread(s)
+26/4/2020 -- 08:57:09 - <Notice> - all 4 packet processing threads, 4 management threads initialized, engine started.
+26/4/2020 -- 08:57:09 - <Info> - All AFP capture threads are running.
+26/4/2020 -- 09:14:00 - <Error> - [ERRCODE: SC_ERR_OPENING_RULE_FILE(41)] - opening hash file /var/lib/suricata/rules/fileextraction-chksum.list: No such file or directory
+26/4/2020 -- 09:14:00 - <Error> - [ERRCODE: SC_ERR_INVALID_SIGNATURE(39)] - error parsing signature "alert http any any -> any any (msg:"Black list checksum match and extract MD5"; filemd5:fileextraction-chksum.list; filestore; sid:28; rev:1;)" from file /var/lib/suricata/rules at line 25874
+26/4/2020 -- 09:14:00 - <Error> - [ERRCODE: SC_ERR_OPENING_RULE_FILE(41)] - opening hash file /var/lib/suricata/fileextraction-chksum.list: No such file or directory
+26/4/2020 -- 09:14:00 - <Error> - [ERRCODE: SC_ERR_INVALID_SIGNATURE(39)] - error parsing signature "alert http any any -> any any (msg:"Black list checksum match and extract SHA1"; filesha1:fileextraction-chksum.list; filestore; sid:29; rev:1;)" from file /var/lib/suricata at line 25875
+26/4/2020 -- 09:14:00 - <Error> - [ERRCODE: SC_ERR_OPENING_RULE_FILE(41)] - opening hash file /var/lib/fileextraction-chksum.list: No such file or directory
+26/4/2020 -- 09:14:00 - <Error> - [ERRCODE: SC_ERR_INVALID_SIGNATURE(39)] - error parsing signature "alert http any any -> any any (msg:"Black list checksum match and extract SHA256"; filesha256:fileextraction-chksum.list; filestore; sid:30; rev:1;)" from file /var/lib at line 25876
+26/4/2020 -- 09:14:00 - <Error> - [ERRCODE: SC_ERR_NO_RULES_LOADED(43)] - Loading signatures failed.
+26/4/2020 -- 09:20:57 - <Error> - [ERRCODE: SC_ERR_OPENING_RULE_FILE(41)] - opening hash file /var/lib/suricata/rules/fileextraction-chksum.list: No such file or directory
+26/4/2020 -- 09:20:57 - <Error> - [ERRCODE: SC_ERR_INVALID_SIGNATURE(39)] - error parsing signature "alert http any any -> any any (msg:"Black list checksum match and extract MD5"; filemd5:fileextraction-chksum.list; filestore; sid:28; rev:1;)" from file /var/lib/suricata/rules at line 25874
+26/4/2020 -- 09:20:57 - <Error> - [ERRCODE: SC_ERR_OPENING_RULE_FILE(41)] - opening hash file /var/lib/suricata/fileextraction-chksum.list: No such file or directory
+26/4/2020 -- 09:20:57 - <Error> - [ERRCODE: SC_ERR_INVALID_SIGNATURE(39)] - error parsing signature "alert http any any -> any any (msg:"Black list checksum match and extract SHA1"; filesha1:fileextraction-chksum.list; filestore; sid:29; rev:1;)" from file /var/lib/suricata at line 25875
+26/4/2020 -- 09:20:57 - <Error> - [ERRCODE: SC_ERR_OPENING_RULE_FILE(41)] - opening hash file /var/lib/fileextraction-chksum.list: No such file or directory
+26/4/2020 -- 09:20:57 - <Error> - [ERRCODE: SC_ERR_INVALID_SIGNATURE(39)] - error parsing signature "alert http any any -> any any (msg:"Black list checksum match and extract SHA256"; filesha256:fileextraction-chksum.list; filestore; sid:30; rev:1;)" from file /var/lib at line 25876
+26/4/2020 -- 09:20:57 - <Error> - [ERRCODE: SC_ERR_NO_RULES_LOADED(43)] - Loading signatures failed.
+26/4/2020 -- 09:36:40 - <Error> - [ERRCODE: SC_ERR_OPENING_RULE_FILE(41)] - opening hash file /var/lib/suricata/rules/fileextraction-chksum.list: No such file or directory
+26/4/2020 -- 09:36:40 - <Error> - [ERRCODE: SC_ERR_INVALID_SIGNATURE(39)] - error parsing signature "alert http any any -> any any (msg:"Black list checksum match and extract MD5"; filemd5:fileextraction-chksum.list; filestore; sid:28; rev:1;)" from file /var/lib/suricata/rules at line 25874
+26/4/2020 -- 09:36:40 - <Error> - [ERRCODE: SC_ERR_OPENING_RULE_FILE(41)] - opening hash file /var/lib/suricata/fileextraction-chksum.list: No such file or directory
+26/4/2020 -- 09:36:40 - <Error> - [ERRCODE: SC_ERR_INVALID_SIGNATURE(39)] - error parsing signature "alert http any any -> any any (msg:"Black list checksum match and extract SHA1"; filesha1:fileextraction-chksum.list; filestore; sid:29; rev:1;)" from file /var/lib/suricata at line 25875
+26/4/2020 -- 09:36:40 - <Error> - [ERRCODE: SC_ERR_OPENING_RULE_FILE(41)] - opening hash file /var/lib/fileextraction-chksum.list: No such file or directory
+26/4/2020 -- 09:36:40 - <Error> - [ERRCODE: SC_ERR_INVALID_SIGNATURE(39)] - error parsing signature "alert http any any -> any any (msg:"Black list checksum match and extract SHA256"; filesha256:fileextraction-chksum.list; filestore; sid:30; rev:1;)" from file /var/lib at line 25876
+26/4/2020 -- 09:36:40 - <Error> - [ERRCODE: SC_ERR_NO_RULES_LOADED(43)] - Loading signatures failed.
+26/4/2020 -- 09:40:01 - <Notice> - Signal Received.  Stopping engine.
+26/4/2020 -- 09:40:01 - <Info> - time elapsed 2572.003s
+26/4/2020 -- 09:40:01 - <Info> - Alerts: 323
+26/4/2020 -- 09:40:01 - <Info> - cleaning up signature grouping structure... complete
+26/4/2020 -- 09:40:01 - <Notice> - Stats for 'wlan0':  pkts: 41896, drop: 0 (0.00%), invalid chksum: 0
+26/4/2020 -- 09:40:01 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'wlan0': Not supported (95)
+26/4/2020 -- 09:40:14 - <Notice> - This is Suricata version 5.0.0 RELEASE running in SYSTEM mode
+26/4/2020 -- 09:40:14 - <Info> - CPUs/cores online: 4
+26/4/2020 -- 09:40:14 - <Info> - fast output device (regular) initialized: fast.log
+26/4/2020 -- 09:40:14 - <Info> - eve-log output device (regular) initialized: eve.json
+26/4/2020 -- 09:40:14 - <Info> - Going to log the md5 sum of email body
+26/4/2020 -- 09:40:14 - <Info> - Going to log the md5 sum of email subject
+26/4/2020 -- 09:40:14 - <Info> - DNP3 log sub-module initialized.
+26/4/2020 -- 09:40:14 - <Info> - DNP3 log sub-module initialized.
+26/4/2020 -- 09:40:14 - <Notice> - JsonDHCPLog logger not enabled: protocol dhcp is disabled
+26/4/2020 -- 09:40:14 - <Info> - Using log dir /var/log/suricata/
+26/4/2020 -- 09:40:14 - <Info> - Selected pcap-log compression method: none
+26/4/2020 -- 09:40:14 - <Info> - using normal logging
+26/4/2020 -- 09:40:14 - <Info> - Rule with ID 2026440 is bidirectional, but source and destination are the same, treating the rule as unidirectional
+26/4/2020 -- 09:40:16 - <Info> - 62 rule files processed. 26944 rules successfully loaded, 0 rules failed
+26/4/2020 -- 09:40:16 - <Info> - Threshold config parsed: 0 rule(s) found
+26/4/2020 -- 09:40:16 - <Info> - 26959 signatures processed. 1168 are IP-only rules, 7128 are inspecting packet payload, 18248 inspect application layer, 107 are decoder event only
+26/4/2020 -- 09:40:16 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.ButterflyJoin' is checked but not set. Checked in 2011296 and 0 other sigs
+26/4/2020 -- 09:40:16 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.Netwire.HB.1' is checked but not set. Checked in 2018282 and 0 other sigs
+26/4/2020 -- 09:40:16 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.GenericPhish_Adobe' is checked but not set. Checked in 2023048 and 0 other sigs
+26/4/2020 -- 09:40:16 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'BE.Radmin.Challenge' is checked but not set. Checked in 2003480 and 0 other sigs
+26/4/2020 -- 09:40:30 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'wlan0': Not supported (95)
+26/4/2020 -- 09:40:30 - <Info> - Going to use 4 thread(s)
+26/4/2020 -- 09:40:30 - <Info> - Initializing PCAP ring buffer for /var/log/suricata//log.pcap.
+26/4/2020 -- 09:40:30 - <Notice> - Ring buffer initialized with 2 files.
+26/4/2020 -- 09:40:30 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+26/4/2020 -- 09:40:30 - <Notice> - all 4 packet processing threads, 4 management threads initialized, engine started.
+26/4/2020 -- 09:40:30 - <Info> - All AFP capture threads are running.
+26/4/2020 -- 09:41:00 - <Error> - [ERRCODE: SC_ERR_OPENING_RULE_FILE(41)] - opening hash file /var/lib/suricata/rules/fileextraction-chksum.list: No such file or directory
+26/4/2020 -- 09:41:00 - <Error> - [ERRCODE: SC_ERR_INVALID_SIGNATURE(39)] - error parsing signature "alert http any any -> any any (msg:"Black list checksum match and extract MD5"; filemd5:fileextraction-chksum.list; filestore; sid:28; rev:1;)" from file /var/lib/suricata/rules at line 25874
+26/4/2020 -- 09:41:00 - <Error> - [ERRCODE: SC_ERR_OPENING_RULE_FILE(41)] - opening hash file /var/lib/suricata/fileextraction-chksum.list: No such file or directory
+26/4/2020 -- 09:41:00 - <Error> - [ERRCODE: SC_ERR_INVALID_SIGNATURE(39)] - error parsing signature "alert http any any -> any any (msg:"Black list checksum match and extract SHA1"; filesha1:fileextraction-chksum.list; filestore; sid:29; rev:1;)" from file /var/lib/suricata at line 25875
+26/4/2020 -- 09:41:00 - <Error> - [ERRCODE: SC_ERR_OPENING_RULE_FILE(41)] - opening hash file /var/lib/fileextraction-chksum.list: No such file or directory
+26/4/2020 -- 09:41:00 - <Error> - [ERRCODE: SC_ERR_INVALID_SIGNATURE(39)] - error parsing signature "alert http any any -> any any (msg:"Black list checksum match and extract SHA256"; filesha256:fileextraction-chksum.list; filestore; sid:30; rev:1;)" from file /var/lib at line 25876
+26/4/2020 -- 09:41:00 - <Error> - [ERRCODE: SC_ERR_NO_RULES_LOADED(43)] - Loading signatures failed.
+26/4/2020 -- 09:41:08 - <Info> - Unix socket: lost connection with client
+26/4/2020 -- 09:41:08 - <Notice> - rule reload starting
+26/4/2020 -- 09:41:08 - <Info> - Rule with ID 2026440 is bidirectional, but source and destination are the same, treating the rule as unidirectional
+26/4/2020 -- 09:41:09 - <Info> - 62 rule files processed. 26944 rules successfully loaded, 0 rules failed
+26/4/2020 -- 09:41:09 - <Info> - Threshold config parsed: 0 rule(s) found
+26/4/2020 -- 09:41:10 - <Info> - 26959 signatures processed. 1168 are IP-only rules, 7128 are inspecting packet payload, 18248 inspect application layer, 107 are decoder event only
+26/4/2020 -- 09:41:10 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.ButterflyJoin' is checked but not set. Checked in 2011296 and 0 other sigs
+26/4/2020 -- 09:41:10 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.Netwire.HB.1' is checked but not set. Checked in 2018282 and 0 other sigs
+26/4/2020 -- 09:41:10 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.GenericPhish_Adobe' is checked but not set. Checked in 2023048 and 0 other sigs
+26/4/2020 -- 09:41:10 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'BE.Radmin.Challenge' is checked but not set. Checked in 2003480 and 0 other sigs
+26/4/2020 -- 09:41:25 - <Info> - cleaning up signature grouping structure... complete
+26/4/2020 -- 09:41:25 - <Notice> - rule reload complete
+26/4/2020 -- 09:46:59 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.ButterflyJoin' is checked but not set. Checked in 2011296 and 0 other sigs
+26/4/2020 -- 09:46:59 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.Netwire.HB.1' is checked but not set. Checked in 2018282 and 0 other sigs
+26/4/2020 -- 09:46:59 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.GenericPhish_Adobe' is checked but not set. Checked in 2023048 and 0 other sigs
+26/4/2020 -- 09:46:59 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'BE.Radmin.Challenge' is checked but not set. Checked in 2003480 and 0 other sigs
+26/4/2020 -- 09:47:58 - <Info> - Unix socket: lost connection with client
+26/4/2020 -- 09:47:58 - <Notice> - rule reload starting
+26/4/2020 -- 09:47:58 - <Info> - Rule with ID 2026440 is bidirectional, but source and destination are the same, treating the rule as unidirectional
+26/4/2020 -- 09:47:59 - <Info> - 62 rule files processed. 26944 rules successfully loaded, 0 rules failed
+26/4/2020 -- 09:47:59 - <Info> - Threshold config parsed: 0 rule(s) found
+26/4/2020 -- 09:48:00 - <Info> - 26959 signatures processed. 1168 are IP-only rules, 7128 are inspecting packet payload, 18248 inspect application layer, 107 are decoder event only
+26/4/2020 -- 09:48:00 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.ButterflyJoin' is checked but not set. Checked in 2011296 and 0 other sigs
+26/4/2020 -- 09:48:00 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.Netwire.HB.1' is checked but not set. Checked in 2018282 and 0 other sigs
+26/4/2020 -- 09:48:00 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.GenericPhish_Adobe' is checked but not set. Checked in 2023048 and 0 other sigs
+26/4/2020 -- 09:48:00 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'BE.Radmin.Challenge' is checked but not set. Checked in 2003480 and 0 other sigs
+26/4/2020 -- 09:48:17 - <Info> - cleaning up signature grouping structure... complete
+26/4/2020 -- 09:48:17 - <Notice> - rule reload complete
+26/4/2020 -- 09:55:08 - <Notice> - Signal Received.  Stopping engine.
+26/4/2020 -- 09:55:08 - <Info> - time elapsed 878.596s
+26/4/2020 -- 09:55:09 - <Info> - Alerts: 115
+26/4/2020 -- 09:55:09 - <Info> - cleaning up signature grouping structure... complete
+26/4/2020 -- 09:55:09 - <Notice> - Stats for 'wlan0':  pkts: 7594, drop: 0 (0.00%), invalid chksum: 0
+26/4/2020 -- 09:55:09 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'wlan0': Not supported (95)
+[12] 26/4/2020 -- 18:27:17 - (suricata.c:1083) <Notice> (LogVersion) -- This is Suricata version 5.0.2 RELEASE running in SYSTEM mode
+[12] 26/4/2020 -- 18:27:17 - (util-cpu.c:171) <Info> (UtilCpuPrintSummary) -- CPUs/cores online: 4
+[12] 26/4/2020 -- 18:27:17 - (util-ioctl.c:111) <Info> (GetIfaceMTU) -- Found an MTU of 1500 for 'wlan0'
+[12] 26/4/2020 -- 18:27:17 - (util-ioctl.c:111) <Info> (GetIfaceMTU) -- Found an MTU of 1500 for 'wlan0'
+[12] 26/4/2020 -- 18:27:17 - (util-logopenfile.c:473) <Info> (SCConfLogOpenGeneric) -- fast output device (regular) initialized: fast.log
+[12] 26/4/2020 -- 18:27:17 - (util-logopenfile.c:473) <Info> (SCConfLogOpenGeneric) -- eve-log output device (regular) initialized: eve.json
+[12] 26/4/2020 -- 18:27:17 - (output-json-email-common.c:453) <Info> (OutputEmailInitConf) -- Going to log the md5 sum of email body
+[12] 26/4/2020 -- 18:27:17 - (output-json-email-common.c:457) <Info> (OutputEmailInitConf) -- Going to log the md5 sum of email subject
+[12] 26/4/2020 -- 18:27:17 - (output-json-dnp3.c:389) <Info> (OutputDNP3LogInitSub) -- DNP3 log sub-module initialized.
+[12] 26/4/2020 -- 18:27:17 - (output-json-dnp3.c:389) <Info> (OutputDNP3LogInitSub) -- DNP3 log sub-module initialized.
+[12] 26/4/2020 -- 18:27:17 - (output-tx.c:76) <Notice> (OutputRegisterTxLogger) -- JsonDHCPLog logger not enabled: protocol dhcp is disabled
+[12] 26/4/2020 -- 18:27:17 - (util-classification-config.c:139) <Warning> (SCClassConfInitContextAndLocalResources) -- [ERRCODE: SC_ERR_FOPEN(44)] - could not open: "/etc/suricata/rules/classification.config": No such file or directory
+[12] 26/4/2020 -- 18:27:17 - (util-classification-config.c:537) <Error> (SCClassConfLoadClassficationConfigFile) -- [ERRCODE: SC_ERR_OPENING_FILE(40)] - please check the "classification-file" option in your suricata.yaml file
+[12] 26/4/2020 -- 18:27:17 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/botcc.rules
+[12] 26/4/2020 -- 18:27:17 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/botcc.portgrouped.rules
+[12] 26/4/2020 -- 18:27:17 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/ciarmy.rules
+[12] 26/4/2020 -- 18:27:17 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/compromised.rules
+[12] 26/4/2020 -- 18:27:17 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/drop.rules
+[12] 26/4/2020 -- 18:27:17 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/dshield.rules
+[12] 26/4/2020 -- 18:27:17 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-activex.rules
+[12] 26/4/2020 -- 18:27:17 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-adware_pup.rules
+[12] 26/4/2020 -- 18:27:17 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-attack_response.rules
+[12] 26/4/2020 -- 18:27:17 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-chat.rules
+[12] 26/4/2020 -- 18:27:17 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-coinminer.rules
+[12] 26/4/2020 -- 18:27:17 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-current_events.rules
+[12] 26/4/2020 -- 18:27:17 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-dns.rules
+[12] 26/4/2020 -- 18:27:17 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-dos.rules
+[12] 26/4/2020 -- 18:27:17 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-exploit.rules
+[12] 26/4/2020 -- 18:27:17 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-exploit_kit.rules
+[12] 26/4/2020 -- 18:27:17 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-ftp.rules
+[12] 26/4/2020 -- 18:27:17 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-games.rules
+[12] 26/4/2020 -- 18:27:17 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-hunting.rules
+[12] 26/4/2020 -- 18:27:17 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-icmp_info.rules
+[12] 26/4/2020 -- 18:27:17 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-icmp.rules
+[12] 26/4/2020 -- 18:27:17 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-imap.rules
+[12] 26/4/2020 -- 18:27:17 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-inappropriate.rules
+[12] 26/4/2020 -- 18:27:17 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-info.rules
+[12] 26/4/2020 -- 18:27:17 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-ja3.rules
+[12] 26/4/2020 -- 18:27:17 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-malware.rules
+[12] 26/4/2020 -- 18:27:17 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-misc.rules
+[12] 26/4/2020 -- 18:27:17 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-mobile_malware.rules
+[12] 26/4/2020 -- 18:27:17 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-netbios.rules
+[12] 26/4/2020 -- 18:27:17 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-p2p.rules
+[12] 26/4/2020 -- 18:27:17 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-phishing.rules
+[12] 26/4/2020 -- 18:27:17 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-policy.rules
+[12] 26/4/2020 -- 18:27:17 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-pop3.rules
+[12] 26/4/2020 -- 18:27:17 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-rpc.rules
+[12] 26/4/2020 -- 18:27:17 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-scada.rules
+[12] 26/4/2020 -- 18:27:17 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-scan.rules
+[12] 26/4/2020 -- 18:27:17 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-shellcode.rules
+[12] 26/4/2020 -- 18:27:17 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-smtp.rules
+[12] 26/4/2020 -- 18:27:17 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-snmp.rules
+[12] 26/4/2020 -- 18:27:17 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-sql.rules
+[12] 26/4/2020 -- 18:27:17 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-telnet.rules
+[12] 26/4/2020 -- 18:27:17 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-tftp.rules
+[12] 26/4/2020 -- 18:27:17 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-user_agents.rules
+[12] 26/4/2020 -- 18:27:17 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-voip.rules
+[12] 26/4/2020 -- 18:27:17 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-web_client.rules
+[12] 26/4/2020 -- 18:27:17 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-web_server.rules
+[12] 26/4/2020 -- 18:27:17 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-web_specific_apps.rules
+[12] 26/4/2020 -- 18:27:17 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-worm.rules
+[12] 26/4/2020 -- 18:27:17 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/tor.rules
+[12] 26/4/2020 -- 18:27:17 - (detect-classtype.c:146) <Warning> (DetectClasstypeSetup) -- [ERRCODE: SC_ERR_UNKNOWN_VALUE(129)] - signature at /etc/suricata/rules/decoder-events.rules:3 uses unknown classtype: "protocol-command-decode", using default priority 3. This message won't be shown again for this classtype
+[12] 26/4/2020 -- 18:27:17 - (detect-engine-loader.c:352) <Info> (SigLoadSignatures) -- 61 rule files processed. 291 rules successfully loaded, 0 rules failed
+[12] 26/4/2020 -- 18:27:17 - (util-threshold-config.c:1126) <Info> (SCThresholdConfParseFile) -- Threshold config parsed: 0 rule(s) found
+[12] 26/4/2020 -- 18:27:17 - (detect-engine-build.c:1412) <Info> (SigAddressPrepareStage1) -- 291 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 120 inspect application layer, 103 are decoder event only
+[12] 26/4/2020 -- 18:27:17 - (util-ioctl.c:322) <Warning> (SetEthtoolValue) -- [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'wlan0': Not supported (95)
+[12] 26/4/2020 -- 18:27:17 - (util-runmodes.c:297) <Info> (RunModeSetLiveCaptureWorkersForDevice) -- Going to use 4 thread(s)
+[12] 26/4/2020 -- 18:27:17 - (unix-manager.c:132) <Info> (UnixNew) -- Using unix socket file '/var/run/suricata/suricata-command.socket'
+[12] 26/4/2020 -- 18:27:17 - (tm-threads.c:2169) <Notice> (TmThreadWaitOnThreadInit) -- all 4 packet processing threads, 4 management threads initialized, engine started.
+[17] 26/4/2020 -- 18:27:17 - (source-af-packet.c:515) <Info> (AFPPeersListReachedInc) -- All AFP capture threads are running.
+[12] 26/4/2020 -- 18:27:49 - (suricata.c:2916) <Notice> (SuricataMainLoop) -- Signal Received.  Stopping engine.
+[12] 26/4/2020 -- 18:27:49 - (suricata.c:1103) <Info> (SCPrintElapsedTime) -- time elapsed 31.797s
+[12] 26/4/2020 -- 18:27:49 - (counters.c:853) <Info> (StatsLogSummary) -- Alerts: 0
+[12] 26/4/2020 -- 18:27:49 - (detect-engine-build.c:1716) <Info> (SigAddressCleanupStage1) -- cleaning up signature grouping structure... complete
+[12] 26/4/2020 -- 18:27:49 - (util-device.c:355) <Notice> (LiveDeviceListClean) -- Stats for 'wlan0':  pkts: 77, drop: 0 (0.00%), invalid chksum: 0
+[12] 26/4/2020 -- 18:27:49 - (util-ioctl.c:322) <Warning> (SetEthtoolValue) -- [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'wlan0': Not supported (95)
+[7] 28/4/2020 -- 22:41:23 - (suricata.c:1083) <Notice> (LogVersion) -- This is Suricata version 5.0.2 RELEASE running in SYSTEM mode
+[7] 28/4/2020 -- 22:41:23 - (util-cpu.c:171) <Info> (UtilCpuPrintSummary) -- CPUs/cores online: 4
+[7] 28/4/2020 -- 22:41:23 - (util-ioctl.c:111) <Info> (GetIfaceMTU) -- Found an MTU of 1500 for 'wlan0'
+[7] 28/4/2020 -- 22:41:23 - (util-ioctl.c:111) <Info> (GetIfaceMTU) -- Found an MTU of 1500 for 'wlan0'
+[7] 28/4/2020 -- 22:41:23 - (util-logopenfile.c:473) <Info> (SCConfLogOpenGeneric) -- fast output device (regular) initialized: fast.log
+[7] 28/4/2020 -- 22:41:23 - (util-logopenfile.c:473) <Info> (SCConfLogOpenGeneric) -- eve-log output device (regular) initialized: eve.json
+[7] 28/4/2020 -- 22:41:23 - (output-json-email-common.c:453) <Info> (OutputEmailInitConf) -- Going to log the md5 sum of email body
+[7] 28/4/2020 -- 22:41:23 - (output-json-email-common.c:457) <Info> (OutputEmailInitConf) -- Going to log the md5 sum of email subject
+[7] 28/4/2020 -- 22:41:23 - (output-json-dnp3.c:389) <Info> (OutputDNP3LogInitSub) -- DNP3 log sub-module initialized.
+[7] 28/4/2020 -- 22:41:23 - (output-json-dnp3.c:389) <Info> (OutputDNP3LogInitSub) -- DNP3 log sub-module initialized.
+[7] 28/4/2020 -- 22:41:23 - (output-tx.c:76) <Notice> (OutputRegisterTxLogger) -- JsonDHCPLog logger not enabled: protocol dhcp is disabled
+[7] 28/4/2020 -- 22:41:23 - (util-classification-config.c:139) <Warning> (SCClassConfInitContextAndLocalResources) -- [ERRCODE: SC_ERR_FOPEN(44)] - could not open: "/etc/suricata/rules/classification.config": No such file or directory
+[7] 28/4/2020 -- 22:41:23 - (util-classification-config.c:537) <Error> (SCClassConfLoadClassficationConfigFile) -- [ERRCODE: SC_ERR_OPENING_FILE(40)] - please check the "classification-file" option in your suricata.yaml file
+[7] 28/4/2020 -- 22:41:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/botcc.rules
+[7] 28/4/2020 -- 22:41:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/botcc.portgrouped.rules
+[7] 28/4/2020 -- 22:41:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/ciarmy.rules
+[7] 28/4/2020 -- 22:41:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/compromised.rules
+[7] 28/4/2020 -- 22:41:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/drop.rules
+[7] 28/4/2020 -- 22:41:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/dshield.rules
+[7] 28/4/2020 -- 22:41:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-activex.rules
+[7] 28/4/2020 -- 22:41:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-adware_pup.rules
+[7] 28/4/2020 -- 22:41:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-attack_response.rules
+[7] 28/4/2020 -- 22:41:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-chat.rules
+[7] 28/4/2020 -- 22:41:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-coinminer.rules
+[7] 28/4/2020 -- 22:41:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-current_events.rules
+[7] 28/4/2020 -- 22:41:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-dns.rules
+[7] 28/4/2020 -- 22:41:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-dos.rules
+[7] 28/4/2020 -- 22:41:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-exploit.rules
+[7] 28/4/2020 -- 22:41:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-exploit_kit.rules
+[7] 28/4/2020 -- 22:41:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-ftp.rules
+[7] 28/4/2020 -- 22:41:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-games.rules
+[7] 28/4/2020 -- 22:41:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-hunting.rules
+[7] 28/4/2020 -- 22:41:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-icmp_info.rules
+[7] 28/4/2020 -- 22:41:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-icmp.rules
+[7] 28/4/2020 -- 22:41:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-imap.rules
+[7] 28/4/2020 -- 22:41:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-inappropriate.rules
+[7] 28/4/2020 -- 22:41:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-info.rules
+[7] 28/4/2020 -- 22:41:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-ja3.rules
+[7] 28/4/2020 -- 22:41:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-malware.rules
+[7] 28/4/2020 -- 22:41:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-misc.rules
+[7] 28/4/2020 -- 22:41:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-mobile_malware.rules
+[7] 28/4/2020 -- 22:41:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-netbios.rules
+[7] 28/4/2020 -- 22:41:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-p2p.rules
+[7] 28/4/2020 -- 22:41:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-phishing.rules
+[7] 28/4/2020 -- 22:41:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-policy.rules
+[7] 28/4/2020 -- 22:41:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-pop3.rules
+[7] 28/4/2020 -- 22:41:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-rpc.rules
+[7] 28/4/2020 -- 22:41:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-scada.rules
+[7] 28/4/2020 -- 22:41:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-scan.rules
+[7] 28/4/2020 -- 22:41:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-shellcode.rules
+[7] 28/4/2020 -- 22:41:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-smtp.rules
+[7] 28/4/2020 -- 22:41:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-snmp.rules
+[7] 28/4/2020 -- 22:41:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-sql.rules
+[7] 28/4/2020 -- 22:41:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-telnet.rules
+[7] 28/4/2020 -- 22:41:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-tftp.rules
+[7] 28/4/2020 -- 22:41:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-user_agents.rules
+[7] 28/4/2020 -- 22:41:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-voip.rules
+[7] 28/4/2020 -- 22:41:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-web_client.rules
+[7] 28/4/2020 -- 22:41:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-web_server.rules
+[7] 28/4/2020 -- 22:41:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-web_specific_apps.rules
+[7] 28/4/2020 -- 22:41:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-worm.rules
+[7] 28/4/2020 -- 22:41:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/tor.rules
+[7] 28/4/2020 -- 22:41:23 - (detect-classtype.c:146) <Warning> (DetectClasstypeSetup) -- [ERRCODE: SC_ERR_UNKNOWN_VALUE(129)] - signature at /etc/suricata/rules/decoder-events.rules:3 uses unknown classtype: "protocol-command-decode", using default priority 3. This message won't be shown again for this classtype
+[7] 28/4/2020 -- 22:41:23 - (detect-engine-loader.c:352) <Info> (SigLoadSignatures) -- 61 rule files processed. 291 rules successfully loaded, 0 rules failed
+[7] 28/4/2020 -- 22:41:23 - (util-threshold-config.c:1126) <Info> (SCThresholdConfParseFile) -- Threshold config parsed: 0 rule(s) found
+[7] 28/4/2020 -- 22:41:23 - (detect-engine-build.c:1412) <Info> (SigAddressPrepareStage1) -- 291 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 120 inspect application layer, 103 are decoder event only
+[7] 28/4/2020 -- 22:41:23 - (util-ioctl.c:322) <Warning> (SetEthtoolValue) -- [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'wlan0': Not supported (95)
+[7] 28/4/2020 -- 22:41:23 - (util-runmodes.c:297) <Info> (RunModeSetLiveCaptureWorkersForDevice) -- Going to use 4 thread(s)
+[7] 28/4/2020 -- 22:41:23 - (unix-manager.c:132) <Info> (UnixNew) -- Using unix socket file '/var/run/suricata/suricata-command.socket'
+[7] 28/4/2020 -- 22:41:23 - (tm-threads.c:2169) <Notice> (TmThreadWaitOnThreadInit) -- all 4 packet processing threads, 4 management threads initialized, engine started.
+[11] 28/4/2020 -- 22:41:24 - (source-af-packet.c:515) <Info> (AFPPeersListReachedInc) -- All AFP capture threads are running.
+[7] 28/4/2020 -- 22:41:46 - (suricata.c:2916) <Notice> (SuricataMainLoop) -- Signal Received.  Stopping engine.
+[7] 28/4/2020 -- 22:41:46 - (suricata.c:1103) <Info> (SCPrintElapsedTime) -- time elapsed 23.170s
+[7] 28/4/2020 -- 22:41:47 - (counters.c:853) <Info> (StatsLogSummary) -- Alerts: 0
+[7] 28/4/2020 -- 22:41:47 - (detect-engine-build.c:1716) <Info> (SigAddressCleanupStage1) -- cleaning up signature grouping structure... complete
+[7] 28/4/2020 -- 22:41:47 - (util-device.c:355) <Notice> (LiveDeviceListClean) -- Stats for 'wlan0':  pkts: 180, drop: 0 (0.00%), invalid chksum: 0
+[7] 28/4/2020 -- 22:41:47 - (util-ioctl.c:322) <Warning> (SetEthtoolValue) -- [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'wlan0': Not supported (95)
+[8] 28/4/2020 -- 22:52:03 - (suricata.c:1083) <Notice> (LogVersion) -- This is Suricata version 5.0.2 RELEASE running in SYSTEM mode
+[8] 28/4/2020 -- 22:52:03 - (util-cpu.c:171) <Info> (UtilCpuPrintSummary) -- CPUs/cores online: 4
+[8] 28/4/2020 -- 22:52:03 - (util-ioctl.c:111) <Info> (GetIfaceMTU) -- Found an MTU of 1500 for 'wlan0'
+[8] 28/4/2020 -- 22:52:03 - (util-ioctl.c:111) <Info> (GetIfaceMTU) -- Found an MTU of 1500 for 'wlan0'
+[8] 28/4/2020 -- 22:52:03 - (util-logopenfile.c:473) <Info> (SCConfLogOpenGeneric) -- fast output device (regular) initialized: fast.log
+[8] 28/4/2020 -- 22:52:03 - (util-logopenfile.c:473) <Info> (SCConfLogOpenGeneric) -- eve-log output device (regular) initialized: eve.json
+[8] 28/4/2020 -- 22:52:03 - (output-json-email-common.c:453) <Info> (OutputEmailInitConf) -- Going to log the md5 sum of email body
+[8] 28/4/2020 -- 22:52:03 - (output-json-email-common.c:457) <Info> (OutputEmailInitConf) -- Going to log the md5 sum of email subject
+[8] 28/4/2020 -- 22:52:03 - (output-json-dnp3.c:389) <Info> (OutputDNP3LogInitSub) -- DNP3 log sub-module initialized.
+[8] 28/4/2020 -- 22:52:03 - (output-json-dnp3.c:389) <Info> (OutputDNP3LogInitSub) -- DNP3 log sub-module initialized.
+[8] 28/4/2020 -- 22:52:03 - (output-tx.c:76) <Notice> (OutputRegisterTxLogger) -- JsonDHCPLog logger not enabled: protocol dhcp is disabled
+[8] 28/4/2020 -- 22:52:03 - (util-classification-config.c:139) <Warning> (SCClassConfInitContextAndLocalResources) -- [ERRCODE: SC_ERR_FOPEN(44)] - could not open: "/etc/suricata/rules/classification.config": No such file or directory
+[8] 28/4/2020 -- 22:52:03 - (util-classification-config.c:537) <Error> (SCClassConfLoadClassficationConfigFile) -- [ERRCODE: SC_ERR_OPENING_FILE(40)] - please check the "classification-file" option in your suricata.yaml file
+[8] 28/4/2020 -- 22:52:03 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/botcc.rules
+[8] 28/4/2020 -- 22:52:03 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/botcc.portgrouped.rules
+[8] 28/4/2020 -- 22:52:03 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/ciarmy.rules
+[8] 28/4/2020 -- 22:52:03 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/compromised.rules
+[8] 28/4/2020 -- 22:52:03 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/drop.rules
+[8] 28/4/2020 -- 22:52:03 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/dshield.rules
+[8] 28/4/2020 -- 22:52:03 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-activex.rules
+[8] 28/4/2020 -- 22:52:03 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-adware_pup.rules
+[8] 28/4/2020 -- 22:52:03 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-attack_response.rules
+[8] 28/4/2020 -- 22:52:03 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-chat.rules
+[8] 28/4/2020 -- 22:52:03 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-coinminer.rules
+[8] 28/4/2020 -- 22:52:03 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-current_events.rules
+[8] 28/4/2020 -- 22:52:03 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-dns.rules
+[8] 28/4/2020 -- 22:52:03 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-dos.rules
+[8] 28/4/2020 -- 22:52:03 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-exploit.rules
+[8] 28/4/2020 -- 22:52:03 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-exploit_kit.rules
+[8] 28/4/2020 -- 22:52:03 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-ftp.rules
+[8] 28/4/2020 -- 22:52:03 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-games.rules
+[8] 28/4/2020 -- 22:52:03 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-hunting.rules
+[8] 28/4/2020 -- 22:52:03 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-icmp_info.rules
+[8] 28/4/2020 -- 22:52:03 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-icmp.rules
+[8] 28/4/2020 -- 22:52:03 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-imap.rules
+[8] 28/4/2020 -- 22:52:03 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-inappropriate.rules
+[8] 28/4/2020 -- 22:52:03 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-info.rules
+[8] 28/4/2020 -- 22:52:03 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-ja3.rules
+[8] 28/4/2020 -- 22:52:03 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-malware.rules
+[8] 28/4/2020 -- 22:52:03 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-misc.rules
+[8] 28/4/2020 -- 22:52:03 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-mobile_malware.rules
+[8] 28/4/2020 -- 22:52:03 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-netbios.rules
+[8] 28/4/2020 -- 22:52:03 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-p2p.rules
+[8] 28/4/2020 -- 22:52:03 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-phishing.rules
+[8] 28/4/2020 -- 22:52:03 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-policy.rules
+[8] 28/4/2020 -- 22:52:03 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-pop3.rules
+[8] 28/4/2020 -- 22:52:03 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-rpc.rules
+[8] 28/4/2020 -- 22:52:03 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-scada.rules
+[8] 28/4/2020 -- 22:52:03 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-scan.rules
+[8] 28/4/2020 -- 22:52:03 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-shellcode.rules
+[8] 28/4/2020 -- 22:52:03 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-smtp.rules
+[8] 28/4/2020 -- 22:52:03 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-snmp.rules
+[8] 28/4/2020 -- 22:52:03 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-sql.rules
+[8] 28/4/2020 -- 22:52:03 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-telnet.rules
+[8] 28/4/2020 -- 22:52:03 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-tftp.rules
+[8] 28/4/2020 -- 22:52:03 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-user_agents.rules
+[8] 28/4/2020 -- 22:52:03 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-voip.rules
+[8] 28/4/2020 -- 22:52:03 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-web_client.rules
+[8] 28/4/2020 -- 22:52:03 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-web_server.rules
+[8] 28/4/2020 -- 22:52:03 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-web_specific_apps.rules
+[8] 28/4/2020 -- 22:52:03 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-worm.rules
+[8] 28/4/2020 -- 22:52:03 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/tor.rules
+[8] 28/4/2020 -- 22:52:03 - (detect-classtype.c:146) <Warning> (DetectClasstypeSetup) -- [ERRCODE: SC_ERR_UNKNOWN_VALUE(129)] - signature at /etc/suricata/rules/decoder-events.rules:3 uses unknown classtype: "protocol-command-decode", using default priority 3. This message won't be shown again for this classtype
+[8] 28/4/2020 -- 22:52:03 - (detect-engine-loader.c:352) <Info> (SigLoadSignatures) -- 61 rule files processed. 291 rules successfully loaded, 0 rules failed
+[8] 28/4/2020 -- 22:52:03 - (util-threshold-config.c:1126) <Info> (SCThresholdConfParseFile) -- Threshold config parsed: 0 rule(s) found
+[8] 28/4/2020 -- 22:52:03 - (detect-engine-build.c:1412) <Info> (SigAddressPrepareStage1) -- 291 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 120 inspect application layer, 103 are decoder event only
+[8] 28/4/2020 -- 22:52:03 - (util-ioctl.c:322) <Warning> (SetEthtoolValue) -- [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'wlan0': Not supported (95)
+[8] 28/4/2020 -- 22:52:03 - (util-runmodes.c:297) <Info> (RunModeSetLiveCaptureWorkersForDevice) -- Going to use 4 thread(s)
+[8] 28/4/2020 -- 22:52:03 - (unix-manager.c:132) <Info> (UnixNew) -- Using unix socket file '/var/run/suricata/suricata-command.socket'
+[8] 28/4/2020 -- 22:52:03 - (tm-threads.c:2169) <Notice> (TmThreadWaitOnThreadInit) -- all 4 packet processing threads, 4 management threads initialized, engine started.
+[12] 28/4/2020 -- 22:52:03 - (source-af-packet.c:515) <Info> (AFPPeersListReachedInc) -- All AFP capture threads are running.
+[8] 28/4/2020 -- 22:59:02 - (suricata.c:2916) <Notice> (SuricataMainLoop) -- Signal Received.  Stopping engine.
+[8] 28/4/2020 -- 22:59:02 - (suricata.c:1103) <Info> (SCPrintElapsedTime) -- time elapsed 419.366s
+[8] 28/4/2020 -- 22:59:02 - (counters.c:853) <Info> (StatsLogSummary) -- Alerts: 0
+[8] 28/4/2020 -- 22:59:03 - (detect-engine-build.c:1716) <Info> (SigAddressCleanupStage1) -- cleaning up signature grouping structure... complete
+[8] 28/4/2020 -- 22:59:03 - (util-device.c:355) <Notice> (LiveDeviceListClean) -- Stats for 'wlan0':  pkts: 481, drop: 0 (0.00%), invalid chksum: 0
+[8] 28/4/2020 -- 22:59:03 - (util-ioctl.c:322) <Warning> (SetEthtoolValue) -- [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'wlan0': Not supported (95)
+[7] 30/4/2020 -- 14:53:13 - (suricata.c:1083) <Notice> (LogVersion) -- This is Suricata version 5.0.2 RELEASE running in SYSTEM mode
+[7] 30/4/2020 -- 14:53:13 - (util-cpu.c:171) <Info> (UtilCpuPrintSummary) -- CPUs/cores online: 4
+[7] 30/4/2020 -- 14:53:13 - (util-ioctl.c:111) <Info> (GetIfaceMTU) -- Found an MTU of 1500 for 'wlan0'
+[7] 30/4/2020 -- 14:53:13 - (util-ioctl.c:111) <Info> (GetIfaceMTU) -- Found an MTU of 1500 for 'wlan0'
+[7] 30/4/2020 -- 14:53:14 - (util-logopenfile.c:473) <Info> (SCConfLogOpenGeneric) -- fast output device (regular) initialized: fast.log
+[7] 30/4/2020 -- 14:53:14 - (util-logopenfile.c:473) <Info> (SCConfLogOpenGeneric) -- eve-log output device (regular) initialized: eve.json
+[7] 30/4/2020 -- 14:53:14 - (output-json-email-common.c:453) <Info> (OutputEmailInitConf) -- Going to log the md5 sum of email body
+[7] 30/4/2020 -- 14:53:14 - (output-json-email-common.c:457) <Info> (OutputEmailInitConf) -- Going to log the md5 sum of email subject
+[7] 30/4/2020 -- 14:53:14 - (output-json-dnp3.c:389) <Info> (OutputDNP3LogInitSub) -- DNP3 log sub-module initialized.
+[7] 30/4/2020 -- 14:53:14 - (output-json-dnp3.c:389) <Info> (OutputDNP3LogInitSub) -- DNP3 log sub-module initialized.
+[7] 30/4/2020 -- 14:53:14 - (output-tx.c:76) <Notice> (OutputRegisterTxLogger) -- JsonDHCPLog logger not enabled: protocol dhcp is disabled
+[7] 30/4/2020 -- 14:53:14 - (util-classification-config.c:139) <Warning> (SCClassConfInitContextAndLocalResources) -- [ERRCODE: SC_ERR_FOPEN(44)] - could not open: "/etc/suricata/rules/classification.config": No such file or directory
+[7] 30/4/2020 -- 14:53:14 - (util-classification-config.c:537) <Error> (SCClassConfLoadClassficationConfigFile) -- [ERRCODE: SC_ERR_OPENING_FILE(40)] - please check the "classification-file" option in your suricata.yaml file
+[7] 30/4/2020 -- 14:53:14 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/botcc.rules
+[7] 30/4/2020 -- 14:53:14 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/botcc.portgrouped.rules
+[7] 30/4/2020 -- 14:53:14 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/ciarmy.rules
+[7] 30/4/2020 -- 14:53:14 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/compromised.rules
+[7] 30/4/2020 -- 14:53:14 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/drop.rules
+[7] 30/4/2020 -- 14:53:14 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/dshield.rules
+[7] 30/4/2020 -- 14:53:14 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-activex.rules
+[7] 30/4/2020 -- 14:53:14 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-adware_pup.rules
+[7] 30/4/2020 -- 14:53:14 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-attack_response.rules
+[7] 30/4/2020 -- 14:53:14 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-chat.rules
+[7] 30/4/2020 -- 14:53:14 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-coinminer.rules
+[7] 30/4/2020 -- 14:53:14 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-current_events.rules
+[7] 30/4/2020 -- 14:53:14 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-dns.rules
+[7] 30/4/2020 -- 14:53:14 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-dos.rules
+[7] 30/4/2020 -- 14:53:14 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-exploit.rules
+[7] 30/4/2020 -- 14:53:14 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-exploit_kit.rules
+[7] 30/4/2020 -- 14:53:14 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-ftp.rules
+[7] 30/4/2020 -- 14:53:14 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-games.rules
+[7] 30/4/2020 -- 14:53:14 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-hunting.rules
+[7] 30/4/2020 -- 14:53:14 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-icmp_info.rules
+[7] 30/4/2020 -- 14:53:14 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-icmp.rules
+[7] 30/4/2020 -- 14:53:14 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-imap.rules
+[7] 30/4/2020 -- 14:53:14 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-inappropriate.rules
+[7] 30/4/2020 -- 14:53:14 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-info.rules
+[7] 30/4/2020 -- 14:53:14 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-ja3.rules
+[7] 30/4/2020 -- 14:53:14 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-malware.rules
+[7] 30/4/2020 -- 14:53:14 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-misc.rules
+[7] 30/4/2020 -- 14:53:14 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-mobile_malware.rules
+[7] 30/4/2020 -- 14:53:14 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-netbios.rules
+[7] 30/4/2020 -- 14:53:14 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-p2p.rules
+[7] 30/4/2020 -- 14:53:14 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-phishing.rules
+[7] 30/4/2020 -- 14:53:14 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-policy.rules
+[7] 30/4/2020 -- 14:53:14 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-pop3.rules
+[7] 30/4/2020 -- 14:53:14 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-rpc.rules
+[7] 30/4/2020 -- 14:53:14 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-scada.rules
+[7] 30/4/2020 -- 14:53:14 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-scan.rules
+[7] 30/4/2020 -- 14:53:14 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-shellcode.rules
+[7] 30/4/2020 -- 14:53:14 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-smtp.rules
+[7] 30/4/2020 -- 14:53:14 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-snmp.rules
+[7] 30/4/2020 -- 14:53:14 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-sql.rules
+[7] 30/4/2020 -- 14:53:14 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-telnet.rules
+[7] 30/4/2020 -- 14:53:14 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-tftp.rules
+[7] 30/4/2020 -- 14:53:14 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-user_agents.rules
+[7] 30/4/2020 -- 14:53:14 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-voip.rules
+[7] 30/4/2020 -- 14:53:14 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-web_client.rules
+[7] 30/4/2020 -- 14:53:14 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-web_server.rules
+[7] 30/4/2020 -- 14:53:14 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-web_specific_apps.rules
+[7] 30/4/2020 -- 14:53:14 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-worm.rules
+[7] 30/4/2020 -- 14:53:14 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/tor.rules
+[7] 30/4/2020 -- 14:53:14 - (detect-classtype.c:146) <Warning> (DetectClasstypeSetup) -- [ERRCODE: SC_ERR_UNKNOWN_VALUE(129)] - signature at /etc/suricata/rules/decoder-events.rules:3 uses unknown classtype: "protocol-command-decode", using default priority 3. This message won't be shown again for this classtype
+[7] 30/4/2020 -- 14:53:14 - (detect-engine-loader.c:352) <Info> (SigLoadSignatures) -- 61 rule files processed. 291 rules successfully loaded, 0 rules failed
+[7] 30/4/2020 -- 14:53:14 - (util-threshold-config.c:1126) <Info> (SCThresholdConfParseFile) -- Threshold config parsed: 0 rule(s) found
+[7] 30/4/2020 -- 14:53:14 - (detect-engine-build.c:1412) <Info> (SigAddressPrepareStage1) -- 291 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 120 inspect application layer, 103 are decoder event only
+[7] 30/4/2020 -- 14:53:14 - (util-ioctl.c:322) <Warning> (SetEthtoolValue) -- [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'wlan0': Not supported (95)
+[7] 30/4/2020 -- 14:53:14 - (util-runmodes.c:297) <Info> (RunModeSetLiveCaptureWorkersForDevice) -- Going to use 4 thread(s)
+[7] 30/4/2020 -- 14:53:14 - (unix-manager.c:132) <Info> (UnixNew) -- Using unix socket file '/var/run/suricata/suricata-command.socket'
+[7] 30/4/2020 -- 14:53:14 - (tm-threads.c:2169) <Notice> (TmThreadWaitOnThreadInit) -- all 4 packet processing threads, 4 management threads initialized, engine started.
+[11] 30/4/2020 -- 14:53:14 - (source-af-packet.c:515) <Info> (AFPPeersListReachedInc) -- All AFP capture threads are running.
+[30] 30/4/2020 -- 14:54:09 - (util-classification-config.c:139) <Warning> (SCClassConfInitContextAndLocalResources) -- [ERRCODE: SC_ERR_FOPEN(44)] - could not open: "/etc/suricata/rules/classification.config": No such file or directory
+[30] 30/4/2020 -- 14:54:09 - (util-classification-config.c:537) <Error> (SCClassConfLoadClassficationConfigFile) -- [ERRCODE: SC_ERR_OPENING_FILE(40)] - please check the "classification-file" option in your suricata.yaml file
+[30] 30/4/2020 -- 14:54:09 - (detect-classtype.c:146) <Warning> (DetectClasstypeSetup) -- [ERRCODE: SC_ERR_UNKNOWN_VALUE(129)] - signature at /var/lib/suricata/rules/suricata.rules:1 uses unknown classtype: "protocol-command-decode", using default priority 3. This message won't be shown again for this classtype
+[30] 30/4/2020 -- 14:54:09 - (detect-classtype.c:146) <Warning> (DetectClasstypeSetup) -- [ERRCODE: SC_ERR_UNKNOWN_VALUE(129)] - signature at /var/lib/suricata/rules/suricata.rules:344 uses unknown classtype: "trojan-activity", using default priority 3. This message won't be shown again for this classtype
+[30] 30/4/2020 -- 14:54:09 - (detect-classtype.c:146) <Warning> (DetectClasstypeSetup) -- [ERRCODE: SC_ERR_UNKNOWN_VALUE(129)] - signature at /var/lib/suricata/rules/suricata.rules:414 uses unknown classtype: "misc-attack", using default priority 3. This message won't be shown again for this classtype
+[30] 30/4/2020 -- 14:54:09 - (detect-classtype.c:146) <Warning> (DetectClasstypeSetup) -- [ERRCODE: SC_ERR_UNKNOWN_VALUE(129)] - signature at /var/lib/suricata/rules/suricata.rules:577 uses unknown classtype: "web-application-attack", using default priority 3. This message won't be shown again for this classtype
+[30] 30/4/2020 -- 14:54:09 - (detect-classtype.c:146) <Warning> (DetectClasstypeSetup) -- [ERRCODE: SC_ERR_UNKNOWN_VALUE(129)] - signature at /var/lib/suricata/rules/suricata.rules:581 uses unknown classtype: "attempted-user", using default priority 3. This message won't be shown again for this classtype
+[30] 30/4/2020 -- 14:54:09 - (detect-classtype.c:146) <Warning> (DetectClasstypeSetup) -- [ERRCODE: SC_ERR_UNKNOWN_VALUE(129)] - signature at /var/lib/suricata/rules/suricata.rules:951 uses unknown classtype: "command-and-control", using default priority 3. This message won't be shown again for this classtype
+[30] 30/4/2020 -- 14:54:09 - (detect-classtype.c:146) <Warning> (DetectClasstypeSetup) -- [ERRCODE: SC_ERR_UNKNOWN_VALUE(129)] - signature at /var/lib/suricata/rules/suricata.rules:1593 uses unknown classtype: "pup-activity", using default priority 3. This message won't be shown again for this classtype
+[30] 30/4/2020 -- 14:54:09 - (detect-classtype.c:146) <Warning> (DetectClasstypeSetup) -- [ERRCODE: SC_ERR_UNKNOWN_VALUE(129)] - signature at /var/lib/suricata/rules/suricata.rules:1635 uses unknown classtype: "policy-violation", using default priority 3. This message won't be shown again for this classtype
+[30] 30/4/2020 -- 14:54:09 - (detect-classtype.c:146) <Warning> (DetectClasstypeSetup) -- [ERRCODE: SC_ERR_UNKNOWN_VALUE(129)] - signature at /var/lib/suricata/rules/suricata.rules:1791 uses unknown classtype: "coin-mining", using default priority 3. This message won't be shown again for this classtype
+[30] 30/4/2020 -- 14:54:09 - (detect-classtype.c:146) <Warning> (DetectClasstypeSetup) -- [ERRCODE: SC_ERR_UNKNOWN_VALUE(129)] - signature at /var/lib/suricata/rules/suricata.rules:2202 uses unknown classtype: "bad-unknown", using default priority 3. This message won't be shown again for this classtype
+[30] 30/4/2020 -- 14:54:09 - (detect-classtype.c:146) <Warning> (DetectClasstypeSetup) -- [ERRCODE: SC_ERR_UNKNOWN_VALUE(129)] - signature at /var/lib/suricata/rules/suricata.rules:2203 uses unknown classtype: "string-detect", using default priority 3. This message won't be shown again for this classtype
+[30] 30/4/2020 -- 14:54:09 - (detect-classtype.c:146) <Warning> (DetectClasstypeSetup) -- [ERRCODE: SC_ERR_UNKNOWN_VALUE(129)] - signature at /var/lib/suricata/rules/suricata.rules:2241 uses unknown classtype: "successful-user", using default priority 3. This message won't be shown again for this classtype
+[30] 30/4/2020 -- 14:54:09 - (detect-classtype.c:146) <Warning> (DetectClasstypeSetup) -- [ERRCODE: SC_ERR_UNKNOWN_VALUE(129)] - signature at /var/lib/suricata/rules/suricata.rules:2261 uses unknown classtype: "successful-admin", using default priority 3. This message won't be shown again for this classtype
+[30] 30/4/2020 -- 14:54:09 - (detect-classtype.c:146) <Warning> (DetectClasstypeSetup) -- [ERRCODE: SC_ERR_UNKNOWN_VALUE(129)] - signature at /var/lib/suricata/rules/suricata.rules:2272 uses unknown classtype: "misc-activity", using default priority 3. This message won't be shown again for this classtype
+[30] 30/4/2020 -- 14:54:09 - (detect-classtype.c:146) <Warning> (DetectClasstypeSetup) -- [ERRCODE: SC_ERR_UNKNOWN_VALUE(129)] - signature at /var/lib/suricata/rules/suricata.rules:2339 uses unknown classtype: "successful-recon-limited", using default priority 3. This message won't be shown again for this classtype
+[30] 30/4/2020 -- 14:54:09 - (detect-classtype.c:146) <Warning> (DetectClasstypeSetup) -- [ERRCODE: SC_ERR_UNKNOWN_VALUE(129)] - signature at /var/lib/suricata/rules/suricata.rules:2342 uses unknown classtype: "attempted-admin", using default priority 3. This message won't be shown again for this classtype
+[30] 30/4/2020 -- 14:54:09 - (detect-classtype.c:146) <Warning> (DetectClasstypeSetup) -- [ERRCODE: SC_ERR_UNKNOWN_VALUE(129)] - signature at /var/lib/suricata/rules/suricata.rules:2409 uses unknown classtype: "web-application-activity", using default priority 3. This message won't be shown again for this classtype
+[30] 30/4/2020 -- 14:54:09 - (detect-classtype.c:146) <Warning> (DetectClasstypeSetup) -- [ERRCODE: SC_ERR_UNKNOWN_VALUE(129)] - signature at /var/lib/suricata/rules/suricata.rules:2489 uses unknown classtype: "not-suspicious", using default priority 3. This message won't be shown again for this classtype
+[30] 30/4/2020 -- 14:54:09 - (detect-classtype.c:146) <Warning> (DetectClasstypeSetup) -- [ERRCODE: SC_ERR_UNKNOWN_VALUE(129)] - signature at /var/lib/suricata/rules/suricata.rules:2636 uses unknown classtype: "exploit-kit", using default priority 3. This message won't be shown again for this classtype
+[30] 30/4/2020 -- 14:54:09 - (detect-classtype.c:146) <Warning> (DetectClasstypeSetup) -- [ERRCODE: SC_ERR_UNKNOWN_VALUE(129)] - signature at /var/lib/suricata/rules/suricata.rules:3136 uses unknown classtype: "targeted-activity", using default priority 3. This message won't be shown again for this classtype
+[30] 30/4/2020 -- 14:54:09 - (detect-classtype.c:146) <Warning> (DetectClasstypeSetup) -- [ERRCODE: SC_ERR_UNKNOWN_VALUE(129)] - signature at /var/lib/suricata/rules/suricata.rules:3239 uses unknown classtype: "social-engineering", using default priority 3. This message won't be shown again for this classtype
+[30] 30/4/2020 -- 14:54:09 - (detect-classtype.c:146) <Warning> (DetectClasstypeSetup) -- [ERRCODE: SC_ERR_UNKNOWN_VALUE(129)] - signature at /var/lib/suricata/rules/suricata.rules:3349 uses unknown classtype: "attempted-recon", using default priority 3. This message won't be shown again for this classtype
+[30] 30/4/2020 -- 14:54:09 - (detect-classtype.c:146) <Warning> (DetectClasstypeSetup) -- [ERRCODE: SC_ERR_UNKNOWN_VALUE(129)] - signature at /var/lib/suricata/rules/suricata.rules:3419 uses unknown classtype: "attempted-dos", using default priority 3. This message won't be shown again for this classtype
+[30] 30/4/2020 -- 14:54:09 - (detect-classtype.c:146) <Warning> (DetectClasstypeSetup) -- [ERRCODE: SC_ERR_UNKNOWN_VALUE(129)] - signature at /var/lib/suricata/rules/suricata.rules:3451 uses unknown classtype: "denial-of-service", using default priority 3. This message won't be shown again for this classtype
+[30] 30/4/2020 -- 14:54:09 - (detect-classtype.c:146) <Warning> (DetectClasstypeSetup) -- [ERRCODE: SC_ERR_UNKNOWN_VALUE(129)] - signature at /var/lib/suricata/rules/suricata.rules:3552 uses unknown classtype: "suspicious-login", using default priority 3. This message won't be shown again for this classtype
+[30] 30/4/2020 -- 14:54:09 - (detect-classtype.c:146) <Warning> (DetectClasstypeSetup) -- [ERRCODE: SC_ERR_UNKNOWN_VALUE(129)] - signature at /var/lib/suricata/rules/suricata.rules:3622 uses unknown classtype: "shellcode-detect", using default priority 3. This message won't be shown again for this classtype
+[30] 30/4/2020 -- 14:54:09 - (detect-classtype.c:146) <Warning> (DetectClasstypeSetup) -- [ERRCODE: SC_ERR_UNKNOWN_VALUE(129)] - signature at /var/lib/suricata/rules/suricata.rules:3670 uses unknown classtype: "suspicious-filename-detect", using default priority 3. This message won't be shown again for this classtype
+[30] 30/4/2020 -- 14:54:09 - (detect-classtype.c:146) <Warning> (DetectClasstypeSetup) -- [ERRCODE: SC_ERR_UNKNOWN_VALUE(129)] - signature at /var/lib/suricata/rules/suricata.rules:4134 uses unknown classtype: "default-login-attempt", using default priority 3. This message won't be shown again for this classtype
+[30] 30/4/2020 -- 14:54:09 - (detect-classtype.c:146) <Warning> (DetectClasstypeSetup) -- [ERRCODE: SC_ERR_UNKNOWN_VALUE(129)] - signature at /var/lib/suricata/rules/suricata.rules:5840 uses unknown classtype: "non-standard-protocol", using default priority 3. This message won't be shown again for this classtype
+[30] 30/4/2020 -- 14:54:09 - (detect-classtype.c:146) <Warning> (DetectClasstypeSetup) -- [ERRCODE: SC_ERR_UNKNOWN_VALUE(129)] - signature at /var/lib/suricata/rules/suricata.rules:5900 uses unknown classtype: "external-ip-check", using default priority 3. This message won't be shown again for this classtype
+[30] 30/4/2020 -- 14:54:09 - (detect-classtype.c:146) <Warning> (DetectClasstypeSetup) -- [ERRCODE: SC_ERR_UNKNOWN_VALUE(129)] - signature at /var/lib/suricata/rules/suricata.rules:5902 uses unknown classtype: "unknown", using default priority 3. This message won't be shown again for this classtype
+[30] 30/4/2020 -- 14:54:09 - (detect-classtype.c:146) <Warning> (DetectClasstypeSetup) -- [ERRCODE: SC_ERR_UNKNOWN_VALUE(129)] - signature at /var/lib/suricata/rules/suricata.rules:6441 uses unknown classtype: "network-scan", using default priority 3. This message won't be shown again for this classtype
+[30] 30/4/2020 -- 14:54:09 - (detect-classtype.c:146) <Warning> (DetectClasstypeSetup) -- [ERRCODE: SC_ERR_UNKNOWN_VALUE(129)] - signature at /var/lib/suricata/rules/suricata.rules:10929 uses unknown classtype: "domain-c2", using default priority 3. This message won't be shown again for this classtype
+[30] 30/4/2020 -- 14:54:09 - (detect-classtype.c:146) <Warning> (DetectClasstypeSetup) -- [ERRCODE: SC_ERR_UNKNOWN_VALUE(129)] - signature at /var/lib/suricata/rules/suricata.rules:13476 uses unknown classtype: "credential-theft", using default priority 3. This message won't be shown again for this classtype
+[30] 30/4/2020 -- 14:54:09 - (detect-classtype.c:146) <Warning> (DetectClasstypeSetup) -- [ERRCODE: SC_ERR_UNKNOWN_VALUE(129)] - signature at /var/lib/suricata/rules/suricata.rules:14727 uses unknown classtype: "unsuccessful-user", using default priority 3. This message won't be shown again for this classtype
+[30] 30/4/2020 -- 14:54:10 - (detect-classtype.c:146) <Warning> (DetectClasstypeSetup) -- [ERRCODE: SC_ERR_UNKNOWN_VALUE(129)] - signature at /var/lib/suricata/rules/suricata.rules:17972 uses unknown classtype: "rpc-portmap-decode", using default priority 3. This message won't be shown again for this classtype
+[30] 30/4/2020 -- 14:54:10 - (detect-classtype.c:146) <Warning> (DetectClasstypeSetup) -- [ERRCODE: SC_ERR_UNKNOWN_VALUE(129)] - signature at /var/lib/suricata/rules/suricata.rules:18566 uses unknown classtype: "system-call-detect", using default priority 3. This message won't be shown again for this classtype
+[30] 30/4/2020 -- 14:54:10 - (detect-classtype.c:146) <Warning> (DetectClasstypeSetup) -- [ERRCODE: SC_ERR_UNKNOWN_VALUE(129)] - signature at /var/lib/suricata/rules/suricata.rules:21232 uses unknown classtype: "successful-recon-largescale", using default priority 3. This message won't be shown again for this classtype
+[38] 30/4/2020 -- 14:55:17 - (util-classification-config.c:139) <Warning> (SCClassConfInitContextAndLocalResources) -- [ERRCODE: SC_ERR_FOPEN(44)] - could not open: "/etc/suricata/rules/classification.config": No such file or directory
+[38] 30/4/2020 -- 14:55:17 - (util-classification-config.c:537) <Error> (SCClassConfLoadClassficationConfigFile) -- [ERRCODE: SC_ERR_OPENING_FILE(40)] - please check the "classification-file" option in your suricata.yaml file
+[38] 30/4/2020 -- 14:55:17 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/botcc.rules
+[11] 30/4/2020 -- 21:10:32 - (source-af-packet.c:1578) <Error> (ReceiveAFPLoop) -- [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'wlan0': (100) Network is down
+[10] 30/4/2020 -- 21:10:32 - (source-af-packet.c:1578) <Error> (ReceiveAFPLoop) -- [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'wlan0': (100) Network is down
+[9] 30/4/2020 -- 21:10:32 - (source-af-packet.c:1578) <Error> (ReceiveAFPLoop) -- [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'wlan0': (100) Network is down
+[8] 30/4/2020 -- 21:10:32 - (source-af-packet.c:1578) <Error> (ReceiveAFPLoop) -- [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'wlan0': (100) Network is down
+[10] 30/4/2020 -- 21:10:32 - (source-af-packet.c:1463) <Info> (AFPTryReopen) -- Interface 'wlan0' is back
+[8] 30/4/2020 -- 21:10:32 - (source-af-packet.c:1463) <Info> (AFPTryReopen) -- Interface 'wlan0' is back
+[11] 30/4/2020 -- 21:10:32 - (source-af-packet.c:1463) <Info> (AFPTryReopen) -- Interface 'wlan0' is back
+[9] 30/4/2020 -- 21:10:32 - (source-af-packet.c:1463) <Info> (AFPTryReopen) -- Interface 'wlan0' is back
+[11] 30/4/2020 -- 21:10:37 - (source-af-packet.c:1578) <Error> (ReceiveAFPLoop) -- [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'wlan0': (100) Network is down
+[9] 30/4/2020 -- 21:10:37 - (source-af-packet.c:1578) <Error> (ReceiveAFPLoop) -- [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'wlan0': (100) Network is down
+[8] 30/4/2020 -- 21:10:37 - (source-af-packet.c:1578) <Error> (ReceiveAFPLoop) -- [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'wlan0': (100) Network is down
+[10] 30/4/2020 -- 21:10:37 - (source-af-packet.c:1578) <Error> (ReceiveAFPLoop) -- [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'wlan0': (100) Network is down
+[9] 30/4/2020 -- 21:10:38 - (source-af-packet.c:1463) <Info> (AFPTryReopen) -- Interface 'wlan0' is back
+[11] 30/4/2020 -- 21:10:38 - (source-af-packet.c:1463) <Info> (AFPTryReopen) -- Interface 'wlan0' is back
+[8] 30/4/2020 -- 21:10:38 - (source-af-packet.c:1463) <Info> (AFPTryReopen) -- Interface 'wlan0' is back
+[10] 30/4/2020 -- 21:10:38 - (source-af-packet.c:1463) <Info> (AFPTryReopen) -- Interface 'wlan0' is back
+[8] 1/5/2020 -- 09:40:17 - (source-af-packet.c:1578) <Error> (ReceiveAFPLoop) -- [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'wlan0': (100) Network is down
+[9] 1/5/2020 -- 09:40:17 - (source-af-packet.c:1578) <Error> (ReceiveAFPLoop) -- [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'wlan0': (100) Network is down
+[10] 1/5/2020 -- 09:40:17 - (source-af-packet.c:1578) <Error> (ReceiveAFPLoop) -- [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'wlan0': (100) Network is down
+[11] 1/5/2020 -- 09:40:17 - (source-af-packet.c:1578) <Error> (ReceiveAFPLoop) -- [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'wlan0': (100) Network is down
+[10] 1/5/2020 -- 09:40:17 - (source-af-packet.c:1463) <Info> (AFPTryReopen) -- Interface 'wlan0' is back
+[11] 1/5/2020 -- 09:40:17 - (source-af-packet.c:1463) <Info> (AFPTryReopen) -- Interface 'wlan0' is back
+[8] 1/5/2020 -- 09:40:17 - (source-af-packet.c:1463) <Info> (AFPTryReopen) -- Interface 'wlan0' is back
+[9] 1/5/2020 -- 09:40:17 - (source-af-packet.c:1463) <Info> (AFPTryReopen) -- Interface 'wlan0' is back
+[11] 1/5/2020 -- 09:40:21 - (source-af-packet.c:1578) <Error> (ReceiveAFPLoop) -- [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'wlan0': (100) Network is down
+[8] 1/5/2020 -- 09:40:21 - (source-af-packet.c:1578) <Error> (ReceiveAFPLoop) -- [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'wlan0': (100) Network is down
+[9] 1/5/2020 -- 09:40:21 - (source-af-packet.c:1578) <Error> (ReceiveAFPLoop) -- [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'wlan0': (100) Network is down
+[10] 1/5/2020 -- 09:40:21 - (source-af-packet.c:1578) <Error> (ReceiveAFPLoop) -- [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'wlan0': (100) Network is down
+[11] 1/5/2020 -- 09:40:21 - (source-af-packet.c:1463) <Info> (AFPTryReopen) -- Interface 'wlan0' is back
+[10] 1/5/2020 -- 09:40:21 - (source-af-packet.c:1463) <Info> (AFPTryReopen) -- Interface 'wlan0' is back
+[9] 1/5/2020 -- 09:40:21 - (source-af-packet.c:1463) <Info> (AFPTryReopen) -- Interface 'wlan0' is back
+[8] 1/5/2020 -- 09:40:21 - (source-af-packet.c:1463) <Info> (AFPTryReopen) -- Interface 'wlan0' is back

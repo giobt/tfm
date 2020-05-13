@@ -18,24 +18,6 @@ services:
   #   networks:
   #     - tfm
 
-  # snort:
-  #   build: 
-  #     context: ./snort
-  #     dockerfile: Dockerfile
-  #     args: 
-  #       - OINKCODE=2afcbc2407852ce0c2dbbfbcf6aca313919c7c6b
-  #   container_name: snort
-  #   network_mode: "host"
-  #   cap_add:
-  #     - NET_ADMIN
-  #     - SYS_NICE
-  #     - NET_RAW
-  #   environment:
-  #     - OINKCODE
-  #     - INTERFACE=wlan0
-  #   volumes:
-  #     - ./data/snort/log:/var/log/snort
-
   suricata:
     build:
       context: ./suricata
@@ -43,7 +25,7 @@ services:
     container_name: suricata
     restart: always
     environment:
-     - OINKCODE=2afcbc2407852ce0c2dbbfbcf6aca313919c7c6b
+     - OINKCODE
      - KAFKA_BROKER=192.168.1.53:9092
      - KAFKA_TOPIC=ids_rules
      - KAFKA_GROUP_ID=ids_group

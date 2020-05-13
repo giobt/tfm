@@ -1,0 +1,40 @@
+{
+    "type": "bundle",
+    "id": "bundle--1736e032-a96a-41e9-8302-126677d4d781",
+    "objects": [
+        {
+            "type": "indicator",
+            "id": "indicator--71312c48-925d-44b7-b10e-c11086995358",
+            "spec_version": "2.1",
+            "created": "2017-02-06T09:13:07.243000Z",
+            "modified": "2017-02-06T09:13:07.243000Z",
+            "name": "CryptoLocker Hash",
+            "description": "This file is a part of CryptoLocker",
+            "pattern": "[file:hashes.'SHA-256' = '46afeb295883a5efd6639d4197eb18bcba3bff49125b810ca4b9509b9ce4dfbf']",
+            "pattern_type": "stix",
+            "indicator_types": ["malicious-activity"],
+            "valid_from": "2017-01-01T09:00:00.000000Z"
+        },
+        {
+            "type": "malware",
+            "id": "malware--81be4588-96a8-4de2-9938-9e16130ce7e6",
+            "spec_version": "2.1",
+            "created": "2017-02-06T09:26:21.647000Z",
+            "modified": "2017-02-06T09:26:21.647000Z",
+            "is_family": false,
+            "name": "CryptoLocker",
+            "description": "CryptoLocker is known to be malicious ransomware.",
+            "malware_types": ["ransomware"]
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--a19fac85-f6f5-47f3-aacd-4bfb54557852",
+            "spec_version": "2.1",
+            "created": "2017-02-06T09:30:51.987000Z",
+            "modified": "2017-02-06T09:30:51.987000Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--71312c48-925d-44b7-b10e-c11086995358",
+            "target_ref": "malware--81be4588-96a8-4de2-9938-9e16130ce7e6"
+        }
+    ]
+}

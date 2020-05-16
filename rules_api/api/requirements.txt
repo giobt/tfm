@@ -1,6 +1,0 @@
-antlr4-python2-runtime
-cabby
-flask
-kafka-python
-stix2
-stix2-validator

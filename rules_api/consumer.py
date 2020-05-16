@@ -4,48 +4,87 @@
 
 from kafka import KafkaConsumer
 from json import loads
+from stix2 import Indicator, parse
+from stix_shifter.stix_translation import stix_translation
+
 import os
+import json
+
+kafka_broker = os.environ.get('KAFKA_BROKER') or 'localhost:9092'
+kafka_topic = os.environ.get('KAFKA_TOPIC') or 'numtest'
+kafka_group_id = os.environ.get('KAFKA_GROUP_ID') or 'my-group'
+
+action = 'alert'
 
 consumer = KafkaConsumer(
-    'numtest',
-     bootstrap_servers=['localhost:9092'],
+    kafka_topic,
+     bootstrap_servers=[kafka_broker],
      auto_offset_reset='earliest',
      enable_auto_commit=True,
-     group_id='my-group',
+     group_id=kafka_group_id,
      value_deserializer=lambda x: loads(x.decode('utf-8')))
 
-for message in consumer:
-    message = message.value
-    print(message)
+def parse_stix2suricata(options, 
+                        action='alert', protocol='tcp',
+                        src_ip='$HOME_NET', src_port='any', direction='->', dst_ip='$EXTERNAL_NET', dst_port='any'):
 
-    # Append new rule to local.rules file
+    return f"{action} {protocol} {src_ip} {src_port} {direction} {dst_ip} {dst_port} ({'; '.join(options)})"
+
+def parse_observations(cbo):
+    rules = []
+
+    # Initialize rule options list with message
+    options = [ f"message: \"{cbo.name.upper()} {cbo.description}\"" ]
+
+    # Generate json object from pattern
+    translation = stix_translation.StixTranslation()
+    observationExpressions = translation.translate(module = 'elastic_ecs', # Provides more useful structure
+                                    translate_type = 'parse',
+                                    data_source = None,
+                                    data = cbo.pattern)
+
+    for observationExpression in observationExpressions['parsed_stix']:
+        attribute = observationExpression['attribute'].split(':')
+        if attribute[0] == 'url':
+            # Parse URL Object {type: 'string' must be 'url', value: 'string' MUST conform to [RFC3986]}
+            content = f"content: \"{observationExpression['value']}\""
+            options.append(content)
+
+            # Generate Suricata rule
+            rule = parse_stix2suricata(options=options)
+
+            # Add rule to response list
+            rules.append(rule)
+    return rules
+
+# For each message in kafka
+# for message in consumer:
+def main():
+    # Test data
+    with open('./rule_model.json') as f:
+        message = json.load(f)
+
+    # Parse message to STIX 2.1 bundle
+    # bundle = parse(message.value, allow_custom=False, version="21")
+    bundle = parse(message, allow_custom=False, version="21")
+
+    # For each cyber observable in the bundle
+    rules = []
+    for cbo in bundle.objects:
+        # Verify object is a STIX Indicator
+        if cbo.type == "indicator":
+  
+            # Parse input into suricata rule format
+            rules = rules + parse_observations(cbo)
+    print('\n'.join(rules))
+    # # Append new rule to local.rules file
     # with open("/etc/suricata/rules/local.rules", "a") as file_object:
-    #     file_object.write("{rule}\n".format(rule=message))
+    #     file_object.write("{rules}\n".format(rules='\n'.join(rules)))
 
     # # Update suricata ruleset
     # os.system('suricata-update --no-merge')
 
     # #Tell Suricata to do a nonblocking ruleset-reload
     # os.system('suricatasc -c ruleset-reload-nonblocking')
+main()
 
-# def parse_rule(data):
-#     options = ""
-#     for option in data['options']:
-#         options = options + "{key}: \"{value}\"; ".format(key=option, value=data['options'][option])
-
-#     modifiers = ""
-#     for modifier in data['modifiers']:
-#         modifiers = modifiers + modifier + "; "
-
-#     rule = "{action} {protocol} {src_ip} {src_port} {direction} {dst_ip} {dst_port} ({options}{modifiers})".format(
-#         action=data['action'],
-#         protocol=data['header']['protocol'],
-#         src_ip=data['header']['src_ip'],
-#         src_port=data['header']['src_port'],
-#         direction=data['header']['direction'],
-#         dst_ip=data['header']['dst_ip'],
-#         dst_port=data['header']['dst_port'],
-#         options=options,
-#         modifiers=modifiers)    
-
-#     return rule

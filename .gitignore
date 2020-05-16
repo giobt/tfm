@@ -1,2 +1,4 @@
 .env
 notes.sh
+cti-*
+stix-*

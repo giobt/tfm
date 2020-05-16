@@ -1,0 +1,3 @@
+flask
+kafka-python
+stix2-validator

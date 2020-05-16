@@ -34,7 +34,22 @@ services:
       KAFKA_GROUP_INITIAL_REBALANCE_DELAY_MS: 0
     networks:
       - tfm
-      
+     
+  enabler:
+    build:
+      context: ./enabler
+    hostname: enabler
+    container_name: enabler
+    environment:
+     - KAFKA_BROKER=broker:29092
+     - KAFKA_TOPIC=numtest
+    depends_on:
+      - broker
+    ports:
+      - "5000:5000"
+    networks:
+      - tfm
+
   # elasticsearch:
   #   build:
   #     context: docker-elk/elasticsearch/

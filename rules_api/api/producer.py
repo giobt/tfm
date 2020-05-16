@@ -1,5 +1,6 @@
 import sys
 import json
+import os
 
 sys.path.append('/home/giorgio/Documents/umu/tfm/source/rules_api/api/compiled_grammar/pattern_grammar')
 
@@ -10,97 +11,111 @@ from flask import request
 from json import dumps
 from kafka import KafkaProducer
 from stix2 import Indicator, parse
-from stix2.v21 import Location
+# from stix2.v21 import Location
 from stix2validator import validate_instance, print_results
-from STIXPatternParser import STIXPatternParser
-from STIXPatternLexer import STIXPatternLexer
-from STIXPatternVisitor import STIXPatternVisitor
-from stix_shifter.stix_translation import stix_translation
+# from STIXPatternParser import STIXPatternParser
+# from STIXPatternLexer import STIXPatternLexer
+# from STIXPatternVisitor import STIXPatternVisitor
+# from stix_shifter.stix_translation import stix_translation
 from time import sleep
 from werkzeug.http import HTTP_STATUS_CODES
 
-class STIXPatternPrintVisitor(STIXPatternVisitor):
-  def visitObjectPath(self, ctx):
-    type_token = ctx.IdentifierWithoutHyphen() or ctx.IdentifierWithHyphen()
-    print(type_token)
-    return self.visitChildren(ctx)
+# class STIXPatternPrintVisitor(STIXPatternVisitor):
+#   def visitObjectPath(self, ctx):
+#     type_token = ctx.IdentifierWithoutHyphen() or ctx.IdentifierWithHyphen()
+#     print(type_token)
+#     return self.visitChildren(ctx)
 
-  def visitObjectType(self, ctx):
-    type_token = ctx.IdentifierWithoutHyphen() or ctx.IdentifierWithHyphen()
-    print(type_token)
-    return self.visitChildren(ctx)
+#   def visitObjectType(self, ctx):
+#     type_token = ctx.IdentifierWithoutHyphen() or ctx.IdentifierWithHyphen()
+#     print(type_token)
+#     return self.visitChildren(ctx)
 
-def handlePattern(pattern):
-  # print(pattern)
-  for child in pattern.getChildren():
-    print(child.getText())
+# def handlePattern(pattern):
+#   # print(pattern)
+#   for child in pattern.getChildren():
+#     print(child.getText())
 
 
-def parse_pattern(data):
-  # input_stream = FileStream("../rule_model.json")
-  input_stream = InputStream(data)
-  lexer = STIXPatternLexer(input_stream)
-  stream = CommonTokenStream(lexer)
-  parser = STIXPatternParser(stream)
-  tree = parser.pattern()
-  # handlePattern(tree)
+# def parse_pattern(data):
+#   # input_stream = FileStream("../rule_model.json")
+#   input_stream = InputStream(data)
+#   lexer = STIXPatternLexer(input_stream)
+#   stream = CommonTokenStream(lexer)
+#   parser = STIXPatternParser(stream)
+#   tree = parser.pattern()
+#   # handlePattern(tree)
 
-  printer = STIXPatternPrintVisitor()
-  res = printer.visit(tree)
-    # print(res)
+#   printer = STIXPatternPrintVisitor()
+#   res = printer.visit(tree)
+#     # print(res)
 
 # Get json input
-with open('../rule_model.json') as f:
+with open('../imddos.json') as f:
   data = json.load(f)
 
 # Validate input
 results = validate_instance(data)
-# print_results(results)
+print(results.is_valid)
+
+if results.is_valid:
+  print("valid")
+else:
+  print(results.errors[0].message)
+  # for error in results.errors:
+  #   print(error.message)
 
 # Parse json input to cyber observable object
-cbos = parse(data, allow_custom=False, version="21")
+# cbos = parse(data, allow_custom=False, version="21")
 # print(type(cbos))
 # print(cbos)
 
 # Instantiate STIX Shifter object for parsing indicator patterns into json
-translation = stix_translation.StixTranslation()
-response = translation.translate('qradar', 'query', '', "[ipv4-addr:value = '127.0.0.1']", '')
-print(response)
+# translation = stix_translation.StixTranslation()
+# response = translation.translate('qradar', 'query', '', "[ipv4-addr:value = '127.0.0.1']", '')
+# print(response)
 
 # Parse indicators only
 # for cbo in cbos.objects:
 #     if cbo.type == "indicator":
-        # Parse pattern
-        # response = translation.translate('elastic', 'parse', '\{\}', cbo.pattern, '\{\}')
+#         # Parse pattern
+#         # response = translation.translate('elastic', 'parse', '\{\}', cbo.pattern, '\{\}')
+#         # parse_pattern(cbo.pattern)
+#         # print(cbo.pattern)
+#         # response = os.system("stix-shifter translate elastic_ecs parse  \{\} \"[network-traffic:src_ref.type = 'ipv4-addr']\" \{\}")
+#         response = os.system("stix-shifter translate elastic_ecs parse  \{\} \"%s\" \{\}" % (cbo.pattern))
         # print(response)
-        # parse_pattern(cbo.pattern)
         
 ##########################################################################################
 # app = Flask(__name__)
 
-# @app.route("/")
-# def hello():
-#     return "Hello World!"
+# kafka_broker = os.environ.get('KAFKA_BROKER') or 'localhost:9092'
+# kafka_topic = os.environ.get('KAFKA_TOPIC') or 'numtest'
+
+# @app.route("/health")
+# def health():
+#     return True
 
 # @app.route("/rule/create", methods=['POST'])
 # def create():
+#     # Get STIX 2.1 bundle in json format
 #     data = request.get_json() or {}
     
-#     Validate input
-#     if 'Rule' not in data:
-#         return bad_request('must include Rule field')
+#     # Validate input
+#     validation = results = validate_instance(data)
 
-#     # Parse input into suricata rule format
-#     rule = parse_rule(data['Rule'])
-
+#     # Return errors if not valid STIX 2.1 format
+#     if not validation.is_valid:
+#         return bad_request(validation.errors[0].message)
+    
 #     # Initialize kafka broker
-#     producer = KafkaProducer(bootstrap_servers=['localhost:9092'],
+#     producer = KafkaProducer(bootstrap_servers=[kafka_broker],
 #                             value_serializer=lambda x: dumps(x).encode('utf-8'))
 
-#     # Send rule to broker
-#     producer.send('numtest', value=rule)
+#     # Send content to broker
+#     producer.send(kafka_topic, value=data)
 
-#     Return status code
+#     # Return status code
 #     return "response"
 
 # def error_response(status_code, message=None):

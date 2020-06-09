@@ -1078,3 +1078,502 @@
 [10] 1/5/2020 -- 09:40:21 - (source-af-packet.c:1463) <Info> (AFPTryReopen) -- Interface 'wlan0' is back
 [9] 1/5/2020 -- 09:40:21 - (source-af-packet.c:1463) <Info> (AFPTryReopen) -- Interface 'wlan0' is back
 [8] 1/5/2020 -- 09:40:21 - (source-af-packet.c:1463) <Info> (AFPTryReopen) -- Interface 'wlan0' is back
+[7] 16/5/2020 -- 22:53:25 - (suricata.c:1083) <Notice> (LogVersion) -- This is Suricata version 5.0.2 RELEASE running in SYSTEM mode
+[7] 16/5/2020 -- 22:53:25 - (util-cpu.c:171) <Info> (UtilCpuPrintSummary) -- CPUs/cores online: 4
+[7] 16/5/2020 -- 22:53:25 - (util-ioctl.c:111) <Info> (GetIfaceMTU) -- Found an MTU of 1500 for 'wlan0'
+[7] 16/5/2020 -- 22:53:25 - (util-ioctl.c:111) <Info> (GetIfaceMTU) -- Found an MTU of 1500 for 'wlan0'
+[7] 16/5/2020 -- 22:53:25 - (util-logopenfile.c:473) <Info> (SCConfLogOpenGeneric) -- fast output device (regular) initialized: fast.log
+[7] 16/5/2020 -- 22:53:25 - (util-logopenfile.c:473) <Info> (SCConfLogOpenGeneric) -- eve-log output device (regular) initialized: eve.json
+[7] 16/5/2020 -- 22:53:25 - (output-json-email-common.c:453) <Info> (OutputEmailInitConf) -- Going to log the md5 sum of email body
+[7] 16/5/2020 -- 22:53:25 - (output-json-email-common.c:457) <Info> (OutputEmailInitConf) -- Going to log the md5 sum of email subject
+[7] 16/5/2020 -- 22:53:25 - (output-json-dnp3.c:389) <Info> (OutputDNP3LogInitSub) -- DNP3 log sub-module initialized.
+[7] 16/5/2020 -- 22:53:25 - (output-json-dnp3.c:389) <Info> (OutputDNP3LogInitSub) -- DNP3 log sub-module initialized.
+[7] 16/5/2020 -- 22:53:25 - (output-tx.c:76) <Notice> (OutputRegisterTxLogger) -- JsonDHCPLog logger not enabled: protocol dhcp is disabled
+[7] 16/5/2020 -- 22:53:25 - (util-classification-config.c:139) <Warning> (SCClassConfInitContextAndLocalResources) -- [ERRCODE: SC_ERR_FOPEN(44)] - could not open: "/etc/suricata/rules/classification.config": No such file or directory
+[7] 16/5/2020 -- 22:53:25 - (util-classification-config.c:537) <Error> (SCClassConfLoadClassficationConfigFile) -- [ERRCODE: SC_ERR_OPENING_FILE(40)] - please check the "classification-file" option in your suricata.yaml file
+[7] 16/5/2020 -- 22:53:25 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/botcc.rules
+[7] 16/5/2020 -- 22:53:25 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/botcc.portgrouped.rules
+[7] 16/5/2020 -- 22:53:25 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/ciarmy.rules
+[7] 16/5/2020 -- 22:53:25 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/compromised.rules
+[7] 16/5/2020 -- 22:53:25 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/drop.rules
+[7] 16/5/2020 -- 22:53:25 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/dshield.rules
+[7] 16/5/2020 -- 22:53:25 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-activex.rules
+[7] 16/5/2020 -- 22:53:25 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-adware_pup.rules
+[7] 16/5/2020 -- 22:53:25 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-attack_response.rules
+[7] 16/5/2020 -- 22:53:25 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-chat.rules
+[7] 16/5/2020 -- 22:53:25 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-coinminer.rules
+[7] 16/5/2020 -- 22:53:25 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-current_events.rules
+[7] 16/5/2020 -- 22:53:25 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-dns.rules
+[7] 16/5/2020 -- 22:53:25 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-dos.rules
+[7] 16/5/2020 -- 22:53:25 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-exploit.rules
+[7] 16/5/2020 -- 22:53:25 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-exploit_kit.rules
+[7] 16/5/2020 -- 22:53:25 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-ftp.rules
+[7] 16/5/2020 -- 22:53:25 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-games.rules
+[7] 16/5/2020 -- 22:53:25 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-hunting.rules
+[7] 16/5/2020 -- 22:53:25 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-icmp_info.rules
+[7] 16/5/2020 -- 22:53:25 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-icmp.rules
+[7] 16/5/2020 -- 22:53:25 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-imap.rules
+[7] 16/5/2020 -- 22:53:25 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-inappropriate.rules
+[7] 16/5/2020 -- 22:53:25 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-info.rules
+[7] 16/5/2020 -- 22:53:25 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-ja3.rules
+[7] 16/5/2020 -- 22:53:25 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-malware.rules
+[7] 16/5/2020 -- 22:53:25 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-misc.rules
+[7] 16/5/2020 -- 22:53:25 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-mobile_malware.rules
+[7] 16/5/2020 -- 22:53:25 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-netbios.rules
+[7] 16/5/2020 -- 22:53:25 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-p2p.rules
+[7] 16/5/2020 -- 22:53:25 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-phishing.rules
+[7] 16/5/2020 -- 22:53:25 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-policy.rules
+[7] 16/5/2020 -- 22:53:25 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-pop3.rules
+[7] 16/5/2020 -- 22:53:25 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-rpc.rules
+[7] 16/5/2020 -- 22:53:25 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-scada.rules
+[7] 16/5/2020 -- 22:53:25 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-scan.rules
+[7] 16/5/2020 -- 22:53:25 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-shellcode.rules
+[7] 16/5/2020 -- 22:53:25 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-smtp.rules
+[7] 16/5/2020 -- 22:53:25 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-snmp.rules
+[7] 16/5/2020 -- 22:53:25 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-sql.rules
+[7] 16/5/2020 -- 22:53:25 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-telnet.rules
+[7] 16/5/2020 -- 22:53:25 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-tftp.rules
+[7] 16/5/2020 -- 22:53:25 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-user_agents.rules
+[7] 16/5/2020 -- 22:53:25 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-voip.rules
+[7] 16/5/2020 -- 22:53:25 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-web_client.rules
+[7] 16/5/2020 -- 22:53:25 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-web_server.rules
+[7] 16/5/2020 -- 22:53:25 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-web_specific_apps.rules
+[7] 16/5/2020 -- 22:53:25 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-worm.rules
+[7] 16/5/2020 -- 22:53:25 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/tor.rules
+[7] 16/5/2020 -- 22:53:25 - (detect-classtype.c:146) <Warning> (DetectClasstypeSetup) -- [ERRCODE: SC_ERR_UNKNOWN_VALUE(129)] - signature at /etc/suricata/rules/decoder-events.rules:3 uses unknown classtype: "protocol-command-decode", using default priority 3. This message won't be shown again for this classtype
+[7] 16/5/2020 -- 22:53:25 - (detect-engine-loader.c:352) <Info> (SigLoadSignatures) -- 61 rule files processed. 291 rules successfully loaded, 0 rules failed
+[7] 16/5/2020 -- 22:53:25 - (util-threshold-config.c:1126) <Info> (SCThresholdConfParseFile) -- Threshold config parsed: 0 rule(s) found
+[7] 16/5/2020 -- 22:53:25 - (detect-engine-build.c:1412) <Info> (SigAddressPrepareStage1) -- 291 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 120 inspect application layer, 103 are decoder event only
+[7] 16/5/2020 -- 22:53:25 - (util-ioctl.c:322) <Warning> (SetEthtoolValue) -- [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'wlan0': Not supported (95)
+[7] 16/5/2020 -- 22:53:25 - (util-runmodes.c:297) <Info> (RunModeSetLiveCaptureWorkersForDevice) -- Going to use 4 thread(s)
+[7] 16/5/2020 -- 22:53:25 - (unix-manager.c:132) <Info> (UnixNew) -- Using unix socket file '/var/run/suricata/suricata-command.socket'
+[7] 16/5/2020 -- 22:53:25 - (tm-threads.c:2169) <Notice> (TmThreadWaitOnThreadInit) -- all 4 packet processing threads, 4 management threads initialized, engine started.
+[11] 16/5/2020 -- 22:53:26 - (source-af-packet.c:515) <Info> (AFPPeersListReachedInc) -- All AFP capture threads are running.
+[7] 16/5/2020 -- 23:52:24 - (suricata.c:1083) <Notice> (LogVersion) -- This is Suricata version 5.0.2 RELEASE running in SYSTEM mode
+[7] 16/5/2020 -- 23:52:24 - (util-cpu.c:171) <Info> (UtilCpuPrintSummary) -- CPUs/cores online: 4
+[7] 16/5/2020 -- 23:52:24 - (util-ioctl.c:111) <Info> (GetIfaceMTU) -- Found an MTU of 1500 for 'wlan0'
+[7] 16/5/2020 -- 23:52:24 - (util-ioctl.c:111) <Info> (GetIfaceMTU) -- Found an MTU of 1500 for 'wlan0'
+[7] 16/5/2020 -- 23:52:24 - (util-logopenfile.c:473) <Info> (SCConfLogOpenGeneric) -- fast output device (regular) initialized: fast.log
+[7] 16/5/2020 -- 23:52:24 - (util-logopenfile.c:473) <Info> (SCConfLogOpenGeneric) -- eve-log output device (regular) initialized: eve.json
+[7] 16/5/2020 -- 23:52:24 - (output-json-email-common.c:453) <Info> (OutputEmailInitConf) -- Going to log the md5 sum of email body
+[7] 16/5/2020 -- 23:52:24 - (output-json-email-common.c:457) <Info> (OutputEmailInitConf) -- Going to log the md5 sum of email subject
+[7] 16/5/2020 -- 23:52:24 - (output-json-dnp3.c:389) <Info> (OutputDNP3LogInitSub) -- DNP3 log sub-module initialized.
+[7] 16/5/2020 -- 23:52:24 - (output-json-dnp3.c:389) <Info> (OutputDNP3LogInitSub) -- DNP3 log sub-module initialized.
+[7] 16/5/2020 -- 23:52:24 - (output-tx.c:76) <Notice> (OutputRegisterTxLogger) -- JsonDHCPLog logger not enabled: protocol dhcp is disabled
+[7] 16/5/2020 -- 23:52:24 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/botcc.rules
+[7] 16/5/2020 -- 23:52:24 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/botcc.portgrouped.rules
+[7] 16/5/2020 -- 23:52:24 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/ciarmy.rules
+[7] 16/5/2020 -- 23:52:24 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/compromised.rules
+[7] 16/5/2020 -- 23:52:24 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/drop.rules
+[7] 16/5/2020 -- 23:52:24 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/dshield.rules
+[7] 16/5/2020 -- 23:52:24 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-activex.rules
+[7] 16/5/2020 -- 23:52:24 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-adware_pup.rules
+[7] 16/5/2020 -- 23:52:24 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-attack_response.rules
+[7] 16/5/2020 -- 23:52:24 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-chat.rules
+[7] 16/5/2020 -- 23:52:24 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-coinminer.rules
+[7] 16/5/2020 -- 23:52:24 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-current_events.rules
+[7] 16/5/2020 -- 23:52:24 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-dns.rules
+[7] 16/5/2020 -- 23:52:24 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-dos.rules
+[7] 16/5/2020 -- 23:52:24 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-exploit.rules
+[7] 16/5/2020 -- 23:52:24 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-exploit_kit.rules
+[7] 16/5/2020 -- 23:52:24 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-ftp.rules
+[7] 16/5/2020 -- 23:52:24 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-games.rules
+[7] 16/5/2020 -- 23:52:24 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-hunting.rules
+[7] 16/5/2020 -- 23:52:24 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-icmp_info.rules
+[7] 16/5/2020 -- 23:52:24 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-icmp.rules
+[7] 16/5/2020 -- 23:52:24 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-imap.rules
+[7] 16/5/2020 -- 23:52:24 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-inappropriate.rules
+[7] 16/5/2020 -- 23:52:24 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-info.rules
+[7] 16/5/2020 -- 23:52:24 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-ja3.rules
+[7] 16/5/2020 -- 23:52:24 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-malware.rules
+[7] 16/5/2020 -- 23:52:24 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-misc.rules
+[7] 16/5/2020 -- 23:52:24 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-mobile_malware.rules
+[7] 16/5/2020 -- 23:52:24 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-netbios.rules
+[7] 16/5/2020 -- 23:52:24 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-p2p.rules
+[7] 16/5/2020 -- 23:52:24 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-phishing.rules
+[7] 16/5/2020 -- 23:52:24 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-policy.rules
+[7] 16/5/2020 -- 23:52:24 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-pop3.rules
+[7] 16/5/2020 -- 23:52:24 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-rpc.rules
+[7] 16/5/2020 -- 23:52:24 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-scada.rules
+[7] 16/5/2020 -- 23:52:24 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-scan.rules
+[7] 16/5/2020 -- 23:52:24 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-shellcode.rules
+[7] 16/5/2020 -- 23:52:24 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-smtp.rules
+[7] 16/5/2020 -- 23:52:24 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-snmp.rules
+[7] 16/5/2020 -- 23:52:24 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-sql.rules
+[7] 16/5/2020 -- 23:52:24 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-telnet.rules
+[7] 16/5/2020 -- 23:52:24 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-tftp.rules
+[7] 16/5/2020 -- 23:52:24 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-user_agents.rules
+[7] 16/5/2020 -- 23:52:24 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-voip.rules
+[7] 16/5/2020 -- 23:52:24 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-web_client.rules
+[7] 16/5/2020 -- 23:52:24 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-web_server.rules
+[7] 16/5/2020 -- 23:52:24 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-web_specific_apps.rules
+[7] 16/5/2020 -- 23:52:24 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-worm.rules
+[7] 16/5/2020 -- 23:52:24 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/tor.rules
+[7] 16/5/2020 -- 23:52:24 - (detect-engine-loader.c:352) <Info> (SigLoadSignatures) -- 61 rule files processed. 291 rules successfully loaded, 0 rules failed
+[7] 16/5/2020 -- 23:52:24 - (util-threshold-config.c:1126) <Info> (SCThresholdConfParseFile) -- Threshold config parsed: 0 rule(s) found
+[7] 16/5/2020 -- 23:52:24 - (detect-engine-build.c:1412) <Info> (SigAddressPrepareStage1) -- 291 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 120 inspect application layer, 103 are decoder event only
+[7] 16/5/2020 -- 23:52:24 - (util-ioctl.c:322) <Warning> (SetEthtoolValue) -- [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'wlan0': Not supported (95)
+[7] 16/5/2020 -- 23:52:24 - (util-runmodes.c:297) <Info> (RunModeSetLiveCaptureWorkersForDevice) -- Going to use 4 thread(s)
+[7] 16/5/2020 -- 23:52:24 - (unix-manager.c:132) <Info> (UnixNew) -- Using unix socket file '/var/run/suricata/suricata-command.socket'
+[7] 16/5/2020 -- 23:52:24 - (tm-threads.c:2169) <Notice> (TmThreadWaitOnThreadInit) -- all 4 packet processing threads, 4 management threads initialized, engine started.
+[12] 16/5/2020 -- 23:52:24 - (source-af-packet.c:515) <Info> (AFPPeersListReachedInc) -- All AFP capture threads are running.
+[7] 17/5/2020 -- 00:09:09 - (suricata.c:1083) <Notice> (LogVersion) -- This is Suricata version 5.0.2 RELEASE running in SYSTEM mode
+[7] 17/5/2020 -- 00:09:09 - (util-cpu.c:171) <Info> (UtilCpuPrintSummary) -- CPUs/cores online: 4
+[7] 17/5/2020 -- 00:09:09 - (util-ioctl.c:111) <Info> (GetIfaceMTU) -- Found an MTU of 1500 for 'wlan0'
+[7] 17/5/2020 -- 00:09:09 - (util-ioctl.c:111) <Info> (GetIfaceMTU) -- Found an MTU of 1500 for 'wlan0'
+[7] 17/5/2020 -- 00:09:09 - (util-logopenfile.c:473) <Info> (SCConfLogOpenGeneric) -- fast output device (regular) initialized: fast.log
+[7] 17/5/2020 -- 00:09:09 - (util-logopenfile.c:473) <Info> (SCConfLogOpenGeneric) -- eve-log output device (regular) initialized: eve.json
+[7] 17/5/2020 -- 00:09:09 - (output-json-email-common.c:453) <Info> (OutputEmailInitConf) -- Going to log the md5 sum of email body
+[7] 17/5/2020 -- 00:09:09 - (output-json-email-common.c:457) <Info> (OutputEmailInitConf) -- Going to log the md5 sum of email subject
+[7] 17/5/2020 -- 00:09:09 - (output-json-dnp3.c:389) <Info> (OutputDNP3LogInitSub) -- DNP3 log sub-module initialized.
+[7] 17/5/2020 -- 00:09:09 - (output-json-dnp3.c:389) <Info> (OutputDNP3LogInitSub) -- DNP3 log sub-module initialized.
+[7] 17/5/2020 -- 00:09:09 - (output-tx.c:76) <Notice> (OutputRegisterTxLogger) -- JsonDHCPLog logger not enabled: protocol dhcp is disabled
+[7] 17/5/2020 -- 00:09:09 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/botcc.rules
+[7] 17/5/2020 -- 00:09:09 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/botcc.portgrouped.rules
+[7] 17/5/2020 -- 00:09:09 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/ciarmy.rules
+[7] 17/5/2020 -- 00:09:09 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/compromised.rules
+[7] 17/5/2020 -- 00:09:09 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/drop.rules
+[7] 17/5/2020 -- 00:09:09 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/dshield.rules
+[7] 17/5/2020 -- 00:09:09 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-activex.rules
+[7] 17/5/2020 -- 00:09:09 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-adware_pup.rules
+[7] 17/5/2020 -- 00:09:09 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-attack_response.rules
+[7] 17/5/2020 -- 00:09:09 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-chat.rules
+[7] 17/5/2020 -- 00:09:09 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-coinminer.rules
+[7] 17/5/2020 -- 00:09:09 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-current_events.rules
+[7] 17/5/2020 -- 00:09:09 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-dns.rules
+[7] 17/5/2020 -- 00:09:09 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-dos.rules
+[7] 17/5/2020 -- 00:09:09 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-exploit.rules
+[7] 17/5/2020 -- 00:09:09 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-exploit_kit.rules
+[7] 17/5/2020 -- 00:09:09 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-ftp.rules
+[7] 17/5/2020 -- 00:09:09 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-games.rules
+[7] 17/5/2020 -- 00:09:09 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-hunting.rules
+[7] 17/5/2020 -- 00:09:09 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-icmp_info.rules
+[7] 17/5/2020 -- 00:09:09 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-icmp.rules
+[7] 17/5/2020 -- 00:09:09 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-imap.rules
+[7] 17/5/2020 -- 00:09:09 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-inappropriate.rules
+[7] 17/5/2020 -- 00:09:09 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-info.rules
+[7] 17/5/2020 -- 00:09:09 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-ja3.rules
+[7] 17/5/2020 -- 00:09:09 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-malware.rules
+[7] 17/5/2020 -- 00:09:09 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-misc.rules
+[7] 17/5/2020 -- 00:09:09 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-mobile_malware.rules
+[7] 17/5/2020 -- 00:09:09 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-netbios.rules
+[7] 17/5/2020 -- 00:09:09 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-p2p.rules
+[7] 17/5/2020 -- 00:09:09 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-phishing.rules
+[7] 17/5/2020 -- 00:09:09 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-policy.rules
+[7] 17/5/2020 -- 00:09:09 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-pop3.rules
+[7] 17/5/2020 -- 00:09:09 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-rpc.rules
+[7] 17/5/2020 -- 00:09:09 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-scada.rules
+[7] 17/5/2020 -- 00:09:09 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-scan.rules
+[7] 17/5/2020 -- 00:09:09 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-shellcode.rules
+[7] 17/5/2020 -- 00:09:09 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-smtp.rules
+[7] 17/5/2020 -- 00:09:09 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-snmp.rules
+[7] 17/5/2020 -- 00:09:09 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-sql.rules
+[7] 17/5/2020 -- 00:09:09 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-telnet.rules
+[7] 17/5/2020 -- 00:09:09 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-tftp.rules
+[7] 17/5/2020 -- 00:09:09 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-user_agents.rules
+[7] 17/5/2020 -- 00:09:09 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-voip.rules
+[7] 17/5/2020 -- 00:09:09 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-web_client.rules
+[7] 17/5/2020 -- 00:09:09 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-web_server.rules
+[7] 17/5/2020 -- 00:09:09 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-web_specific_apps.rules
+[7] 17/5/2020 -- 00:09:09 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-worm.rules
+[7] 17/5/2020 -- 00:09:09 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/tor.rules
+[7] 17/5/2020 -- 00:09:09 - (detect-engine-loader.c:352) <Info> (SigLoadSignatures) -- 61 rule files processed. 291 rules successfully loaded, 0 rules failed
+[7] 17/5/2020 -- 00:09:09 - (util-threshold-config.c:1126) <Info> (SCThresholdConfParseFile) -- Threshold config parsed: 0 rule(s) found
+[7] 17/5/2020 -- 00:09:09 - (detect-engine-build.c:1412) <Info> (SigAddressPrepareStage1) -- 291 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 120 inspect application layer, 103 are decoder event only
+[7] 17/5/2020 -- 00:09:09 - (util-ioctl.c:322) <Warning> (SetEthtoolValue) -- [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'wlan0': Not supported (95)
+[7] 17/5/2020 -- 00:09:09 - (util-runmodes.c:297) <Info> (RunModeSetLiveCaptureWorkersForDevice) -- Going to use 4 thread(s)
+[7] 17/5/2020 -- 00:09:09 - (unix-manager.c:132) <Info> (UnixNew) -- Using unix socket file '/var/run/suricata/suricata-command.socket'
+[7] 17/5/2020 -- 00:09:09 - (tm-threads.c:2169) <Notice> (TmThreadWaitOnThreadInit) -- all 4 packet processing threads, 4 management threads initialized, engine started.
+[12] 17/5/2020 -- 00:09:09 - (source-af-packet.c:515) <Info> (AFPPeersListReachedInc) -- All AFP capture threads are running.
+[17] 17/5/2020 -- 00:10:40 - (unix-manager.c:575) <Info> (UnixCommandRun) -- Unix socket: lost connection with client
+[7] 17/5/2020 -- 00:10:40 - (detect-engine.c:4007) <Notice> (DetectEngineReload) -- rule reload starting
+[7] 17/5/2020 -- 00:10:40 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/botcc.rules
+[7] 17/5/2020 -- 00:10:40 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/botcc.portgrouped.rules
+[7] 17/5/2020 -- 00:10:40 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/ciarmy.rules
+[7] 17/5/2020 -- 00:10:40 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/compromised.rules
+[7] 17/5/2020 -- 00:10:40 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/drop.rules
+[7] 17/5/2020 -- 00:10:40 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/dshield.rules
+[7] 17/5/2020 -- 00:10:40 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-activex.rules
+[7] 17/5/2020 -- 00:10:40 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-adware_pup.rules
+[7] 17/5/2020 -- 00:10:40 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-attack_response.rules
+[7] 17/5/2020 -- 00:10:40 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-chat.rules
+[7] 17/5/2020 -- 00:10:40 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-coinminer.rules
+[7] 17/5/2020 -- 00:10:40 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-current_events.rules
+[7] 17/5/2020 -- 00:10:40 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-dns.rules
+[7] 17/5/2020 -- 00:10:40 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-dos.rules
+[7] 17/5/2020 -- 00:10:40 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-exploit.rules
+[7] 17/5/2020 -- 00:10:40 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-exploit_kit.rules
+[7] 17/5/2020 -- 00:10:40 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-ftp.rules
+[7] 17/5/2020 -- 00:10:40 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-games.rules
+[7] 17/5/2020 -- 00:10:40 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-hunting.rules
+[7] 17/5/2020 -- 00:10:40 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-icmp_info.rules
+[7] 17/5/2020 -- 00:10:40 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-icmp.rules
+[7] 17/5/2020 -- 00:10:40 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-imap.rules
+[7] 17/5/2020 -- 00:10:40 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-inappropriate.rules
+[7] 17/5/2020 -- 00:10:40 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-info.rules
+[7] 17/5/2020 -- 00:10:40 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-ja3.rules
+[7] 17/5/2020 -- 00:10:40 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-malware.rules
+[7] 17/5/2020 -- 00:10:40 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-misc.rules
+[7] 17/5/2020 -- 00:10:40 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-mobile_malware.rules
+[7] 17/5/2020 -- 00:10:40 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-netbios.rules
+[7] 17/5/2020 -- 00:10:40 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-p2p.rules
+[7] 17/5/2020 -- 00:10:40 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-phishing.rules
+[7] 17/5/2020 -- 00:10:40 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-policy.rules
+[7] 17/5/2020 -- 00:10:40 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-pop3.rules
+[7] 17/5/2020 -- 00:10:40 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-rpc.rules
+[7] 17/5/2020 -- 00:10:40 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-scada.rules
+[7] 17/5/2020 -- 00:10:40 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-scan.rules
+[7] 17/5/2020 -- 00:10:40 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-shellcode.rules
+[7] 17/5/2020 -- 00:10:40 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-smtp.rules
+[7] 17/5/2020 -- 00:10:40 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-snmp.rules
+[7] 17/5/2020 -- 00:10:40 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-sql.rules
+[7] 17/5/2020 -- 00:10:40 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-telnet.rules
+[7] 17/5/2020 -- 00:10:40 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-tftp.rules
+[7] 17/5/2020 -- 00:10:40 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-user_agents.rules
+[7] 17/5/2020 -- 00:10:40 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-voip.rules
+[7] 17/5/2020 -- 00:10:40 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-web_client.rules
+[7] 17/5/2020 -- 00:10:40 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-web_server.rules
+[7] 17/5/2020 -- 00:10:40 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-web_specific_apps.rules
+[7] 17/5/2020 -- 00:10:40 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-worm.rules
+[7] 17/5/2020 -- 00:10:40 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/tor.rules
+[7] 17/5/2020 -- 00:10:40 - (detect-engine-loader.c:352) <Info> (SigLoadSignatures) -- 61 rule files processed. 291 rules successfully loaded, 0 rules failed
+[7] 17/5/2020 -- 00:10:40 - (util-threshold-config.c:1126) <Info> (SCThresholdConfParseFile) -- Threshold config parsed: 0 rule(s) found
+[7] 17/5/2020 -- 00:10:40 - (detect-engine-build.c:1412) <Info> (SigAddressPrepareStage1) -- 291 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 120 inspect application layer, 103 are decoder event only
+[7] 17/5/2020 -- 00:10:40 - (detect-engine-build.c:1716) <Info> (SigAddressCleanupStage1) -- cleaning up signature grouping structure... complete
+[7] 17/5/2020 -- 00:10:40 - (detect-engine.c:4078) <Notice> (DetectEngineReload) -- rule reload complete
+[17] 17/5/2020 -- 00:11:04 - (unix-manager.c:575) <Info> (UnixCommandRun) -- Unix socket: lost connection with client
+[7] 17/5/2020 -- 00:11:04 - (detect-engine.c:4007) <Notice> (DetectEngineReload) -- rule reload starting
+[7] 17/5/2020 -- 00:11:04 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/botcc.rules
+[7] 17/5/2020 -- 00:11:04 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/botcc.portgrouped.rules
+[7] 17/5/2020 -- 00:11:04 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/ciarmy.rules
+[7] 17/5/2020 -- 00:11:04 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/compromised.rules
+[7] 17/5/2020 -- 00:11:04 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/drop.rules
+[7] 17/5/2020 -- 00:11:04 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/dshield.rules
+[7] 17/5/2020 -- 00:11:04 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-activex.rules
+[7] 17/5/2020 -- 00:11:04 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-adware_pup.rules
+[7] 17/5/2020 -- 00:11:04 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-attack_response.rules
+[7] 17/5/2020 -- 00:11:04 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-chat.rules
+[7] 17/5/2020 -- 00:11:04 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-coinminer.rules
+[7] 17/5/2020 -- 00:11:04 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-current_events.rules
+[7] 17/5/2020 -- 00:11:04 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-dns.rules
+[7] 17/5/2020 -- 00:11:04 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-dos.rules
+[7] 17/5/2020 -- 00:11:04 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-exploit.rules
+[7] 17/5/2020 -- 00:11:04 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-exploit_kit.rules
+[7] 17/5/2020 -- 00:11:04 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-ftp.rules
+[7] 17/5/2020 -- 00:11:04 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-games.rules
+[7] 17/5/2020 -- 00:11:04 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-hunting.rules
+[7] 17/5/2020 -- 00:11:04 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-icmp_info.rules
+[7] 17/5/2020 -- 00:11:04 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-icmp.rules
+[7] 17/5/2020 -- 00:11:04 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-imap.rules
+[7] 17/5/2020 -- 00:11:04 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-inappropriate.rules
+[7] 17/5/2020 -- 00:11:04 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-info.rules
+[7] 17/5/2020 -- 00:11:04 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-ja3.rules
+[7] 17/5/2020 -- 00:11:04 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-malware.rules
+[7] 17/5/2020 -- 00:11:04 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-misc.rules
+[7] 17/5/2020 -- 00:11:04 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-mobile_malware.rules
+[7] 17/5/2020 -- 00:11:04 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-netbios.rules
+[7] 17/5/2020 -- 00:11:04 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-p2p.rules
+[7] 17/5/2020 -- 00:11:04 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-phishing.rules
+[7] 17/5/2020 -- 00:11:04 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-policy.rules
+[7] 17/5/2020 -- 00:11:04 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-pop3.rules
+[7] 17/5/2020 -- 00:11:04 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-rpc.rules
+[7] 17/5/2020 -- 00:11:04 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-scada.rules
+[7] 17/5/2020 -- 00:11:04 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-scan.rules
+[7] 17/5/2020 -- 00:11:04 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-shellcode.rules
+[7] 17/5/2020 -- 00:11:04 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-smtp.rules
+[7] 17/5/2020 -- 00:11:04 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-snmp.rules
+[7] 17/5/2020 -- 00:11:04 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-sql.rules
+[7] 17/5/2020 -- 00:11:04 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-telnet.rules
+[7] 17/5/2020 -- 00:11:04 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-tftp.rules
+[7] 17/5/2020 -- 00:11:04 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-user_agents.rules
+[7] 17/5/2020 -- 00:11:04 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-voip.rules
+[7] 17/5/2020 -- 00:11:04 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-web_client.rules
+[7] 17/5/2020 -- 00:11:04 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-web_server.rules
+[7] 17/5/2020 -- 00:11:04 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-web_specific_apps.rules
+[7] 17/5/2020 -- 00:11:04 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-worm.rules
+[7] 17/5/2020 -- 00:11:04 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/tor.rules
+[7] 17/5/2020 -- 00:11:04 - (detect-engine-loader.c:352) <Info> (SigLoadSignatures) -- 61 rule files processed. 291 rules successfully loaded, 0 rules failed
+[7] 17/5/2020 -- 00:11:04 - (util-threshold-config.c:1126) <Info> (SCThresholdConfParseFile) -- Threshold config parsed: 0 rule(s) found
+[7] 17/5/2020 -- 00:11:04 - (detect-engine-build.c:1412) <Info> (SigAddressPrepareStage1) -- 291 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 120 inspect application layer, 103 are decoder event only
+[7] 17/5/2020 -- 00:11:04 - (detect-engine-build.c:1716) <Info> (SigAddressCleanupStage1) -- cleaning up signature grouping structure... complete
+[7] 17/5/2020 -- 00:11:04 - (detect-engine.c:4078) <Notice> (DetectEngineReload) -- rule reload complete
+[9] 17/5/2020 -- 10:56:45 - (source-af-packet.c:1578) <Error> (ReceiveAFPLoop) -- [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'wlan0': (100) Network is down
+[10] 17/5/2020 -- 10:56:45 - (source-af-packet.c:1578) <Error> (ReceiveAFPLoop) -- [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'wlan0': (100) Network is down
+[11] 17/5/2020 -- 10:56:45 - (source-af-packet.c:1578) <Error> (ReceiveAFPLoop) -- [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'wlan0': (100) Network is down
+[12] 17/5/2020 -- 10:56:45 - (source-af-packet.c:1578) <Error> (ReceiveAFPLoop) -- [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'wlan0': (100) Network is down
+[11] 17/5/2020 -- 10:56:45 - (source-af-packet.c:1463) <Info> (AFPTryReopen) -- Interface 'wlan0' is back
+[9] 17/5/2020 -- 10:56:45 - (source-af-packet.c:1463) <Info> (AFPTryReopen) -- Interface 'wlan0' is back
+[10] 17/5/2020 -- 10:56:45 - (source-af-packet.c:1463) <Info> (AFPTryReopen) -- Interface 'wlan0' is back
+[12] 17/5/2020 -- 10:56:45 - (source-af-packet.c:1463) <Info> (AFPTryReopen) -- Interface 'wlan0' is back
+[12] 17/5/2020 -- 10:56:49 - (source-af-packet.c:1578) <Error> (ReceiveAFPLoop) -- [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'wlan0': (100) Network is down
+[9] 17/5/2020 -- 10:56:49 - (source-af-packet.c:1578) <Error> (ReceiveAFPLoop) -- [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'wlan0': (100) Network is down
+[10] 17/5/2020 -- 10:56:49 - (source-af-packet.c:1578) <Error> (ReceiveAFPLoop) -- [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'wlan0': (100) Network is down
+[11] 17/5/2020 -- 10:56:49 - (source-af-packet.c:1578) <Error> (ReceiveAFPLoop) -- [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'wlan0': (100) Network is down
+[12] 17/5/2020 -- 10:56:49 - (source-af-packet.c:1463) <Info> (AFPTryReopen) -- Interface 'wlan0' is back
+[10] 17/5/2020 -- 10:56:49 - (source-af-packet.c:1463) <Info> (AFPTryReopen) -- Interface 'wlan0' is back
+[9] 17/5/2020 -- 10:56:49 - (source-af-packet.c:1463) <Info> (AFPTryReopen) -- Interface 'wlan0' is back
+[11] 17/5/2020 -- 10:56:49 - (source-af-packet.c:1463) <Info> (AFPTryReopen) -- Interface 'wlan0' is back
+[12] 17/5/2020 -- 21:16:59 - (source-af-packet.c:1578) <Error> (ReceiveAFPLoop) -- [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'wlan0': (100) Network is down
+[10] 17/5/2020 -- 21:16:59 - (source-af-packet.c:1578) <Error> (ReceiveAFPLoop) -- [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'wlan0': (100) Network is down
+[9] 17/5/2020 -- 21:16:59 - (source-af-packet.c:1578) <Error> (ReceiveAFPLoop) -- [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'wlan0': (100) Network is down
+[11] 17/5/2020 -- 21:16:59 - (source-af-packet.c:1578) <Error> (ReceiveAFPLoop) -- [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'wlan0': (100) Network is down
+[11] 17/5/2020 -- 21:16:59 - (source-af-packet.c:1463) <Info> (AFPTryReopen) -- Interface 'wlan0' is back
+[9] 17/5/2020 -- 21:16:59 - (source-af-packet.c:1463) <Info> (AFPTryReopen) -- Interface 'wlan0' is back
+[12] 17/5/2020 -- 21:16:59 - (source-af-packet.c:1463) <Info> (AFPTryReopen) -- Interface 'wlan0' is back
+[10] 17/5/2020 -- 21:16:59 - (source-af-packet.c:1463) <Info> (AFPTryReopen) -- Interface 'wlan0' is back
+[12] 17/5/2020 -- 21:17:03 - (source-af-packet.c:1578) <Error> (ReceiveAFPLoop) -- [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'wlan0': (100) Network is down
+[9] 17/5/2020 -- 21:17:03 - (source-af-packet.c:1578) <Error> (ReceiveAFPLoop) -- [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'wlan0': (100) Network is down
+[11] 17/5/2020 -- 21:17:03 - (source-af-packet.c:1578) <Error> (ReceiveAFPLoop) -- [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'wlan0': (100) Network is down
+[10] 17/5/2020 -- 21:17:03 - (source-af-packet.c:1578) <Error> (ReceiveAFPLoop) -- [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'wlan0': (100) Network is down
+[9] 17/5/2020 -- 21:17:03 - (source-af-packet.c:1463) <Info> (AFPTryReopen) -- Interface 'wlan0' is back
+[12] 17/5/2020 -- 21:17:03 - (source-af-packet.c:1463) <Info> (AFPTryReopen) -- Interface 'wlan0' is back
+[11] 17/5/2020 -- 21:17:03 - (source-af-packet.c:1463) <Info> (AFPTryReopen) -- Interface 'wlan0' is back
+[10] 17/5/2020 -- 21:17:03 - (source-af-packet.c:1463) <Info> (AFPTryReopen) -- Interface 'wlan0' is back
+[9] 18/5/2020 -- 08:31:04 - (source-af-packet.c:1578) <Error> (ReceiveAFPLoop) -- [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'wlan0': (100) Network is down
+[11] 18/5/2020 -- 08:31:04 - (source-af-packet.c:1578) <Error> (ReceiveAFPLoop) -- [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'wlan0': (100) Network is down
+[10] 18/5/2020 -- 08:31:04 - (source-af-packet.c:1578) <Error> (ReceiveAFPLoop) -- [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'wlan0': (100) Network is down
+[12] 18/5/2020 -- 08:31:04 - (source-af-packet.c:1578) <Error> (ReceiveAFPLoop) -- [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'wlan0': (100) Network is down
+[10] 18/5/2020 -- 08:31:04 - (source-af-packet.c:1463) <Info> (AFPTryReopen) -- Interface 'wlan0' is back
+[9] 18/5/2020 -- 08:31:04 - (source-af-packet.c:1463) <Info> (AFPTryReopen) -- Interface 'wlan0' is back
+[12] 18/5/2020 -- 08:31:04 - (source-af-packet.c:1463) <Info> (AFPTryReopen) -- Interface 'wlan0' is back
+[11] 18/5/2020 -- 08:31:04 - (source-af-packet.c:1463) <Info> (AFPTryReopen) -- Interface 'wlan0' is back
+[9] 18/5/2020 -- 08:31:08 - (source-af-packet.c:1578) <Error> (ReceiveAFPLoop) -- [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'wlan0': (100) Network is down
+[11] 18/5/2020 -- 08:31:08 - (source-af-packet.c:1578) <Error> (ReceiveAFPLoop) -- [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'wlan0': (100) Network is down
+[10] 18/5/2020 -- 08:31:08 - (source-af-packet.c:1578) <Error> (ReceiveAFPLoop) -- [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'wlan0': (100) Network is down
+[12] 18/5/2020 -- 08:31:08 - (source-af-packet.c:1578) <Error> (ReceiveAFPLoop) -- [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'wlan0': (100) Network is down
+[12] 18/5/2020 -- 08:31:08 - (source-af-packet.c:1463) <Info> (AFPTryReopen) -- Interface 'wlan0' is back
+[11] 18/5/2020 -- 08:31:08 - (source-af-packet.c:1463) <Info> (AFPTryReopen) -- Interface 'wlan0' is back
+[9] 18/5/2020 -- 08:31:08 - (source-af-packet.c:1463) <Info> (AFPTryReopen) -- Interface 'wlan0' is back
+[10] 18/5/2020 -- 08:31:08 - (source-af-packet.c:1463) <Info> (AFPTryReopen) -- Interface 'wlan0' is back
+[9] 18/5/2020 -- 12:43:16 - (source-af-packet.c:1578) <Error> (ReceiveAFPLoop) -- [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'wlan0': (100) Network is down
+[10] 18/5/2020 -- 12:43:16 - (source-af-packet.c:1578) <Error> (ReceiveAFPLoop) -- [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'wlan0': (100) Network is down
+[12] 18/5/2020 -- 12:43:16 - (source-af-packet.c:1578) <Error> (ReceiveAFPLoop) -- [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'wlan0': (100) Network is down
+[11] 18/5/2020 -- 12:43:16 - (source-af-packet.c:1578) <Error> (ReceiveAFPLoop) -- [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'wlan0': (100) Network is down
+[10] 18/5/2020 -- 12:43:16 - (source-af-packet.c:1463) <Info> (AFPTryReopen) -- Interface 'wlan0' is back
+[9] 18/5/2020 -- 12:43:16 - (source-af-packet.c:1463) <Info> (AFPTryReopen) -- Interface 'wlan0' is back
+[11] 18/5/2020 -- 12:43:16 - (source-af-packet.c:1463) <Info> (AFPTryReopen) -- Interface 'wlan0' is back
+[12] 18/5/2020 -- 12:43:16 - (source-af-packet.c:1463) <Info> (AFPTryReopen) -- Interface 'wlan0' is back
+[10] 18/5/2020 -- 12:43:20 - (source-af-packet.c:1578) <Error> (ReceiveAFPLoop) -- [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'wlan0': (100) Network is down
+[11] 18/5/2020 -- 12:43:20 - (source-af-packet.c:1578) <Error> (ReceiveAFPLoop) -- [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'wlan0': (100) Network is down
+[12] 18/5/2020 -- 12:43:20 - (source-af-packet.c:1578) <Error> (ReceiveAFPLoop) -- [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'wlan0': (100) Network is down
+[9] 18/5/2020 -- 12:43:20 - (source-af-packet.c:1578) <Error> (ReceiveAFPLoop) -- [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'wlan0': (100) Network is down
+[10] 18/5/2020 -- 12:43:20 - (source-af-packet.c:1463) <Info> (AFPTryReopen) -- Interface 'wlan0' is back
+[12] 18/5/2020 -- 12:43:20 - (source-af-packet.c:1463) <Info> (AFPTryReopen) -- Interface 'wlan0' is back
+[11] 18/5/2020 -- 12:43:20 - (source-af-packet.c:1463) <Info> (AFPTryReopen) -- Interface 'wlan0' is back
+[9] 18/5/2020 -- 12:43:20 - (source-af-packet.c:1463) <Info> (AFPTryReopen) -- Interface 'wlan0' is back
+[9] 19/5/2020 -- 09:12:17 - (source-af-packet.c:1578) <Error> (ReceiveAFPLoop) -- [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'wlan0': (100) Network is down
+[10] 19/5/2020 -- 09:12:17 - (source-af-packet.c:1578) <Error> (ReceiveAFPLoop) -- [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'wlan0': (100) Network is down
+[12] 19/5/2020 -- 09:12:17 - (source-af-packet.c:1578) <Error> (ReceiveAFPLoop) -- [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'wlan0': (100) Network is down
+[11] 19/5/2020 -- 09:12:17 - (source-af-packet.c:1578) <Error> (ReceiveAFPLoop) -- [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'wlan0': (100) Network is down
+[12] 19/5/2020 -- 09:12:17 - (source-af-packet.c:1463) <Info> (AFPTryReopen) -- Interface 'wlan0' is back
+[10] 19/5/2020 -- 09:12:17 - (source-af-packet.c:1463) <Info> (AFPTryReopen) -- Interface 'wlan0' is back
+[9] 19/5/2020 -- 09:12:17 - (source-af-packet.c:1463) <Info> (AFPTryReopen) -- Interface 'wlan0' is back
+[11] 19/5/2020 -- 09:12:17 - (source-af-packet.c:1463) <Info> (AFPTryReopen) -- Interface 'wlan0' is back
+[11] 19/5/2020 -- 09:12:21 - (source-af-packet.c:1578) <Error> (ReceiveAFPLoop) -- [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'wlan0': (100) Network is down
+[10] 19/5/2020 -- 09:12:21 - (source-af-packet.c:1578) <Error> (ReceiveAFPLoop) -- [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'wlan0': (100) Network is down
+[12] 19/5/2020 -- 09:12:21 - (source-af-packet.c:1578) <Error> (ReceiveAFPLoop) -- [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'wlan0': (100) Network is down
+[9] 19/5/2020 -- 09:12:21 - (source-af-packet.c:1578) <Error> (ReceiveAFPLoop) -- [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'wlan0': (100) Network is down
+[12] 19/5/2020 -- 09:12:21 - (source-af-packet.c:1463) <Info> (AFPTryReopen) -- Interface 'wlan0' is back
+[10] 19/5/2020 -- 09:12:21 - (source-af-packet.c:1463) <Info> (AFPTryReopen) -- Interface 'wlan0' is back
+[11] 19/5/2020 -- 09:12:21 - (source-af-packet.c:1463) <Info> (AFPTryReopen) -- Interface 'wlan0' is back
+[9] 19/5/2020 -- 09:12:21 - (source-af-packet.c:1463) <Info> (AFPTryReopen) -- Interface 'wlan0' is back
+[12] 19/5/2020 -- 20:55:18 - (source-af-packet.c:1578) <Error> (ReceiveAFPLoop) -- [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'wlan0': (100) Network is down
+[10] 19/5/2020 -- 20:55:18 - (source-af-packet.c:1578) <Error> (ReceiveAFPLoop) -- [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'wlan0': (100) Network is down
+[11] 19/5/2020 -- 20:55:18 - (source-af-packet.c:1578) <Error> (ReceiveAFPLoop) -- [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'wlan0': (100) Network is down
+[9] 19/5/2020 -- 20:55:18 - (source-af-packet.c:1578) <Error> (ReceiveAFPLoop) -- [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'wlan0': (100) Network is down
+[11] 19/5/2020 -- 20:55:19 - (source-af-packet.c:1463) <Info> (AFPTryReopen) -- Interface 'wlan0' is back
+[12] 19/5/2020 -- 20:55:19 - (source-af-packet.c:1463) <Info> (AFPTryReopen) -- Interface 'wlan0' is back
+[10] 19/5/2020 -- 20:55:19 - (source-af-packet.c:1463) <Info> (AFPTryReopen) -- Interface 'wlan0' is back
+[9] 19/5/2020 -- 20:55:19 - (source-af-packet.c:1463) <Info> (AFPTryReopen) -- Interface 'wlan0' is back
+[9] 19/5/2020 -- 20:55:22 - (source-af-packet.c:1578) <Error> (ReceiveAFPLoop) -- [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'wlan0': (100) Network is down
+[11] 19/5/2020 -- 20:55:22 - (source-af-packet.c:1578) <Error> (ReceiveAFPLoop) -- [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'wlan0': (100) Network is down
+[12] 19/5/2020 -- 20:55:22 - (source-af-packet.c:1578) <Error> (ReceiveAFPLoop) -- [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'wlan0': (100) Network is down
+[10] 19/5/2020 -- 20:55:22 - (source-af-packet.c:1578) <Error> (ReceiveAFPLoop) -- [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'wlan0': (100) Network is down
+[12] 19/5/2020 -- 20:55:23 - (source-af-packet.c:1463) <Info> (AFPTryReopen) -- Interface 'wlan0' is back
+[10] 19/5/2020 -- 20:55:23 - (source-af-packet.c:1463) <Info> (AFPTryReopen) -- Interface 'wlan0' is back
+[11] 19/5/2020 -- 20:55:23 - (source-af-packet.c:1463) <Info> (AFPTryReopen) -- Interface 'wlan0' is back
+[9] 19/5/2020 -- 20:55:23 - (source-af-packet.c:1463) <Info> (AFPTryReopen) -- Interface 'wlan0' is back
+[7] 19/5/2020 -- 21:01:23 - (suricata.c:1083) <Notice> (LogVersion) -- This is Suricata version 5.0.2 RELEASE running in SYSTEM mode
+[7] 19/5/2020 -- 21:01:23 - (util-cpu.c:171) <Info> (UtilCpuPrintSummary) -- CPUs/cores online: 4
+[7] 19/5/2020 -- 21:01:23 - (util-ioctl.c:111) <Info> (GetIfaceMTU) -- Found an MTU of 1500 for 'wlan0'
+[7] 19/5/2020 -- 21:01:23 - (util-ioctl.c:111) <Info> (GetIfaceMTU) -- Found an MTU of 1500 for 'wlan0'
+[7] 19/5/2020 -- 21:01:23 - (util-logopenfile.c:473) <Info> (SCConfLogOpenGeneric) -- fast output device (regular) initialized: fast.log
+[7] 19/5/2020 -- 21:01:23 - (util-logopenfile.c:473) <Info> (SCConfLogOpenGeneric) -- eve-log output device (regular) initialized: eve.json
+[7] 19/5/2020 -- 21:01:23 - (output-json-email-common.c:453) <Info> (OutputEmailInitConf) -- Going to log the md5 sum of email body
+[7] 19/5/2020 -- 21:01:23 - (output-json-email-common.c:457) <Info> (OutputEmailInitConf) -- Going to log the md5 sum of email subject
+[7] 19/5/2020 -- 21:01:23 - (output-json-dnp3.c:389) <Info> (OutputDNP3LogInitSub) -- DNP3 log sub-module initialized.
+[7] 19/5/2020 -- 21:01:23 - (output-json-dnp3.c:389) <Info> (OutputDNP3LogInitSub) -- DNP3 log sub-module initialized.
+[7] 19/5/2020 -- 21:01:23 - (output-tx.c:76) <Notice> (OutputRegisterTxLogger) -- JsonDHCPLog logger not enabled: protocol dhcp is disabled
+[7] 19/5/2020 -- 21:01:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/botcc.rules
+[7] 19/5/2020 -- 21:01:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/botcc.portgrouped.rules
+[7] 19/5/2020 -- 21:01:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/ciarmy.rules
+[7] 19/5/2020 -- 21:01:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/compromised.rules
+[7] 19/5/2020 -- 21:01:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/drop.rules
+[7] 19/5/2020 -- 21:01:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/dshield.rules
+[7] 19/5/2020 -- 21:01:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-activex.rules
+[7] 19/5/2020 -- 21:01:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-adware_pup.rules
+[7] 19/5/2020 -- 21:01:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-attack_response.rules
+[7] 19/5/2020 -- 21:01:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-chat.rules
+[7] 19/5/2020 -- 21:01:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-coinminer.rules
+[7] 19/5/2020 -- 21:01:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-current_events.rules
+[7] 19/5/2020 -- 21:01:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-dns.rules
+[7] 19/5/2020 -- 21:01:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-dos.rules
+[7] 19/5/2020 -- 21:01:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-exploit.rules
+[7] 19/5/2020 -- 21:01:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-exploit_kit.rules
+[7] 19/5/2020 -- 21:01:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-ftp.rules
+[7] 19/5/2020 -- 21:01:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-games.rules
+[7] 19/5/2020 -- 21:01:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-hunting.rules
+[7] 19/5/2020 -- 21:01:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-icmp_info.rules
+[7] 19/5/2020 -- 21:01:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-icmp.rules
+[7] 19/5/2020 -- 21:01:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-imap.rules
+[7] 19/5/2020 -- 21:01:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-inappropriate.rules
+[7] 19/5/2020 -- 21:01:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-info.rules
+[7] 19/5/2020 -- 21:01:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-ja3.rules
+[7] 19/5/2020 -- 21:01:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-malware.rules
+[7] 19/5/2020 -- 21:01:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-misc.rules
+[7] 19/5/2020 -- 21:01:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-mobile_malware.rules
+[7] 19/5/2020 -- 21:01:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-netbios.rules
+[7] 19/5/2020 -- 21:01:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-p2p.rules
+[7] 19/5/2020 -- 21:01:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-phishing.rules
+[7] 19/5/2020 -- 21:01:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-policy.rules
+[7] 19/5/2020 -- 21:01:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-pop3.rules
+[7] 19/5/2020 -- 21:01:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-rpc.rules
+[7] 19/5/2020 -- 21:01:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-scada.rules
+[7] 19/5/2020 -- 21:01:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-scan.rules
+[7] 19/5/2020 -- 21:01:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-shellcode.rules
+[7] 19/5/2020 -- 21:01:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-smtp.rules
+[7] 19/5/2020 -- 21:01:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-snmp.rules
+[7] 19/5/2020 -- 21:01:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-sql.rules
+[7] 19/5/2020 -- 21:01:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-telnet.rules
+[7] 19/5/2020 -- 21:01:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-tftp.rules
+[7] 19/5/2020 -- 21:01:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-user_agents.rules
+[7] 19/5/2020 -- 21:01:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-voip.rules
+[7] 19/5/2020 -- 21:01:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-web_client.rules
+[7] 19/5/2020 -- 21:01:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-web_server.rules
+[7] 19/5/2020 -- 21:01:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-web_specific_apps.rules
+[7] 19/5/2020 -- 21:01:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/emerging-worm.rules
+[7] 19/5/2020 -- 21:01:23 - (detect-engine-loader.c:230) <Warning> (ProcessSigFiles) -- [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/tor.rules
+[7] 19/5/2020 -- 21:01:23 - (detect-engine-loader.c:352) <Info> (SigLoadSignatures) -- 61 rule files processed. 291 rules successfully loaded, 0 rules failed
+[7] 19/5/2020 -- 21:01:23 - (util-threshold-config.c:1126) <Info> (SCThresholdConfParseFile) -- Threshold config parsed: 0 rule(s) found
+[7] 19/5/2020 -- 21:01:23 - (detect-engine-build.c:1412) <Info> (SigAddressPrepareStage1) -- 291 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 120 inspect application layer, 103 are decoder event only
+[7] 19/5/2020 -- 21:01:23 - (util-ioctl.c:322) <Warning> (SetEthtoolValue) -- [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'wlan0': Not supported (95)
+[7] 19/5/2020 -- 21:01:23 - (util-runmodes.c:297) <Info> (RunModeSetLiveCaptureWorkersForDevice) -- Going to use 4 thread(s)
+[7] 19/5/2020 -- 21:01:23 - (unix-manager.c:132) <Info> (UnixNew) -- Using unix socket file '/var/run/suricata/suricata-command.socket'
+[7] 19/5/2020 -- 21:01:23 - (tm-threads.c:2169) <Notice> (TmThreadWaitOnThreadInit) -- all 4 packet processing threads, 4 management threads initialized, engine started.
+[12] 19/5/2020 -- 21:01:23 - (source-af-packet.c:515) <Info> (AFPPeersListReachedInc) -- All AFP capture threads are running.
+[12] 20/5/2020 -- 08:10:41 - (source-af-packet.c:1578) <Error> (ReceiveAFPLoop) -- [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'wlan0': (100) Network is down
+[9] 20/5/2020 -- 08:10:41 - (source-af-packet.c:1578) <Error> (ReceiveAFPLoop) -- [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'wlan0': (100) Network is down
+[11] 20/5/2020 -- 08:10:41 - (source-af-packet.c:1578) <Error> (ReceiveAFPLoop) -- [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'wlan0': (100) Network is down
+[10] 20/5/2020 -- 08:10:41 - (source-af-packet.c:1578) <Error> (ReceiveAFPLoop) -- [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'wlan0': (100) Network is down
+[12] 20/5/2020 -- 08:10:42 - (source-af-packet.c:1463) <Info> (AFPTryReopen) -- Interface 'wlan0' is back
+[10] 20/5/2020 -- 08:10:42 - (source-af-packet.c:1463) <Info> (AFPTryReopen) -- Interface 'wlan0' is back
+[11] 20/5/2020 -- 08:10:42 - (source-af-packet.c:1463) <Info> (AFPTryReopen) -- Interface 'wlan0' is back
+[9] 20/5/2020 -- 08:10:42 - (source-af-packet.c:1463) <Info> (AFPTryReopen) -- Interface 'wlan0' is back
+[9] 20/5/2020 -- 08:10:45 - (source-af-packet.c:1578) <Error> (ReceiveAFPLoop) -- [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'wlan0': (100) Network is down
+[11] 20/5/2020 -- 08:10:45 - (source-af-packet.c:1578) <Error> (ReceiveAFPLoop) -- [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'wlan0': (100) Network is down
+[12] 20/5/2020 -- 08:10:45 - (source-af-packet.c:1578) <Error> (ReceiveAFPLoop) -- [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'wlan0': (100) Network is down
+[10] 20/5/2020 -- 08:10:45 - (source-af-packet.c:1578) <Error> (ReceiveAFPLoop) -- [ERRCODE: SC_ERR_AFP_READ(191)] - Error reading data from iface 'wlan0': (100) Network is down
+[12] 20/5/2020 -- 08:10:46 - (source-af-packet.c:1463) <Info> (AFPTryReopen) -- Interface 'wlan0' is back
+[11] 20/5/2020 -- 08:10:46 - (source-af-packet.c:1463) <Info> (AFPTryReopen) -- Interface 'wlan0' is back
+[10] 20/5/2020 -- 08:10:46 - (source-af-packet.c:1463) <Info> (AFPTryReopen) -- Interface 'wlan0' is back
+[9] 20/5/2020 -- 08:10:46 - (source-af-packet.c:1463) <Info> (AFPTryReopen) -- Interface 'wlan0' is back

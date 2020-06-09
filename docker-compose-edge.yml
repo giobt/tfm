@@ -27,8 +27,8 @@ services:
     environment:
      - OINKCODE
      - KAFKA_BROKER=192.168.1.53:9092
-     - KAFKA_TOPIC=ids_rules
-     - KAFKA_GROUP_ID=ids_group
+     - KAFKA_TOPIC=numtest
+     - KAFKA_GROUP_ID=my-group
      - INTERFACE=wlan0
     network_mode: "host"
     cap_add:
@@ -38,21 +38,21 @@ services:
     volumes:
      - ./data/suricata/log:/var/log/suricata
 
-  filebeat:
-    build:
-      context: docker-elk/filebeat/
-      args:
-        ELK_VERSION: $ELK_VERSION
-    container_name: filebeat
-    environment:
-      - ELASTICSEARCH_USERNAME=elastic
-      - ELASTICSEARCH_PASSWORD=secure
-      - KAFKA_BROKER=broker:9092
-      - strict.perms=false
-    volumes:
-      - ./data/suricata/log:/var/log/suricata
-    networks:
-      - tfm
+  # filebeat:
+  #   build:
+  #     context: ./filebeat
+  #     args:
+  #       ELK_VERSION: $ELK_VERSION
+  #   container_name: filebeat
+  #   environment:
+  #     - ELASTICSEARCH_USERNAME=elastic
+  #     - ELASTICSEARCH_PASSWORD=secure
+  #     - KAFKA_BROKER=broker:9092
+  #     - strict.perms=false
+  #   volumes:
+  #     - ./data/suricata/log:/var/log/suricata
+  #   networks:
+  #     - tfm
       
 networks:
   tfm:

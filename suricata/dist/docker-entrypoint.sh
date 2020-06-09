@@ -9,7 +9,7 @@ if [ $status -ne 0 ]; then
 fi
 
 # Start suricata
-suricata -v -i $INTERFACE
+suricata -v -i $INTERFACE -c /etc/suricata/suricata.yaml
 status=$?
 if [ $status -ne 0 ]; then
   echo "Failed to start my_second_process: $status"

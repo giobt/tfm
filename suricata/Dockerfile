@@ -1,4 +1,4 @@
-FROM alpine
+FROM python:3-alpine
 
 ARG SURICATA_VERSION=5.0.2
 
@@ -6,7 +6,7 @@ ARG SURICATA_VERSION=5.0.2
 COPY dist/ /root/dist/
 
 # Install packages
-RUN apk -U add ca-certificates tar curl file geoip hiredis jansson libcap-ng libmagic python3 \
+RUN apk -U add ca-certificates tar curl file geoip hiredis jansson libcap-ng libmagic python3-dev libressl-dev postgresql-dev libffi-dev gcc musl-dev \
                 libmaxminddb libnet libnetfilter_queue libnfnetlink libpcap luajit lz4-libs rust \
                 musl nspr nss pcre yaml wget automake autoconf build-base cargo file-dev geoip-dev \
                 hiredis-dev jansson-dev libtool libcap-ng-dev luajit-dev libmaxminddb-dev libpcap-dev \
@@ -19,11 +19,13 @@ RUN apk -U add --repository=http://dl-cdn.alpinelinux.org/alpine/edge/community 
 #
 # Upgrade pip, install suricata-update to meet deps, however we will not be using it 
 # to reduce image (no python needed) and use the update script.
-RUN wget https://bootstrap.pypa.io/get-pip.py && \
-    python3 get-pip.py && \
-    rm get-pip.py && \
-    pip3 install --no-cache-dir -r /root/dist/requirements.txt
+# RUN wget https://bootstrap.pypa.io/get-pip.py && \
+#     python3 get-pip.py && \
+#     rm get-pip.py && \
+#     pip3 install --no-cache-dir -r /root/dist/requirements.txt
 #
+RUN pip install --no-cache-dir -r /root/dist/requirements.txt
+
 # Get and build Suricata
 RUN mkdir -p /opt/builder/ && \
     wget https://www.openinfosecfoundation.org/download/suricata-$SURICATA_VERSION.tar.gz && \

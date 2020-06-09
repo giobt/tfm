@@ -54,4 +54,4 @@ def bad_request(message):
     return error_response(400, message)
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', debug=True)
+    app.run(host='0.0.0.0', port=8080, debug=True)

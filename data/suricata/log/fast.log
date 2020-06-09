@@ -464,3 +464,37 @@
 05/01/2020-10:14:39.426128  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Unknown Classtype] [Priority: 3] {TCP} 192.168.1.53:58224 -> 192.168.1.64:1716
 05/01/2020-10:14:40.294541  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Unknown Classtype] [Priority: 3] {TCP} 192.168.1.53:58226 -> 192.168.1.64:1716
 05/01/2020-10:14:45.448917  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Unknown Classtype] [Priority: 3] {TCP} 192.168.1.53:58228 -> 192.168.1.64:1716
+05/17/2020-10:56:53.695055  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 192.168.1.64:35544 -> 192.168.1.53:1716
+05/17/2020-21:17:14.651697  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 192.168.1.64:56050 -> 192.168.1.53:1716
+05/18/2020-08:31:12.696260  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 192.168.1.64:47116 -> 192.168.1.53:1716
+05/18/2020-10:14:29.388602  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 192.168.1.53:42600 -> 104.83.41.176:443
+05/18/2020-10:14:29.388602  [**] [1:2210046:2] SURICATA STREAM SHUTDOWN RST invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 192.168.1.53:42600 -> 104.83.41.176:443
+05/18/2020-12:43:24.526401  [**] [1:2210059:1] SURICATA STREAM pkt seen on wrong thread [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.1.53:50348 -> 34.250.48.174:443
+05/18/2020-12:43:24.814452  [**] [1:2210059:1] SURICATA STREAM pkt seen on wrong thread [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.1.53:60576 -> 75.2.53.94:443
+05/18/2020-12:43:25.034496  [**] [1:2210059:1] SURICATA STREAM pkt seen on wrong thread [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.1.53:33720 -> 54.239.36.222:443
+05/18/2020-12:43:25.646369  [**] [1:2210059:1] SURICATA STREAM pkt seen on wrong thread [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.1.53:45246 -> 31.13.83.51:443
+05/18/2020-12:43:26.058389  [**] [1:2210059:1] SURICATA STREAM pkt seen on wrong thread [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.1.53:39680 -> 74.125.140.188:5228
+05/18/2020-12:43:27.724427  [**] [1:2210059:1] SURICATA STREAM pkt seen on wrong thread [**] [Classification: (null)] [Priority: 3] {TCP} 149.154.175.56:443 -> 192.168.1.53:60826
+05/18/2020-12:43:29.192873  [**] [1:2210059:1] SURICATA STREAM pkt seen on wrong thread [**] [Classification: (null)] [Priority: 3] {TCP} 140.82.113.26:443 -> 192.168.1.53:58394
+05/18/2020-12:43:30.410894  [**] [1:2210059:1] SURICATA STREAM pkt seen on wrong thread [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.1.53:55514 -> 104.83.73.150:443
+05/18/2020-12:43:30.410973  [**] [1:2210059:1] SURICATA STREAM pkt seen on wrong thread [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.1.53:37038 -> 35.186.224.53:443
+05/18/2020-12:43:30.926547  [**] [1:2210059:1] SURICATA STREAM pkt seen on wrong thread [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.1.53:34166 -> 216.58.211.229:443
+05/18/2020-12:43:30.926403  [**] [1:2210059:1] SURICATA STREAM pkt seen on wrong thread [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.1.53:51792 -> 92.123.57.98:443
+05/18/2020-12:43:30.926505  [**] [1:2210059:1] SURICATA STREAM pkt seen on wrong thread [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.1.53:55516 -> 104.83.73.150:443
+05/18/2020-12:43:30.926479  [**] [1:2210059:1] SURICATA STREAM pkt seen on wrong thread [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.1.53:39616 -> 35.186.224.47:443
+05/18/2020-12:43:31.294100  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 192.168.1.64:53858 -> 192.168.1.53:1716
+05/18/2020-12:43:31.600105  [**] [1:2210059:1] SURICATA STREAM pkt seen on wrong thread [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.1.53:53184 -> 52.54.159.253:443
+05/18/2020-12:43:32.202393  [**] [1:2210059:1] SURICATA STREAM pkt seen on wrong thread [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.1.53:59478 -> 185.63.144.1:443
+05/18/2020-12:43:34.199966  [**] [1:2210059:1] SURICATA STREAM pkt seen on wrong thread [**] [Classification: (null)] [Priority: 3] {TCP} 34.73.232.153:443 -> 192.168.1.53:39882
+05/18/2020-12:43:39.370433  [**] [1:2210059:1] SURICATA STREAM pkt seen on wrong thread [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.1.53:58834 -> 167.172.157.117:443
+05/18/2020-12:43:49.622577  [**] [1:2210059:1] SURICATA STREAM pkt seen on wrong thread [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.1.53:44766 -> 99.83.135.170:443
+05/18/2020-12:44:05.994793  [**] [1:2210059:1] SURICATA STREAM pkt seen on wrong thread [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.1.53:37100 -> 198.252.206.25:443
+05/18/2020-12:44:14.481571  [**] [1:2210059:1] SURICATA STREAM pkt seen on wrong thread [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.1.53:47676 -> 35.190.243.107:4070
+05/19/2020-09:12:31.816882  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 192.168.1.64:34794 -> 192.168.1.53:1716
+05/19/2020-10:41:31.014294  [**] [1:2210054:1] SURICATA STREAM excessive retransmissions [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 192.168.1.53:59682 -> 95.100.101.9:443
+05/19/2020-20:55:32.785680  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 192.168.1.64:56318 -> 192.168.1.53:1716
+05/19/2020-20:55:39.927488  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 192.168.1.64:56322 -> 192.168.1.53:1716
+05/19/2020-21:00:38.971606  [**] [1:2210054:1] SURICATA STREAM excessive retransmissions [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 192.168.1.53:53838 -> 23.214.201.3:443
+05/20/2020-08:10:50.235475  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 192.168.1.64:48614 -> 192.168.1.53:1716
+05/20/2020-08:10:53.437866  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 192.168.1.64:48620 -> 192.168.1.53:1716
+05/20/2020-08:18:36.469604  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 192.168.1.64:48830 -> 192.168.1.53:1716

@@ -1,3 +1,5 @@
 Flask
 kafka-python
+stix2
+stix-shifter
 suricata-update

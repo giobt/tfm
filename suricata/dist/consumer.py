@@ -9,12 +9,16 @@ from stix_shifter.stix_translation import stix_translation
 
 import os
 import json
+import random
 
 kafka_broker = os.environ.get('KAFKA_BROKER') or 'localhost:9092'
 kafka_topic = os.environ.get('KAFKA_TOPIC') or 'numtest'
 kafka_group_id = os.environ.get('KAFKA_GROUP_ID') or 'my-group'
 
 action = 'alert'
+
+# Generate rule SID (1000000-1999999 Reserved for Local Use)
+sid = 1000000 
 
 consumer = KafkaConsumer(
     kafka_topic,
@@ -32,9 +36,10 @@ def parse_stix2suricata(options,
 
 def parse_observations(cbo):
     rules = []
+    sid  = sid + 1
 
     # Initialize rule options list with message
-    options = [ f"message: \"{cbo.name.upper()} {cbo.description}\"; " ]
+    options = [ f"message: \"{cbo.name.upper()} {cbo.description}\"; sid: {sid}" ]
 
     # Generate json object from pattern
     translation = stix_translation.StixTranslation()

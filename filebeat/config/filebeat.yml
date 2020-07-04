@@ -23,7 +23,7 @@ filebeat.inputs:
 #   pretty: true
 
 output.kafka:
-  hosts: ["broker:29092"]
+  hosts: ["${KAFKA_BROKER:broker:29092}"]
   topic: 'suricata-%{[event_type]}'
   partition.round_robin:
     reachable_only: false
@@ -31,12 +31,12 @@ output.kafka:
   compression: gzip
   max_message_bytes: 1000000
 
-# output.elasticsearch:
-#   hosts: '${ELASTICSEARCH_HOSTS:elasticsearch:9200}'
-#   username: '${ELASTICSEARCH_USERNAME:}'
-#   password: '${ELASTICSEARCH_PASSWORD:}'
+output.elasticsearch:
+  hosts: "${ELASTICSEARCH_URL:elasticsearch:9200}"
+  username: "${ELASTICSEARCH_USERNAME:}"
+  password: "${ELASTICSEARCH_PASSWORD:}"
 
-# setup.kibana:
-#   host: "kibana:5601"
+setup.kibana:
+  host: ""${KIBANA_URL:kibana:5601}
 
 # setup.dashboards.enabled: true

@@ -1,6 +1,7 @@
 import sys
 import json
 import os
+import time
 
 from antlr4 import *
 from flask import Flask
@@ -22,6 +23,9 @@ def health():
 
 @app.route("/rule/create", methods=['POST'])
 def create():
+    # Start measuring execution time
+    start_time = time.time()
+    
     # Get STIX 2.1 bundle in json format
     data = request.get_json() or {}
     
@@ -39,8 +43,13 @@ def create():
     # Send content to broker
     producer.send(kafka_topic, value=data)
 
+    # Finish measuring execution time
+    end_time = time.time()
+    ellapsed_time = end_time - start_time
+
     # Return status code
-    return {'message': 'Success'}
+    print("--- %s seconds ---" % (ellapsed_time))
+    return {'message': 'Success', 'time': ellapsed_time}
 
 def error_response(status_code, message=None):
     payload = {'error': HTTP_STATUS_CODES.get(status_code, 'Unknown error')}

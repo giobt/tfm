@@ -1,0 +1,16 @@
+filebeat.inputs:
+  - type: log
+    paths:
+      - /var/log/suricata/eve.json
+    json.keys_under_root: true
+    # json.add_error_key: true
+    # json.message_key: log
+
+output.kafka:
+  hosts: ["${KAFKA_BROKER:broker:29092}"]
+  topic: 'suricata-%{[event_type]}'
+  partition.round_robin:
+    reachable_only: false
+  required_acks: 1
+  compression: gzip
+  max_message_bytes: 1000000

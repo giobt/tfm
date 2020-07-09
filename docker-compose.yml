@@ -41,8 +41,8 @@ services:
     hostname: enabler
     container_name: enabler
     environment:
-     - KAFKA_BROKER=broker:29092
-     - KAFKA_TOPIC=numtest
+     - KAFKA_BROKER=$KAFKA_BROKER:29092
+     - KAFKA_TOPIC=$KAFKA_TOPIC
     depends_on:
       - broker
     ports:
@@ -121,6 +121,44 @@ services:
       - tfm
     depends_on:
       - elasticsearch
+
+  metricbeat:
+    image: docker.io/elastic/metricbeat:$ELK_VERSION
+    container_name: metricbeat
+    user: root
+    environment:
+      - KIBANA_URL=192.168.1.53:5601
+      - ELASTICSEARCH_URL=192.168.1.53:9200
+      - ELASTICSEARCH_USERNAME=$ELASTICSEARCH_USERNAME
+      - ELASTICSEARCH_PASSWORD=$ELASTICSEARCH_PASSWORD
+    volumes:
+      - type: bind
+        source: ./metricbeat/metricbeat.docker.yml
+        target: /usr/share/metricbeat/metricbeat.yml
+        read_only: true
+      - type: bind
+        source: /var/run/docker.sock
+        target: /var/run/docker.sock
+        read_only: true
+      - type: bind
+        source: /sys/fs/cgroup
+        target: /hostfs/sys/fs/cgroup
+        read_only: true
+      - type: bind
+        source: /proc
+        target: /hostfs/proc
+        read_only: true
+      - type: bind
+        source: /
+        target: /hostfs
+        read_only: true
+    network_mode: "host"
+    cap_add:
+     - DAC_READ_SEARCH
+     - SYS_PTRACE
+    depends_on:
+      - elasticsearch
+      - kibana
 
 networks:
   tfm:

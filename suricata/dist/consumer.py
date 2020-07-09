@@ -64,6 +64,9 @@ def parse_observations(cbo):
 
 # For each message in kafka
 for message in consumer:
+    # Start measuring execution time
+    start_time = time.time()
+
     # Parse message to STIX 2.1 bundle
     bundle = parse(message.value, allow_custom=False, version="21")
     # bundle = parse(message, allow_custom=False, version="21")
@@ -86,4 +89,11 @@ for message in consumer:
 
     #Tell Suricata to do a nonblocking ruleset-reload
     os.system('suricatasc -c ruleset-reload-nonblocking')
+
+    # Finish measuring execution time
+    end_time = time.time()
+    ellapsed_time = end_time - start_time
+
+    # Return status code
+    print("--- %s seconds ---" % (ellapsed_time))
 

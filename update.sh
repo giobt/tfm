@@ -1,4 +1,4 @@
-#!/bin/ash
+#!/bin/bash
 
 # Let's ensure normal operation on exit or if interrupted ...
 function fuCLEANUP {

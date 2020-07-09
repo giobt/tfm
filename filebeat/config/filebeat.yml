@@ -1,7 +1,7 @@
-# filebeat.config:
-#   modules:
-#     path: ${path.config}/modules.d/*.yml
-#     reload.enabled: false
+filebeat.config:
+  modules:
+    path: ${path.config}/modules.d/*.yml
+    reload.enabled: false
 
 filebeat.inputs:
   - type: log
@@ -11,25 +11,8 @@ filebeat.inputs:
     # json.add_error_key: true
     # json.message_key: log
 
-# filebeat.autodiscover:
-#   providers:
-#     - type: docker
-#       hints.enabled: true
-
-# processors:
-# - add_cloud_metadata: ~
-
 # output.console:
 #   pretty: true
-
-output.kafka:
-  hosts: ["${KAFKA_BROKER:broker:29092}"]
-  topic: 'suricata-%{[event_type]}'
-  partition.round_robin:
-    reachable_only: false
-  required_acks: 1
-  compression: gzip
-  max_message_bytes: 1000000
 
 output.elasticsearch:
   hosts: "${ELASTICSEARCH_URL:elasticsearch:9200}"
@@ -37,6 +20,6 @@ output.elasticsearch:
   password: "${ELASTICSEARCH_PASSWORD:}"
 
 setup.kibana:
-  host: ""${KIBANA_URL:kibana:5601}
+  host: "${KIBANA_URL:kibana:5601}"
 
-# setup.dashboards.enabled: true
+setup.dashboards.enabled: true

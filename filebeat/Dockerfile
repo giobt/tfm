@@ -7,5 +7,6 @@ FROM docker.elastic.co/beats/filebeat:${ELK_VERSION}
 
 COPY config/filebeat.yml /usr/share/filebeat/filebeat.yml
 COPY modules/suricata.yml /usr/share/filebeat/modules.d/suricata.yml
+COPY run.sh run.sh
 
 CMD ["./run.sh"]

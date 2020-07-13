@@ -10,6 +10,7 @@ from stix_shifter.stix_translation import stix_translation
 import os
 import json
 import random
+import time
 
 kafka_broker = os.environ.get('KAFKA_BROKER') or 'localhost:9092'
 kafka_topic = os.environ.get('KAFKA_TOPIC') or 'numtest'
@@ -93,7 +94,9 @@ for message in consumer:
     # Finish measuring execution time
     end_time = time.time()
     ellapsed_time = end_time - start_time
-
-    # Return status code
+    x = { "ellapsed_time": ellapsed_time}
     print("--- %s seconds ---" % (ellapsed_time))
 
+    # Log ellapsed time to file
+    with open("/var/log/suricata/agent.json", "a") as file_object:
+        file_object.write(json.dumps(x))

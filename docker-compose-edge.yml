@@ -49,7 +49,7 @@ services:
         ELK_VERSION: $ELK_VERSION
     container_name: filebeat2
     environment:
-      - KAFKA_BROKER=$KAFKA_BROKER:29092
+      - KAFKA_BROKER=$KAFKA_BROKER
       - strict.perms=false
     volumes:
       - ./data/suricata/log:/var/log/suricata

@@ -13,7 +13,7 @@ services:
     restart: always
     environment:
      - OINKCODE
-     - KAFKA_BROKER=$KAFKA_BROKER:9092
+     - KAFKA_BROKER=192.168.1.53:9092
      - KAFKA_TOPIC=$KAFKA_TOPIC
      - KAFKA_GROUP_ID=$KAFKA_GROUP_ID
      - INTERFACE=$INTERFACE
@@ -32,15 +32,15 @@ services:
         ELK_VERSION: $ELK_VERSION
     container_name: filebeat
     environment:
-      - KIBANA_URL=$KIBANA_URL
-      - ELASTICSEARCH_URL=$ELASTICSEARCH_URL
+      - KIBANA_URL=192.168.1.53:5601
+      - ELASTICSEARCH_URL=192.168.1.53:9200
       - ELASTICSEARCH_USERNAME=$ELASTICSEARCH_USERNAME
       - ELASTICSEARCH_PASSWORD=$ELASTICSEARCH_PASSWORD
       - strict.perms=false
     volumes:
       - ./data/suricata/log:/var/log/suricata
     networks:
-      - tfm
+      - edge
 
   filebeat2:
     build:
@@ -49,12 +49,12 @@ services:
         ELK_VERSION: $ELK_VERSION
     container_name: filebeat2
     environment:
-      - KAFKA_BROKER=$KAFKA_BROKER
+      - KAFKA_BROKER=192.168.1.53:29092
       - strict.perms=false
     volumes:
       - ./data/suricata/log:/var/log/suricata
     networks:
-      - tfm
+      - edge
 
   # victim:
   #   container_name: victim
@@ -62,14 +62,14 @@ services:
   #   ports: 
   #     - 8080:80
   #   networks:
-  #     - tfm
+  #     - edge
     
   # kali:
   #   container_name: kali
   #   build: ./kali
   #   networks:
-  #     - tfm
+  #     - edge
       
 networks:
-  tfm:
+  edge:
     driver: bridge

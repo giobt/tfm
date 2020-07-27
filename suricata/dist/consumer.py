@@ -37,10 +37,11 @@ def parse_stix2suricata(options,
 
 def parse_observations(cbo):
     rules = []
-    sid  = sid + 1
+    global sid
+    sid = sid + 1
 
     # Initialize rule options list with message
-    options = [ f"message: \"{cbo.name.upper()} {cbo.description}\"; sid: {sid}" ]
+    options = [ f"message: \"{cbo.name.upper()} {cbo.description}\"; sid: {sid}; " ]
 
     # Generate json object from pattern
     translation = stix_translation.StixTranslation()

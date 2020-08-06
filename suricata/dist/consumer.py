@@ -1,7 +1,3 @@
-# pip install kafka-python
-# docker-compose up -d zookeeper broker
-# docker-compose exec broker kafka-topics --create --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1 --topic ids_rules
-
 from kafka import KafkaConsumer
 from json import loads
 from stix2 import Indicator, parse
@@ -16,6 +12,7 @@ kafka_broker = os.environ.get('KAFKA_BROKER') or 'localhost:9092'
 kafka_topic = os.environ.get('KAFKA_TOPIC') or 'numtest'
 kafka_group_id = os.environ.get('KAFKA_GROUP_ID') or 'my-group'
 
+# Defaul action for Suricata rules
 action = 'alert'
 
 # Generate rule SID (1000000-1999999 Reserved for Local Use)
@@ -71,7 +68,6 @@ for message in consumer:
 
     # Parse message to STIX 2.1 bundle
     bundle = parse(message.value, allow_custom=False, version="21")
-    # bundle = parse(message, allow_custom=False, version="21")
 
     # For each cyber observable in the bundle
     rules = []
@@ -82,22 +78,31 @@ for message in consumer:
             # Parse input into suricata rule format
             rules = rules + parse_observations(cbo)
     
+    # Get time until parse
+    parse_time = time.time() - start_time
+
     # Append new rule to local.rules file
     with open("/etc/suricata/rules/local.rules", "a") as file_object:
         file_object.write("{rules}\n".format(rules='\n'.join(rules)))
 
+    write_time = time.time() - parse_time
+
     # Update suricata ruleset
     os.system('suricata-update --no-merge')
+
+    update_time = time.time() - parse_time - write_time
 
     #Tell Suricata to do a nonblocking ruleset-reload
     os.system('suricatasc -c ruleset-reload-nonblocking')
 
+    reload_time = time.time() - parse_time - write_time - update_time
+
     # Finish measuring execution time
-    end_time = time.time()
-    ellapsed_time = end_time - start_time
-    x = { "ellapsed_time": ellapsed_time}
-    print("--- %s seconds ---" % (ellapsed_time))
+    ellapsed_time = time.time() - start_time
+
+    x = { "ellapsed_time": ellapsed_time, "parse_time": parse_time, "write_time": write_time, "update_time": update_time, "reload_time": reload_time }
+    # print("--- %s seconds ---" % (ellapsed_time))
 
     # Log ellapsed time to file
     with open("/var/log/suricata/agent.json", "a") as file_object:
-        file_object.write(json.dumps(x))
+        file_object.write(json.dumps(x) + '\n')

@@ -4,3 +4,5 @@ cti-*
 stix-*
 faucet/
 data/
+docker_stats/*.json
+docker_stats/__*

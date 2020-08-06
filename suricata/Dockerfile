@@ -14,23 +14,23 @@ RUN apt-get update && \
         libyaml-0-2 libyaml-dev zlib1g zlib1g-dev libcap-ng-dev libcap-ng0 \
         make libmagic-dev libjansson-dev libjansson4 pkg-config \
         python-yaml wget git flex bison libnspr4-dev libnss3-dev liblz4-dev \
-        rustc cargo libgeoip1 libgeoip-dev oinkmaster libluajit-5.1-dev \
+        rustc cargo libgeoip1 libgeoip-dev oinkmaster libluajit-5.1-dev 
         # Libraries required to run Suricata in IPS mode.
-        libnetfilter-queue-dev libnetfilter-queue1 libnfnetlink-dev libnfnetlink0 \
-        libmaxminddb-dev libhiredis-dev
+        # libnetfilter-queue-dev libnetfilter-queue1 libnfnetlink-dev libnfnetlink0 \
+        # libmaxminddb-dev libhiredis-dev
 
 # Install Python requirements
 RUN pip install --no-cache-dir -r /root/dist/requirements.txt
 
 # HTP library installation
-RUN wget -LO libhtp-0.5.21.tar.gz https://github.com/OISF/libhtp/archive/0.5.21.tar.gz && \
-    tar -xzvf libhtp-0.5.21.tar.gz && \
-    cd libhtp-0.5.21 && \
-    chmod u+x autogen.sh && \
-    ./autogen.sh && \
-    ./configure && \
-    make && \
-    make install
+# RUN wget -LO libhtp-0.5.21.tar.gz https://github.com/OISF/libhtp/archive/0.5.21.tar.gz && \
+#     tar -xzvf libhtp-0.5.21.tar.gz && \
+#     cd libhtp-0.5.21 && \
+#     chmod u+x autogen.sh && \
+#     ./autogen.sh && \
+#     ./configure && \
+#     make && \
+#     make install
 
 # Install suricata
 RUN wget -LO suricata.tar.gz "http://www.openinfosecfoundation.org/download/suricata-$SURICATA_VERSION.tar.gz" && \

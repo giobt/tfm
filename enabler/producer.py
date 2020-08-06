@@ -23,7 +23,7 @@ def health():
 
 @app.route("/rule/create", methods=['POST'])
 def create():
-    # Start measuring execution time
+    # Start measuring execution time for evaluation purposes
     start_time = time.time()
     
     # Get STIX 2.1 bundle in json format
@@ -43,7 +43,7 @@ def create():
     # Send content to broker
     producer.send(kafka_topic, value=data)
 
-    # Finish measuring execution time
+    # Finish measuring execution time for evaluation purposes
     end_time = time.time()
     ellapsed_time = end_time - start_time
 
